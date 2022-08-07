@@ -61,8 +61,8 @@ class AppNode(Node):
     
         print('Olive TPU Skeleton Detection v0.2')
         
-        self.sub = self.create_subscription(CompressedImage,'/olive/camera/eye/image/compressed',self.image_callback,qos_profile=rclpy.qos.qos_profile_sensor_data)
-        self.pub = self.create_publisher(CompressedImage, '/olive/camera/eye/tpu/compressed', 1)
+        self.sub = self.create_subscription(CompressedImage,'/olive/camera/owl1eye/image/compressed',self.image_callback,qos_profile=rclpy.qos.qos_profile_sensor_data)
+        self.pub = self.create_publisher(CompressedImage, '/olive/camera/owl1eye/tpu/compressed', 1)
         
         script_dir = pathlib.Path(__file__).parent.absolute()
         #self.engine = PoseEngine('test_data/posenet_mobilenet_v1_075_481_641_quant_decoder_edgetpu.tflite')
@@ -83,6 +83,7 @@ class AppNode(Node):
             buffer = io.BytesIO(bytes(msg.data))
             # Open the image buffer using PIL Image
             pil_image = Image.open(buffer)
+            pil_image = pil_image.rotate(90)
            
             poses, inference_time = self.engine.DetectPosesInImage(pil_image)
             print('Inference time: %.f ms' % (inference_time * 1000))
