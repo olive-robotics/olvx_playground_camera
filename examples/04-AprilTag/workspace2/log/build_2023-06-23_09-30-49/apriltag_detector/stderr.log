@@ -1,0 +1,321 @@
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/build'.  OpenCV installation may be
+  broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/include'.  OpenCV installation may
+  be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/core/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/flann/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/imgproc/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/ml/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/photo/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/dnn/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/features2d/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/imgcodecs/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/videoio/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/calib3d/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/highgui/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/objdetect/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/stitching/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/ts/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/video/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/build'.  OpenCV installation may be
+  broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/include'.  OpenCV installation may
+  be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/core/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/flann/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/imgproc/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/ml/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/photo/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/dnn/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/features2d/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/imgcodecs/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/videoio/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/calib3d/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/highgui/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/objdetect/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/stitching/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/ts/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+CMake Warning at /home/olive/opencv/opencv/build/OpenCVConfig.cmake:116 (message):
+  OpenCV: Include directory doesn't exist:
+  '/home/olive/opencv_install/opencv-4.x/modules/video/include'.  OpenCV
+  installation may be broken.  Skip...
+Call Stack (most recent call first):
+  cmake/ROS2.cmake:23 (find_package)
+  CMakeLists.txt:21 (include)
+
+
+gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp' has modification time 8939537 s in the future
+[01m[K/home/olive/workspace2/src/apriltag_detector/src/detector_wrapper_base.cpp:27:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/core/core.hpp: No such file or directory
+   27 | #include [01;31m[K<opencv2/core/core.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/detector_wrapper.dir/build.make:95: CMakeFiles/detector_wrapper.dir/src/detector_wrapper_base.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/olive/workspace2/src/apriltag_detector/src/detector_wrapper.cpp:17[m[K:
+[01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/detector_wrapper.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/core/core.hpp: No such file or directory
+   21 | #include [01;31m[K<opencv2/core/core.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/detector_wrapper.dir/build.make:82: CMakeFiles/detector_wrapper.dir/src/detector_wrapper.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/detector_wrapper.dir/all] Error 2
+gmake: *** [Makefile:160: all] Error 2

@@ -1,0 +1,78 @@
+-- Found ament_cmake: 1.3.2 (/opt/ros2/humble/install/ament_cmake/share/ament_cmake/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros2/humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found OpenCV: /home/olive/opencv_install/opencv-4.x/build (found version "4.8.0") found components: core imgproc 
+-- Found rclcpp: 16.0.1 (/opt/ros2/humble/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.3 (/opt/ros2/humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.3 (/opt/ros2/humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros2/humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros2/humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros2/humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.1 (/opt/ros2/humble/install/rclcpp_components/share/rclcpp_components/cmake)
+-- Found image_transport: 3.1.4 (/opt/ros2/humble/install/image_transport/share/image_transport/cmake)
+-- Found cv_bridge: 3.2.1 (/home/olive/workspace2/install/cv_bridge/share/cv_bridge/cmake)
+-- Found apriltag_msgs: 2.0.1 (/home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake)
+-- Found ament_cmake_copyright: 0.12.4 (/opt/ros2/humble/install/ament_cmake_copyright/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.12.4 (/opt/ros2/humble/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.12.4 (/opt/ros2/humble/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_clang_format: 0.12.4 (/opt/ros2/humble/install/ament_cmake_clang_format/share/ament_cmake_clang_format/cmake)
+-- Found ament_cmake_flake8: 0.12.4 (/opt/ros2/humble/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.12.4 (/opt/ros2/humble/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.12.4 (/opt/ros2/humble/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_xmllint: 0.12.4 (/opt/ros2/humble/install/ament_cmake_xmllint/share/ament_cmake_xmllint/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/olive/workspace2/build/apriltag_detector
+[35m[1mScanning dependencies of target detector_wrapper[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/detector_wrapper.dir/src/detector_wrapper.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/detector_wrapper.dir/src/detector_wrapper_base.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/detector_wrapper.dir/src/convert_detections.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/detector_wrapper.dir/src/draw_tag.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libdetector_wrapper.so[0m
+[ 55%] Built target detector_wrapper
+[35m[1mScanning dependencies of target apriltag_detector[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/apriltag_detector.dir/src/apriltag_detector.cpp.o[0m
+[ 77%] [32m[1mLinking CXX shared library libapriltag_detector.so[0m
+[ 77%] Built target apriltag_detector
+[35m[1mScanning dependencies of target apriltag_detector_node[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/apriltag_detector_node.dir/src/node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable apriltag_detector_node[0m
+[100%] Built target apriltag_detector_node
+-- Install configuration: ""
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/environment/library_path.sh
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/environment/library_path.dsv
+-- Installing: /home/olive/workspace2/install/apriltag_detector/lib/apriltag_detector/apriltag_detector_node
+-- Set runtime path of "/home/olive/workspace2/install/apriltag_detector/lib/apriltag_detector/apriltag_detector_node" to ""
+-- Installing: /home/olive/workspace2/install/apriltag_detector/lib/libdetector_wrapper.so
+-- Set runtime path of "/home/olive/workspace2/install/apriltag_detector/lib/libdetector_wrapper.so" to ""
+-- Installing: /home/olive/workspace2/install/apriltag_detector/lib/libapriltag_detector.so
+-- Set runtime path of "/home/olive/workspace2/install/apriltag_detector/lib/libapriltag_detector.so" to ""
+-- Installing: /home/olive/workspace2/install/apriltag_detector/include
+-- Installing: /home/olive/workspace2/install/apriltag_detector/include/apriltag_detector
+-- Installing: /home/olive/workspace2/install/apriltag_detector/include/apriltag_detector/detector_wrapper_base.hpp
+-- Installing: /home/olive/workspace2/install/apriltag_detector/include/apriltag_detector/detector_wrapper.hpp
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector//launch
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector//launch/composable.launch.py
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector//launch/node.launch.py
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/ament_index/resource_index/package_run_dependencies/apriltag_detector
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/ament_index/resource_index/parent_prefix_path/apriltag_detector
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/environment/ament_prefix_path.sh
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/environment/ament_prefix_path.dsv
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/environment/path.sh
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/environment/path.dsv
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/local_setup.bash
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/local_setup.sh
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/local_setup.zsh
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/local_setup.dsv
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/package.dsv
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/ament_index/resource_index/packages/apriltag_detector
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detector_exportExport.cmake
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detector_exportExport-noconfig.cmake
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/ament_index/resource_index/rclcpp_components/apriltag_detector
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detectorConfig.cmake
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detectorConfig-version.cmake
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/package.xml

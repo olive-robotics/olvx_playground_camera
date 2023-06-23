@@ -1,0 +1,841 @@
+-- Found ament_cmake: 1.3.2 (/opt/ros2/humble/install/ament_cmake/share/ament_cmake/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros2/humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found OpenCV: /home/olive/opencv_install/opencv-4.x/build (found version "4.8.0") found components: core imgproc 
+-- Found rclcpp: 16.0.1 (/opt/ros2/humble/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.3 (/opt/ros2/humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.3 (/opt/ros2/humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros2/humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros2/humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros2/humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.1 (/opt/ros2/humble/install/rclcpp_components/share/rclcpp_components/cmake)
+-- Found image_transport: 3.1.4 (/opt/ros2/humble/install/image_transport/share/image_transport/cmake)
+-- Found cv_bridge: 3.2.1 (/home/olive/workspace2/install/cv_bridge/share/cv_bridge/cmake)
+-- Found apriltag_msgs: 2.0.1 (/home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake)
+-- Found ament_cmake_copyright: 0.12.4 (/opt/ros2/humble/install/ament_cmake_copyright/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.12.4 (/opt/ros2/humble/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.12.4 (/opt/ros2/humble/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_clang_format: 0.12.4 (/opt/ros2/humble/install/ament_cmake_clang_format/share/ament_cmake_clang_format/cmake)
+-- Found ament_cmake_flake8: 0.12.4 (/opt/ros2/humble/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.12.4 (/opt/ros2/humble/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.12.4 (/opt/ros2/humble/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_xmllint: 0.12.4 (/opt/ros2/humble/install/ament_cmake_xmllint/share/ament_cmake_xmllint/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/olive/workspace2/build/apriltag_detector
+[35m[1mScanning dependencies of target detector_wrapper[0m
+gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp' has modification time 8938613 s in the future
+[ 11%] [32mBuilding CXX object CMakeFiles/detector_wrapper.dir/src/detector_wrapper.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/detector_wrapper.dir/src/detector_wrapper_base.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/detector_wrapper.dir/src/convert_detections.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/detector_wrapper.dir/src/draw_tag.cpp.o[0m
+In file included from [01m[K/usr/include/c++/10/vector:67[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/convert_detections.hpp:22[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/convert_detections.cpp:18[m[K:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:[m[K In member function ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >; _Alloc = std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:1198:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*, std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+ 1198 |    [01;36m[K_M_realloc_insert(end(), __x)[m[K;
+      |    [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/vector:72[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/convert_detections.hpp:22[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/convert_detections.cpp:18[m[K:
+[01m[K/usr/include/c++/10/bits/vector.tcc:[m[K In member function ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_realloc_insert(std::vector<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {const apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >&}; _Tp = apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >; _Alloc = std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/10/bits/vector.tcc:426:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > >::iterator[m[K’ changed in GCC 7.1
+  426 |       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[ 55%] [32m[1mLinking CXX shared library libdetector_wrapper.so[0m
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 55%] Built target detector_wrapper
+[35m[1mScanning dependencies of target apriltag_detector[0m
+gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp' has modification time 8938560 s in the future
+[ 66%] [32mBuilding CXX object CMakeFiles/apriltag_detector.dir/src/apriltag_detector.cpp.o[0m
+In file included from [01m[K/usr/include/c++/10/vector:67[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:[m[K In copy constructor ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >; _Alloc = std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:558:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*, std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  558 |    [01;36m[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),[m[K
+      |    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  559 | [01;36m[K          this->_M_impl._M_start,[m[K
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  560 | [01;36m[K          _M_get_Tp_allocator())[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_vector.h:[m[K In copy constructor ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = long long int; _Alloc = std::allocator<long long int>][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:558:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+  558 |    [01;36m[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),[m[K
+      |    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  559 | [01;36m[K          this->_M_impl._M_start,[m[K
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  560 | [01;36m[K          _M_get_Tp_allocator())[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_vector.h:[m[K In copy constructor ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = double; _Alloc = std::allocator<double>][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:558:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+  558 |    [01;36m[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),[m[K
+      |    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  559 | [01;36m[K          this->_M_impl._M_start,[m[K
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  560 | [01;36m[K          _M_get_Tp_allocator())[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/vector:66[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*, std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > > >; _ForwardIterator = apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*; _Tp = apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*, std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  323 |     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*, std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:325:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*, std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  325 |     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/vector:67[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:[m[K In copy constructor ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >; _Alloc = std::allocator<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:558:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  558 |    [01;36m[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),[m[K
+      |    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  559 | [01;36m[K          this->_M_impl._M_start,[m[K
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  560 | [01;36m[K          _M_get_Tp_allocator())[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_vector.h:[m[K In copy constructor ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = rcl_interfaces::msg::IntegerRange_<std::allocator<void> >; _Alloc = std::allocator<rcl_interfaces::msg::IntegerRange_<std::allocator<void> > >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:558:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::IntegerRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::IntegerRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  558 |    [01;36m[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),[m[K
+      |    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  559 | [01;36m[K          this->_M_impl._M_start,[m[K
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  560 | [01;36m[K          _M_get_Tp_allocator())[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/vector:66[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >; _ForwardIterator = long long int*; _Tp = long long int][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+  323 |     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:325:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+  325 |     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >; _ForwardIterator = double*; _Tp = double][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+  323 |     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:325:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+  325 |     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*, std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > > >; _ForwardIterator = apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*, std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  125 |     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*, std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:150:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*, std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  147 |       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  148 | [01;36m[K           && __is_trivial(_ValueType2)[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  149 | [01;36m[K           && __assignable>::[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+  150 | [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+      |  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> > > > >; _ForwardIterator = rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*; _Tp = rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  323 |     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:325:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  325 |     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::IntegerRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::IntegerRange_<std::allocator<void> > > > >; _ForwardIterator = rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*; _Tp = rcl_interfaces::msg::IntegerRange_<std::allocator<void> >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::IntegerRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::IntegerRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  323 |     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::IntegerRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::IntegerRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:325:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::IntegerRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::IntegerRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  325 |     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >; _ForwardIterator = long long int*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+  125 |     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:150:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+  147 |       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  148 | [01;36m[K           && __is_trivial(_ValueType2)[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  149 | [01;36m[K           && __assignable>::[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+  150 | [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+      |  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >; _ForwardIterator = double*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+  125 |     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:150:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+  147 |       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  148 | [01;36m[K           && __is_trivial(_ValueType2)[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  149 | [01;36m[K           && __assignable>::[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+  150 | [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+      |  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*, std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > > >; _ForwardIterator = apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*; bool _TrivialValueTypes = false][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:84:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*, std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+   84 |         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:84:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*, std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> > > > >; _ForwardIterator = rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  125 |     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:150:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  147 |       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  148 | [01;36m[K           && __is_trivial(_ValueType2)[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  149 | [01;36m[K           && __assignable>::[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+  150 | [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+      |  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::IntegerRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::IntegerRange_<std::allocator<void> > > > >; _ForwardIterator = rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::IntegerRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::IntegerRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  125 |     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::IntegerRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::IntegerRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:150:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::IntegerRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::IntegerRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+  147 |       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  148 | [01;36m[K           && __is_trivial(_ValueType2)[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  149 | [01;36m[K           && __assignable>::[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+  150 | [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+      |  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >; _ForwardIterator = long long int*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:107:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+  107 |         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:107:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:109:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+  109 |         { return [01;36m[Kstd::copy(__first, __last, __result)[m[K; }
+      |                  [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >; _ForwardIterator = double*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:107:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+  107 |         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:107:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:109:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+  109 |         { return [01;36m[Kstd::copy(__first, __last, __result)[m[K; }
+      |                  [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros2/humble/install/rclcpp/include/rclcpp/rclcpp/subscription_base.hpp:34[m[K,
+                 from [01m[K/opt/ros2/humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:26[m[K,
+                 from [01m[K/opt/ros2/humble/install/rclcpp/include/rclcpp/rclcpp/node.hpp:40[m[K,
+                 from [01m[K/opt/ros2/humble/install/image_transport/include/image_transport/image_transport/image_transport.hpp:37[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:20[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/opt/ros2/humble/install/rclcpp/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:[m[K In member function ‘[01m[Kvoid rclcpp::experimental::IntraProcessManager::do_intra_process_publish(uint64_t, std::unique_ptr<MessageT, Deleter>, typename std::allocator_traits<_NodeAlloc>::rebind_traits<MessageT>::allocator_type&) [with MessageT = apriltag_msgs::msg::AprilTagDetectionArray_<std::allocator<void> >; ROSMessageType = apriltag_msgs::msg::AprilTagDetectionArray_<std::allocator<void> >; Alloc = std::allocator<void>; Deleter = std::default_delete<apriltag_msgs::msg::AprilTagDetectionArray_<std::allocator<void> > >][m[K’:
+[01m[K/opt/ros2/humble/install/rclcpp/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:218:33:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::vector<long long unsigned int>::const_iterator[m[K’ changed in GCC 7.1
+  218 |       [01;36m[Kconcatenated_vector.insert([m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  219 | [01;36m[K        concatenated_vector.end(),[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  220 | [01;36m[K        sub_ids.take_ownership_subscriptions.begin(),[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  221 | [01;36m[K        sub_ids.take_ownership_subscriptions.end())[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros2/humble/install/rclcpp/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:218:33:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/10/vector:66[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> > > > >; _ForwardIterator = rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*; bool _TrivialValueTypes = false][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:84:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+   84 |         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:84:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::FloatingPointRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::IntegerRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::IntegerRange_<std::allocator<void> > > > >; _ForwardIterator = rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*; bool _TrivialValueTypes = false][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:84:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::IntegerRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::IntegerRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:84:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const rcl_interfaces::msg::IntegerRange_<std::allocator<void> >*, std::vector<rcl_interfaces::msg::IntegerRange_<std::allocator<void> >, std::allocator<rcl_interfaces::msg::IntegerRange_<std::allocator<void> > > > >[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:[m[K In function ‘[01m[K_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >; _OI = long long int*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:560:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+  560 |     [01;36m[Kcopy[m[K(_II __first, _II __last, _OI __result)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:560:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:569:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+  568 |       return [01;36m[Kstd::__copy_move_a<__is_move_iterator<_II>::__value>[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  569 | [01;36m[K      (std::__miter_base(__first), std::__miter_base(__last), __result)[m[K;
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:[m[K In function ‘[01m[K_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >; _OI = double*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:560:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+  560 |     [01;36m[Kcopy[m[K(_II __first, _II __last, _OI __result)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:560:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:569:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+  568 |       return [01;36m[Kstd::__copy_move_a<__is_move_iterator<_II>::__value>[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  569 | [01;36m[K      (std::__miter_base(__first), std::__miter_base(__last), __result)[m[K;
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/vector:67[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:[m[K In copy constructor ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = long long unsigned int; _Alloc = std::allocator<long long unsigned int>][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:558:31:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  558 |    [01;36m[Kstd::__uninitialized_copy_a(__x.begin(), __x.end(),[m[K
+      |    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  559 | [01;36m[K          this->_M_impl._M_start,[m[K
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  560 | [01;36m[K          _M_get_Tp_allocator())[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros2/humble/install/rclcpp/include/rclcpp/rclcpp/subscription_base.hpp:34[m[K,
+                 from [01m[K/opt/ros2/humble/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp:26[m[K,
+                 from [01m[K/opt/ros2/humble/install/rclcpp/include/rclcpp/rclcpp/node.hpp:40[m[K,
+                 from [01m[K/opt/ros2/humble/install/image_transport/include/image_transport/image_transport/image_transport.hpp:37[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:20[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/opt/ros2/humble/install/rclcpp/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:[m[K In member function ‘[01m[Kvoid rclcpp::experimental::IntraProcessManager::add_owned_msg_to_buffers(std::unique_ptr<MessageT, MessageDeleter>, std::vector<long long unsigned int>, typename std::allocator_traits<_Allocator>::rebind_traits<MessageT>::allocator_type&) [with MessageT = apriltag_msgs::msg::AprilTagDetectionArray_<std::allocator<void> >; Alloc = std::allocator<void>; Deleter = std::default_delete<apriltag_msgs::msg::AprilTagDetectionArray_<std::allocator<void> > >; ROSMessageType = apriltag_msgs::msg::AprilTagDetectionArray_<std::allocator<void> >][m[K’:
+[01m[K/opt/ros2/humble/install/rclcpp/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:445:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::__detail::_Node_iterator<std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> >, false, false>[m[K’ changed in GCC 7.1
+  445 |         [01;36m[Ksubscriptions_.erase(subscription_it)[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/vector:67[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:[m[K In member function ‘[01m[Kstd::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, _InputIterator, _InputIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >; <template-parameter-2-2> = void; _Tp = long long unsigned int; _Alloc = std::allocator<long long unsigned int>][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:1379:2:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::vector<long long unsigned int>::const_iterator[m[K’ changed in GCC 7.1
+ 1379 |  [01;36m[Kinsert[m[K(const_iterator __position, _InputIterator __first,
+      |  [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_vector.h:1379:2:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_vector.h:1379:2:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_vector.h:1383:22:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+ 1383 |    [01;36m[K_M_insert_dispatch(begin() + __offset,[m[K
+      |    [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+ 1384 | [01;36m[K        __first, __last, __false_type())[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_vector.h:1383:22:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/10/bits/stl_algobase.h:61[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/cpp_type_traits.h:[m[K In function ‘[01m[K_Iterator std::__miter_base(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >][m[K’:
+[01m[K/usr/include/c++/10/bits/cpp_type_traits.h:544:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+  544 |     [01;36m[K__miter_base[m[K(_Iterator __it)
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:[m[K In function ‘[01m[K_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >; _OI = long long int*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:511:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+  511 |     [01;36m[K__copy_move_a[m[K(_II __first, _II __last, _OI __result)
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:511:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/10/bits/stl_algobase.h:61[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/cpp_type_traits.h:[m[K In function ‘[01m[K_Iterator std::__miter_base(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >][m[K’:
+[01m[K/usr/include/c++/10/bits/cpp_type_traits.h:544:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+  544 |     [01;36m[K__miter_base[m[K(_Iterator __it)
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:[m[K In function ‘[01m[K_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >; _OI = double*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:511:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+  511 |     [01;36m[K__copy_move_a[m[K(_II __first, _II __last, _OI __result)
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:511:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/10/vector:66[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >; _ForwardIterator = long long unsigned int*; _Tp = long long unsigned int][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  323 |     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:325:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  325 |     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/unordered_map:47[m[K,
+                 from [01m[K/usr/include/c++/10/functional:61[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/unordered_map.h:[m[K In member function ‘[01m[Kstd::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>::iterator std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>::erase(std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>::iterator) [with _Key = long long unsigned int; _Tp = std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase>; _Hash = std::hash<long long unsigned int>; _Pred = std::equal_to<long long unsigned int>; _Alloc = std::allocator<std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> > >][m[K’:
+[01m[K/usr/include/c++/10/bits/unordered_map.h:796:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::unordered_map<long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> >::iterator[m[K’ {aka ‘[01m[Kstd::__detail::_Hashtable_base<long long unsigned int, std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> >, std::__detail::_Select1st, std::equal_to<long long unsigned int>, std::hash<long long unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Hashtable_traits<false, false, true> >::iterator[m[K’} changed in GCC 7.1
+  796 |       [01;36m[Kerase[m[K(iterator __position)
+      |       [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/10/bits/unordered_map.h:797:26:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::unordered_map<long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> >::iterator[m[K’ {aka ‘[01m[Kstd::__detail::_Hashtable_base<long long unsigned int, std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> >, std::__detail::_Select1st, std::equal_to<long long unsigned int>, std::hash<long long unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Hashtable_traits<false, false, true> >::iterator[m[K’} changed in GCC 7.1
+  797 |       { return [01;36m[K_M_h.erase(__position)[m[K; }
+      |                [01;36m[K~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_iterator_base_funcs.h:[m[K In function ‘[01m[Kconstexpr _InputIterator std::next(_InputIterator, typename std::iterator_traits<_Iter>::difference_type) [with _InputIterator = __gnu_cxx::__normal_iterator<long long unsigned int*, std::vector<long long unsigned int> >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_iterator_base_funcs.h:213:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  213 |     [01;36m[Knext[m[K(_InputIterator __x, typename
+      |     [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/10/vector:67[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:[m[K In member function ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_insert_dispatch(std::vector<_Tp, _Alloc>::iterator, _InputIterator, _InputIterator, std::__false_type) [with _InputIterator = __gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >; _Tp = long long unsigned int; _Alloc = std::allocator<long long unsigned int>][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_vector.h:1662:2:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::vector<long long unsigned int>::iterator[m[K’ changed in GCC 7.1
+ 1662 |  [01;36m[K_M_insert_dispatch[m[K(iterator __pos, _InputIterator __first,
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_vector.h:1662:2:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_vector.h:1662:2:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_vector.h:1665:19:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::vector<long long unsigned int>::iterator[m[K’ changed in GCC 7.1
+ 1665 |    [01;36m[K_M_range_insert(__pos, __first, __last,[m[K
+      |    [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1666 | [01;36m[K     std::__iterator_category(__first))[m[K;
+      |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_vector.h:1665:19:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/10/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_iterator.h:[m[K In function ‘[01m[K_Iterator std::__niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container>) [with _Iterator = const long long int*; _Container = std::vector<long long int, std::allocator<long long int> >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_iterator.h:1225:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long int*, std::vector<long long int, std::allocator<long long int> > >[m[K’ changed in GCC 7.1
+ 1225 |     [01;36m[K__niter_base[m[K(__gnu_cxx::__normal_iterator<_Iterator, _Container> __it)
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_iterator.h:[m[K In function ‘[01m[K_Iterator std::__niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container>) [with _Iterator = const double*; _Container = std::vector<double, std::allocator<double> >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_iterator.h:1225:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const double*, std::vector<double, std::allocator<double> > >[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/10/vector:66[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >; _ForwardIterator = long long unsigned int*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  125 |     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:150:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  147 |       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  148 | [01;36m[K           && __is_trivial(_ValueType2)[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  149 | [01;36m[K           && __assignable>::[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+  150 | [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+      |  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/unordered_map:46[m[K,
+                 from [01m[K/usr/include/c++/10/functional:61[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/hashtable.h:[m[K In member function ‘[01m[Kstd::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _H1, _H2, _Hash, _RehashPolicy, _Traits>::iterator std::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _H1, _H2, _Hash, _RehashPolicy, _Traits>::erase(std::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _H1, _H2, _Hash, _RehashPolicy, _Traits>::iterator) [with _Key = long long unsigned int; _Value = std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> >; _Alloc = std::allocator<std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> > >; _ExtractKey = std::__detail::_Select1st; _Equal = std::equal_to<long long unsigned int>; _H1 = std::hash<long long unsigned int>; _H2 = std::__detail::_Mod_range_hashing; _Hash = std::__detail::_Default_ranged_hash; _RehashPolicy = std::__detail::_Prime_rehash_policy; _Traits = std::__detail::_Hashtable_traits<false, false, true>][m[K’:
+[01m[K/usr/include/c++/10/bits/hashtable.h:806:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::_Hashtable<long long unsigned int, std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> >, std::allocator<std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> > >, std::__detail::_Select1st, std::equal_to<long long unsigned int>, std::hash<long long unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::iterator[m[K’ {aka ‘[01m[Kstd::__detail::_Hashtable_base<long long unsigned int, std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> >, std::__detail::_Select1st, std::equal_to<long long unsigned int>, std::hash<long long unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Hashtable_traits<false, false, true> >::iterator[m[K’} changed in GCC 7.1
+  806 |       [01;36m[Kerase[m[K(iterator __it)
+      |       [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/10/bits/hashtable.h:807:21:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::_Hashtable<long long unsigned int, std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> >, std::allocator<std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> > >, std::__detail::_Select1st, std::equal_to<long long unsigned int>, std::hash<long long unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::const_iterator[m[K’ {aka ‘[01m[Kstd::__detail::_Hashtable_base<long long unsigned int, std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> >, std::__detail::_Select1st, std::equal_to<long long unsigned int>, std::hash<long long unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Hashtable_traits<false, false, true> >::const_iterator[m[K’} changed in GCC 7.1
+  807 |       { return [01;36m[Kerase(const_iterator(__it))[m[K; }
+      |                [01;36m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_iterator_base_funcs.h:[m[K In function ‘[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  138 |     [01;36m[Kdistance[m[K(_InputIterator __first, _InputIterator __last)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_iterator_base_funcs.h:138:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_iterator_base_funcs.h:141:29:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  141 |       return [01;36m[Kstd::__distance(__first, __last,[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  142 | [01;36m[K        std::__iterator_category(__first))[m[K;
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/vector:72[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/vector.tcc:[m[K In member function ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_range_insert(std::vector<_Tp, _Alloc>::iterator, _ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = __gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >; _Tp = long long unsigned int; _Alloc = std::allocator<long long unsigned int>][m[K’:
+[01m[K/usr/include/c++/10/bits/vector.tcc:721:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::vector<long long unsigned int>::iterator[m[K’ changed in GCC 7.1
+  721 |       [01;36m[Kvector<_Tp, _Alloc>[m[K::
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/vector.tcc:721:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/vector.tcc:721:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/vector.tcc:727:41:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  727 |      const size_type __n = [01;36m[Kstd::distance(__first, __last)[m[K;
+      |                            [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/vector.tcc:744:16:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  744 |       [01;36m[Kstd::copy(__first, __last, __position)[m[K;
+      |       [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/vector.tcc:751:34:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  751 |       [01;36m[Kstd::__uninitialized_copy_a(__mid, __last,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+  752 | [01;36m[K      this->_M_impl._M_finish,[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K    
+  753 | [01;36m[K      _M_get_Tp_allocator())[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K      
+[01m[K/usr/include/c++/10/bits/vector.tcc:762:16:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  762 |       [01;36m[Kstd::copy(__first, __mid, __position)[m[K;
+      |       [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/vector.tcc:778:38:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  778 |         = [01;36m[Kstd::__uninitialized_copy_a(__first, __last,[m[K
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+  779 | [01;36m[K          __new_finish,[m[K
+      |           [01;36m[K~~~~~~~~~~~~~[m[K               
+  780 | [01;36m[K          _M_get_Tp_allocator())[m[K;
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K      
+In file included from [01m[K/usr/include/c++/10/vector:66[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >; _ForwardIterator = long long unsigned int*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:107:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  107 |         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:107:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:109:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  109 |         { return [01;36m[Kstd::copy(__first, __last, __result)[m[K; }
+      |                  [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/unordered_map:46[m[K,
+                 from [01m[K/usr/include/c++/10/functional:61[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/hashtable.h:[m[K In member function ‘[01m[Kstd::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _H1, _H2, _Hash, _RehashPolicy, _Traits>::iterator std::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _H1, _H2, _Hash, _RehashPolicy, _Traits>::erase(std::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _H1, _H2, _Hash, _RehashPolicy, _Traits>::const_iterator) [with _Key = long long unsigned int; _Value = std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> >; _Alloc = std::allocator<std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> > >; _ExtractKey = std::__detail::_Select1st; _Equal = std::equal_to<long long unsigned int>; _H1 = std::hash<long long unsigned int>; _H2 = std::__detail::_Mod_range_hashing; _Hash = std::__detail::_Default_ranged_hash; _RehashPolicy = std::__detail::_Prime_rehash_policy; _Traits = std::__detail::_Hashtable_traits<false, false, true>][m[K’:
+[01m[K/usr/include/c++/10/bits/hashtable.h:1851:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::_Hashtable<long long unsigned int, std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> >, std::allocator<std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> > >, std::__detail::_Select1st, std::equal_to<long long unsigned int>, std::hash<long long unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::const_iterator[m[K’ {aka ‘[01m[Kstd::__detail::_Hashtable_base<long long unsigned int, std::pair<const long long unsigned int, std::weak_ptr<rclcpp::experimental::SubscriptionIntraProcessBase> >, std::__detail::_Select1st, std::equal_to<long long unsigned int>, std::hash<long long unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Hashtable_traits<false, false, true> >::const_iterator[m[K’} changed in GCC 7.1
+ 1851 |     [01;36m[K_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal,[m[K
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1852 | [01;36m[K        _H1, _H2, _Hash, _RehashPolicy, _Traits>[m[K::
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/bits/stl_algobase.h:66[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_iterator_base_funcs.h:[m[K In function ‘[01m[Kconstexpr typename std::iterator_traits< <template-parameter-1-1> >::difference_type std::__distance(_RandomAccessIterator, _RandomAccessIterator, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_iterator_base_funcs.h:98:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+   98 |     [01;36m[K__distance[m[K(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_iterator_base_funcs.h:98:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/10/vector:66[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_move_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = long long unsigned int*; _ForwardIterator = long long unsigned int*; _Allocator = std::allocator<long long unsigned int>][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:333:41:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+  333 |       return [01;36m[Kstd::__uninitialized_copy_a(_GLIBCXX_MAKE_MOVE_ITERATOR(__first),[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  334 | [01;36m[K      _GLIBCXX_MAKE_MOVE_ITERATOR(__last),[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  335 | [01;36m[K      __result, __alloc)[m[K;
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~[m[K                 
+In file included from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:[m[K In function ‘[01m[K_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >; _OI = __gnu_cxx::__normal_iterator<long long unsigned int*, std::vector<long long unsigned int> >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:560:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  560 |     [01;36m[Kcopy[m[K(_II __first, _II __last, _OI __result)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:560:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:560:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:569:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  568 |       return [01;36m[Kstd::__copy_move_a<__is_move_iterator<_II>::__value>[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  569 | [01;36m[K      (std::__miter_base(__first), std::__miter_base(__last), __result)[m[K;
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/vector:66[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = long long unsigned int*; _ForwardIterator = long long unsigned int*; _Allocator = std::allocator<long long unsigned int>][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:347:2:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+  346 |       return [01;36m[Kstd::__uninitialized_copy_a[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  347 | [01;36m[K (_GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__first),[m[K
+      |  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  348 | [01;36m[K  _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__last), __result, __alloc)[m[K;
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:[m[K In function ‘[01m[K_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >; _OI = long long unsigned int*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:560:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  560 |     [01;36m[Kcopy[m[K(_II __first, _II __last, _OI __result)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:560:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:569:7:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  568 |       return [01;36m[Kstd::__copy_move_a<__is_move_iterator<_II>::__value>[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  569 | [01;36m[K      (std::__miter_base(__first), std::__miter_base(__last), __result)[m[K;
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/vector:66[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<long long unsigned int*>; _ForwardIterator = long long unsigned int*; _Tp = long long unsigned int][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+  323 |     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:325:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+  325 |     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/bits/stl_algobase.h:61[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/cpp_type_traits.h:[m[K In function ‘[01m[K_Iterator std::__miter_base(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >][m[K’:
+[01m[K/usr/include/c++/10/bits/cpp_type_traits.h:544:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  544 |     [01;36m[K__miter_base[m[K(_Iterator __it)
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:[m[K In function ‘[01m[K_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >; _OI = __gnu_cxx::__normal_iterator<long long unsigned int*, std::vector<long long unsigned int> >][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:511:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  511 |     [01;36m[K__copy_move_a[m[K(_II __first, _II __last, _OI __result)
+      |     [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:511:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:511:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:[m[K In function ‘[01m[K_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >; _OI = long long unsigned int*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:511:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:511:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/10/vector:66[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<long long unsigned int*>; _ForwardIterator = long long unsigned int*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+  125 |     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:150:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+  147 |       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  148 | [01;36m[K           && __is_trivial(_ValueType2)[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  149 | [01;36m[K           && __assignable>::[m[K
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+  150 | [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+      |  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_iterator.h:[m[K In function ‘[01m[K_Iterator std::__niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container>) [with _Iterator = const long long unsigned int*; _Container = std::vector<long long unsigned int>][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_iterator.h:1225:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<const long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+ 1225 |     [01;36m[K__niter_base[m[K(__gnu_cxx::__normal_iterator<_Iterator, _Container> __it)
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_iterator.h:[m[K In function ‘[01m[K_Iterator std::__niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container>) [with _Iterator = long long unsigned int*; _Container = std::vector<long long unsigned int>][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_iterator.h:1225:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:[m[K In function ‘[01m[K_From std::__niter_wrap(_From, _To) [with _From = __gnu_cxx::__normal_iterator<long long unsigned int*, std::vector<long long unsigned int> >; _To = long long unsigned int*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[K__gnu_cxx::__normal_iterator<long long unsigned int*, std::vector<long long unsigned int> >[m[K’ changed in GCC 7.1
+  323 |     [01;36m[K__niter_wrap[m[K(_From __from, _To __res)
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/vector:66[m[K,
+                 from [01m[K/usr/include/c++/10/functional:62[m[K,
+                 from [01m[K/usr/include/c++/10/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:74[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<long long unsigned int*>; _ForwardIterator = long long unsigned int*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:107:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+  107 |         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:107:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+[01m[K/usr/include/c++/10/bits/stl_uninitialized.h:109:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+  109 |         { return [01;36m[Kstd::copy(__first, __last, __result)[m[K; }
+      |                  [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:[m[K In function ‘[01m[K_OI std::copy(_II, _II, _OI) [with _II = std::move_iterator<long long unsigned int*>; _OI = long long unsigned int*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:560:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+  560 |     [01;36m[Kcopy[m[K(_II __first, _II __last, _OI __result)
+      |     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/10/bits/stl_algobase.h:560:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+In file included from [01m[K/usr/include/c++/10/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/10/algorithm:61[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:8[m[K,
+                 from [01m[K/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:7[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp:19[m[K,
+                 from [01m[K/home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp:16[m[K:
+[01m[K/usr/include/c++/10/bits/stl_iterator.h:[m[K In function ‘[01m[Kdecltype (std::__miter_base(__it.base())) std::__miter_base(std::move_iterator<_IteratorL>) [with _Iterator = long long unsigned int*][m[K’:
+[01m[K/usr/include/c++/10/bits/stl_iterator.h:2198:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<long long unsigned int*>[m[K’ changed in GCC 7.1
+ 2198 |     [01;36m[K__miter_base[m[K(move_iterator<_Iterator> __it)
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[ 77%] [32m[1mLinking CXX shared library libapriltag_detector.so[0m
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 77%] Built target apriltag_detector
+[35m[1mScanning dependencies of target apriltag_detector_node[0m
+gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp' has modification time 8938427 s in the future
+[ 88%] [32mBuilding CXX object CMakeFiles/apriltag_detector_node.dir/src/node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable apriltag_detector_node[0m
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target apriltag_detector_node
+-- Install configuration: ""
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/environment/library_path.sh
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/environment/library_path.dsv
+-- Installing: /home/olive/workspace2/install/apriltag_detector/lib/apriltag_detector/apriltag_detector_node
+-- Set runtime path of "/home/olive/workspace2/install/apriltag_detector/lib/apriltag_detector/apriltag_detector_node" to ""
+-- Installing: /home/olive/workspace2/install/apriltag_detector/lib/libdetector_wrapper.so
+-- Set runtime path of "/home/olive/workspace2/install/apriltag_detector/lib/libdetector_wrapper.so" to ""
+-- Installing: /home/olive/workspace2/install/apriltag_detector/lib/libapriltag_detector.so
+-- Set runtime path of "/home/olive/workspace2/install/apriltag_detector/lib/libapriltag_detector.so" to ""
+-- Installing: /home/olive/workspace2/install/apriltag_detector/include
+-- Installing: /home/olive/workspace2/install/apriltag_detector/include/apriltag_detector
+-- Installing: /home/olive/workspace2/install/apriltag_detector/include/apriltag_detector/detector_wrapper_base.hpp
+-- Installing: /home/olive/workspace2/install/apriltag_detector/include/apriltag_detector/detector_wrapper.hpp
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector//launch
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector//launch/composable.launch.py
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector//launch/node.launch.py
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/ament_index/resource_index/package_run_dependencies/apriltag_detector
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/ament_index/resource_index/parent_prefix_path/apriltag_detector
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/environment/ament_prefix_path.sh
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/environment/ament_prefix_path.dsv
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/environment/path.sh
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/environment/path.dsv
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/local_setup.bash
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/local_setup.sh
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/local_setup.zsh
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/local_setup.dsv
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/package.dsv
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/ament_index/resource_index/packages/apriltag_detector
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detector_exportExport.cmake
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detector_exportExport-noconfig.cmake
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/ament_index/resource_index/rclcpp_components/apriltag_detector
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detectorConfig.cmake
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/cmake/apriltag_detectorConfig-version.cmake
+-- Installing: /home/olive/workspace2/install/apriltag_detector/share/apriltag_detector/package.xml

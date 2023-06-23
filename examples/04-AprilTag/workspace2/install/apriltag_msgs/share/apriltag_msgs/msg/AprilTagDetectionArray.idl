@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from apriltag_msgs/msg/AprilTagDetectionArray.msg
+// generated code does not contain a copyright notice
+
+#include "apriltag_msgs/msg/AprilTagDetection.idl"
+#include "std_msgs/msg/Header.idl"
+
+module apriltag_msgs {
+  module msg {
+    struct AprilTagDetectionArray {
+      std_msgs::msg::Header header;
+
+      sequence<apriltag_msgs::msg::AprilTagDetection> detections;
+    };
+  };
+};

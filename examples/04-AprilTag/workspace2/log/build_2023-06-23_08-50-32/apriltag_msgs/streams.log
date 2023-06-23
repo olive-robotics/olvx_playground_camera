@@ -1,0 +1,405 @@
+[1.018s] Invoking command in '/home/olive/workspace2/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olive/examples/install/shake_detector:/opt/ros2/humble/install/rqt_bag_plugins:/opt/ros2/humble/install/rqt_bag:/opt/ros2/humble/install/ros2bag:/opt/ros2/humble/install/tracetools_test:/opt/ros2/humble/install/tracetools_launch:/opt/ros2/humble/install/topic_monitor:/opt/ros2/humble/install/tf2_tools:/opt/ros2/humble/install/examples_tf2_py:/opt/ros2/humble/install/tf2_ros_py:/opt/ros2/humble/install/sros2:/opt/ros2/humble/install/rqt_topic:/opt/ros2/humble/install/rqt_srv:/opt/ros2/humble/install/rqt_shell:/opt/ros2/humble/install/rqt_service_caller:/opt/ros2/humble/install/rqt_reconfigure:/opt/ros2/humble/install/rqt_py_console:/opt/ros2/humble/install/rqt_publisher:/opt/ros2/humble/install/rqt_plot:/opt/ros2/humble/install/rqt_action:/opt/ros2/humble/install/rqt_msg:/opt/ros2/humble/install/rqt_console:/opt/ros2/humble/install/rqt:/opt/ros2/humble/install/rqt_graph:/opt/ros2/humble/install/rqt_gui_py:/opt/ros2/humble/install/rqt_gui:/opt/ros2/humble/install/ros2trace:/opt/ros2/humble/install/ros2topic:/opt/ros2/humble/install/ros2test:/opt/ros2/humble/install/ros2component:/opt/ros2/humble/install/ros2param:/opt/ros2/humble/install/ros2lifecycle:/opt/ros2/humble/install/ros2service:/opt/ros2/humble/install/ros2run:/opt/ros2/humble/install/ros2launch:/opt/ros2/humble/install/ros2pkg:/opt/ros2/humble/install/ros2node:/opt/ros2/humble/install/ros2multicast:/opt/ros2/humble/install/ros2interface:/opt/ros2/humble/install/ros2doctor:/opt/ros2/humble/install/ros2action:/opt/ros2/humble/install/ros2cli:/opt/ros2/humble/install/quality_of_service_demo_py:/opt/ros2/humble/install/lifecycle_py:/opt/ros2/humble/install/launch_testing_ros:/opt/ros2/humble/install/launch_ros:/opt/ros2/humble/install/examples_rclpy_pointcloud_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_subscriber:/opt/ros2/humble/install/examples_rclpy_minimal_service:/opt/ros2/humble/install/examples_rclpy_minimal_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_client:/opt/ros2/humble/install/examples_rclpy_minimal_action_server:/opt/ros2/humble/install/examples_rclpy_minimal_action_client:/opt/ros2/humble/install/examples_rclpy_guard_conditions:/opt/ros2/humble/install/examples_rclpy_executors:/opt/ros2/humble/install/demo_nodes_py:/opt/ros2/humble/install/action_tutorials_py:/opt/ros2/humble/install/ament_uncrustify:/opt/ros2/humble/install/tracetools_trace:/opt/ros2/humble/install/tracetools_read:/opt/ros2/humble/install/test_tracetools_launch:/opt/ros2/humble/install/test_launch_ros:/opt/ros2/humble/install/sensor_msgs_py:/opt/ros2/humble/install/rpyutils:/opt/ros2/humble/install/rosidl_runtime_py:/opt/ros2/humble/install/rosidl_cli:/opt/ros2/humble/install/launch_pytest:/opt/ros2/humble/install/launch_testing:/opt/ros2/humble/install/launch_yaml:/opt/ros2/humble/install/launch_xml:/opt/ros2/humble/install/launch:/opt/ros2/humble/install/osrf_pycommon:/opt/ros2/humble/install/launch_testing_examples:/opt/ros2/humble/install/domain_coordinator:/opt/ros2/humble/install/ament_xmllint:/opt/ros2/humble/install/ament_pyflakes:/opt/ros2/humble/install/ament_pycodestyle:/opt/ros2/humble/install/ament_pep257:/opt/ros2/humble/install/ament_pclint:/opt/ros2/humble/install/ament_package:/opt/ros2/humble/install/ament_mypy:/opt/ros2/humble/install/ament_lint_cmake:/opt/ros2/humble/install/ament_flake8:/opt/ros2/humble/install/ament_copyright:/opt/ros2/humble/install/ament_lint:/opt/ros2/humble/install/ament_index_python:/opt/ros2/humble/install/ament_cpplint:/opt/ros2/humble/install/ament_cppcheck:/opt/ros2/humble/install/ament_clang_tidy:/opt/ros2/humble/install/ament_clang_format /usr/bin/cmake /home/olive/workspace2/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/olive/workspace2/install/apriltag_msgs
+[3.284s] -- The C compiler identification is GNU 10.2.1
+[5.942s] -- The CXX compiler identification is GNU 10.2.1
+[6.403s] -- Detecting C compiler ABI info
+[8.674s] -- Detecting C compiler ABI info - done
+[8.907s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.916s] -- Detecting C compile features
+[8.923s] -- Detecting C compile features - done
+[8.992s] -- Detecting CXX compiler ABI info
+[11.459s] -- Detecting CXX compiler ABI info - done
+[11.728s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.734s] -- Detecting CXX compile features
+[11.744s] -- Detecting CXX compile features - done
+[12.023s] -- Found ament_cmake: 1.3.2 (/opt/ros2/humble/install/ament_cmake/share/ament_cmake/cmake)
+[22.543s] -- Found Python3: /usr/bin/python3.9 (found version "3.9.2") found components: Interpreter 
+[30.179s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros2/humble/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[33.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[33.927s] -- Found rosidl_adapter: 3.1.3 (/opt/ros2/humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[37.286s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[39.444s] -- Found std_msgs: 4.2.2 (/opt/ros2/humble/install/std_msgs/share/std_msgs/cmake)
+[57.636s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros2/humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[64.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[74.885s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[76.909s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.9.2", minimum required is "3.6") 
+[77.196s] -- Found python_cmake_module: 0.10.0 (/opt/ros2/humble/install/python_cmake_module/share/python_cmake_module/cmake)
+[79.623s] -- Found PythonLibs: /usr/lib/arm-linux-gnueabihf/libpython3.9.so (found suitable version "3.9.2", minimum required is "3.5") 
+[79.626s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[79.629s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.9
+[79.631s] -- Using PYTHON_LIBRARIES: /usr/lib/arm-linux-gnueabihf/libpython3.9.so
+[81.499s] -- Found PythonExtra: .so  
+[94.169s] -- Found ament_lint_auto: 0.12.4 (/opt/ros2/humble/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[96.019s] -- Added test 'lint_cmake' to check CMake code style
+[96.255s] -- Added test 'xmllint' to check XML markup files
+[96.487s] -- Configuring done
+[97.288s] -- Generating done
+[97.346s] -- Build files have been written to: /home/olive/workspace2/build/apriltag_msgs
+[97.435s] Invoked command in '/home/olive/workspace2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olive/examples/install/shake_detector:/opt/ros2/humble/install/rqt_bag_plugins:/opt/ros2/humble/install/rqt_bag:/opt/ros2/humble/install/ros2bag:/opt/ros2/humble/install/tracetools_test:/opt/ros2/humble/install/tracetools_launch:/opt/ros2/humble/install/topic_monitor:/opt/ros2/humble/install/tf2_tools:/opt/ros2/humble/install/examples_tf2_py:/opt/ros2/humble/install/tf2_ros_py:/opt/ros2/humble/install/sros2:/opt/ros2/humble/install/rqt_topic:/opt/ros2/humble/install/rqt_srv:/opt/ros2/humble/install/rqt_shell:/opt/ros2/humble/install/rqt_service_caller:/opt/ros2/humble/install/rqt_reconfigure:/opt/ros2/humble/install/rqt_py_console:/opt/ros2/humble/install/rqt_publisher:/opt/ros2/humble/install/rqt_plot:/opt/ros2/humble/install/rqt_action:/opt/ros2/humble/install/rqt_msg:/opt/ros2/humble/install/rqt_console:/opt/ros2/humble/install/rqt:/opt/ros2/humble/install/rqt_graph:/opt/ros2/humble/install/rqt_gui_py:/opt/ros2/humble/install/rqt_gui:/opt/ros2/humble/install/ros2trace:/opt/ros2/humble/install/ros2topic:/opt/ros2/humble/install/ros2test:/opt/ros2/humble/install/ros2component:/opt/ros2/humble/install/ros2param:/opt/ros2/humble/install/ros2lifecycle:/opt/ros2/humble/install/ros2service:/opt/ros2/humble/install/ros2run:/opt/ros2/humble/install/ros2launch:/opt/ros2/humble/install/ros2pkg:/opt/ros2/humble/install/ros2node:/opt/ros2/humble/install/ros2multicast:/opt/ros2/humble/install/ros2interface:/opt/ros2/humble/install/ros2doctor:/opt/ros2/humble/install/ros2action:/opt/ros2/humble/install/ros2cli:/opt/ros2/humble/install/quality_of_service_demo_py:/opt/ros2/humble/install/lifecycle_py:/opt/ros2/humble/install/launch_testing_ros:/opt/ros2/humble/install/launch_ros:/opt/ros2/humble/install/examples_rclpy_pointcloud_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_subscriber:/opt/ros2/humble/install/examples_rclpy_minimal_service:/opt/ros2/humble/install/examples_rclpy_minimal_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_client:/opt/ros2/humble/install/examples_rclpy_minimal_action_server:/opt/ros2/humble/install/examples_rclpy_minimal_action_client:/opt/ros2/humble/install/examples_rclpy_guard_conditions:/opt/ros2/humble/install/examples_rclpy_executors:/opt/ros2/humble/install/demo_nodes_py:/opt/ros2/humble/install/action_tutorials_py:/opt/ros2/humble/install/ament_uncrustify:/opt/ros2/humble/install/tracetools_trace:/opt/ros2/humble/install/tracetools_read:/opt/ros2/humble/install/test_tracetools_launch:/opt/ros2/humble/install/test_launch_ros:/opt/ros2/humble/install/sensor_msgs_py:/opt/ros2/humble/install/rpyutils:/opt/ros2/humble/install/rosidl_runtime_py:/opt/ros2/humble/install/rosidl_cli:/opt/ros2/humble/install/launch_pytest:/opt/ros2/humble/install/launch_testing:/opt/ros2/humble/install/launch_yaml:/opt/ros2/humble/install/launch_xml:/opt/ros2/humble/install/launch:/opt/ros2/humble/install/osrf_pycommon:/opt/ros2/humble/install/launch_testing_examples:/opt/ros2/humble/install/domain_coordinator:/opt/ros2/humble/install/ament_xmllint:/opt/ros2/humble/install/ament_pyflakes:/opt/ros2/humble/install/ament_pycodestyle:/opt/ros2/humble/install/ament_pep257:/opt/ros2/humble/install/ament_pclint:/opt/ros2/humble/install/ament_package:/opt/ros2/humble/install/ament_mypy:/opt/ros2/humble/install/ament_lint_cmake:/opt/ros2/humble/install/ament_flake8:/opt/ros2/humble/install/ament_copyright:/opt/ros2/humble/install/ament_lint:/opt/ros2/humble/install/ament_index_python:/opt/ros2/humble/install/ament_cpplint:/opt/ros2/humble/install/ament_cppcheck:/opt/ros2/humble/install/ament_clang_tidy:/opt/ros2/humble/install/ament_clang_format /usr/bin/cmake /home/olive/workspace2/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/olive/workspace2/install/apriltag_msgs
+[97.480s] Invoking command in '/home/olive/workspace2/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olive/examples/install/shake_detector:/opt/ros2/humble/install/rqt_bag_plugins:/opt/ros2/humble/install/rqt_bag:/opt/ros2/humble/install/ros2bag:/opt/ros2/humble/install/tracetools_test:/opt/ros2/humble/install/tracetools_launch:/opt/ros2/humble/install/topic_monitor:/opt/ros2/humble/install/tf2_tools:/opt/ros2/humble/install/examples_tf2_py:/opt/ros2/humble/install/tf2_ros_py:/opt/ros2/humble/install/sros2:/opt/ros2/humble/install/rqt_topic:/opt/ros2/humble/install/rqt_srv:/opt/ros2/humble/install/rqt_shell:/opt/ros2/humble/install/rqt_service_caller:/opt/ros2/humble/install/rqt_reconfigure:/opt/ros2/humble/install/rqt_py_console:/opt/ros2/humble/install/rqt_publisher:/opt/ros2/humble/install/rqt_plot:/opt/ros2/humble/install/rqt_action:/opt/ros2/humble/install/rqt_msg:/opt/ros2/humble/install/rqt_console:/opt/ros2/humble/install/rqt:/opt/ros2/humble/install/rqt_graph:/opt/ros2/humble/install/rqt_gui_py:/opt/ros2/humble/install/rqt_gui:/opt/ros2/humble/install/ros2trace:/opt/ros2/humble/install/ros2topic:/opt/ros2/humble/install/ros2test:/opt/ros2/humble/install/ros2component:/opt/ros2/humble/install/ros2param:/opt/ros2/humble/install/ros2lifecycle:/opt/ros2/humble/install/ros2service:/opt/ros2/humble/install/ros2run:/opt/ros2/humble/install/ros2launch:/opt/ros2/humble/install/ros2pkg:/opt/ros2/humble/install/ros2node:/opt/ros2/humble/install/ros2multicast:/opt/ros2/humble/install/ros2interface:/opt/ros2/humble/install/ros2doctor:/opt/ros2/humble/install/ros2action:/opt/ros2/humble/install/ros2cli:/opt/ros2/humble/install/quality_of_service_demo_py:/opt/ros2/humble/install/lifecycle_py:/opt/ros2/humble/install/launch_testing_ros:/opt/ros2/humble/install/launch_ros:/opt/ros2/humble/install/examples_rclpy_pointcloud_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_subscriber:/opt/ros2/humble/install/examples_rclpy_minimal_service:/opt/ros2/humble/install/examples_rclpy_minimal_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_client:/opt/ros2/humble/install/examples_rclpy_minimal_action_server:/opt/ros2/humble/install/examples_rclpy_minimal_action_client:/opt/ros2/humble/install/examples_rclpy_guard_conditions:/opt/ros2/humble/install/examples_rclpy_executors:/opt/ros2/humble/install/demo_nodes_py:/opt/ros2/humble/install/action_tutorials_py:/opt/ros2/humble/install/ament_uncrustify:/opt/ros2/humble/install/tracetools_trace:/opt/ros2/humble/install/tracetools_read:/opt/ros2/humble/install/test_tracetools_launch:/opt/ros2/humble/install/test_launch_ros:/opt/ros2/humble/install/sensor_msgs_py:/opt/ros2/humble/install/rpyutils:/opt/ros2/humble/install/rosidl_runtime_py:/opt/ros2/humble/install/rosidl_cli:/opt/ros2/humble/install/launch_pytest:/opt/ros2/humble/install/launch_testing:/opt/ros2/humble/install/launch_yaml:/opt/ros2/humble/install/launch_xml:/opt/ros2/humble/install/launch:/opt/ros2/humble/install/osrf_pycommon:/opt/ros2/humble/install/launch_testing_examples:/opt/ros2/humble/install/domain_coordinator:/opt/ros2/humble/install/ament_xmllint:/opt/ros2/humble/install/ament_pyflakes:/opt/ros2/humble/install/ament_pycodestyle:/opt/ros2/humble/install/ament_pep257:/opt/ros2/humble/install/ament_pclint:/opt/ros2/humble/install/ament_package:/opt/ros2/humble/install/ament_mypy:/opt/ros2/humble/install/ament_lint_cmake:/opt/ros2/humble/install/ament_flake8:/opt/ros2/humble/install/ament_copyright:/opt/ros2/humble/install/ament_lint:/opt/ros2/humble/install/ament_index_python:/opt/ros2/humble/install/ament_cpplint:/opt/ros2/humble/install/ament_cppcheck:/opt/ros2/humble/install/ament_clang_tidy:/opt/ros2/humble/install/ament_clang_format /usr/bin/cmake --build /home/olive/workspace2/build/apriltag_msgs -- -j2 -l2
+[98.366s] -- Found ament_cmake: 1.3.2 (/opt/ros2/humble/install/ament_cmake/share/ament_cmake/cmake)
+[105.868s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros2/humble/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[108.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[108.766s] -- Found rosidl_adapter: 3.1.3 (/opt/ros2/humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[110.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[111.133s] -- Found std_msgs: 4.2.2 (/opt/ros2/humble/install/std_msgs/share/std_msgs/cmake)
+[128.290s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros2/humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[134.100s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[144.622s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[146.496s] -- Found python_cmake_module: 0.10.0 (/opt/ros2/humble/install/python_cmake_module/share/python_cmake_module/cmake)
+[148.347s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[148.350s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.9
+[148.352s] -- Using PYTHON_LIBRARIES: /usr/lib/arm-linux-gnueabihf/libpython3.9.so
+[158.295s] -- Found ament_lint_auto: 0.12.4 (/opt/ros2/humble/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[158.537s] -- Added test 'lint_cmake' to check CMake code style
+[158.588s] -- Added test 'xmllint' to check XML markup files
+[158.707s] -- Configuring done
+[159.483s] -- Generating done
+[159.563s] -- Build files have been written to: /home/olive/workspace2/build/apriltag_msgs
+[160.133s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942242 s in the future
+[160.497s] [35m[1mScanning dependencies of target apriltag_msgs__cpp[0m
+[160.543s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[160.596s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942242 s in the future
+[160.985s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[176.887s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[177.331s] [  4%] Built target apriltag_msgs__cpp
+[178.125s] [35m[1mScanning dependencies of target ament_cmake_python_copy_apriltag_msgs[0m
+[178.259s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_generator_c[0m
+[178.436s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[178.533s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942224 s in the future
+[178.954s] [  4%] Built target ament_cmake_python_copy_apriltag_msgs
+[178.968s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[179.054s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942223 s in the future
+[179.482s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[190.587s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_cpp[0m
+[190.732s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[190.827s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942212 s in the future
+[191.247s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[194.578s] [  8%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/point__functions.c.o[0m
+[195.942s] [ 10%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection__functions.c.o[0m
+[197.333s] [ 12%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c.o[0m
+[198.770s] [ 14%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_generator_c.so[0m
+[199.731s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[200.113s] [ 14%] Built target apriltag_msgs__rosidl_generator_c
+[200.215s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942202 s in the future
+[200.595s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[202.535s] [ 19%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/point__type_support.cpp.o[0m
+[210.554s] [ 21%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[214.127s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_introspection_cpp[0m
+[214.264s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[214.385s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942188 s in the future
+[214.840s] [ 21%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[216.965s] [ 23%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[223.215s] [ 25%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_cpp.so[0m
+[224.236s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[224.638s] [ 25%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[227.521s] [ 27%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/point__type_support.cpp.o[0m
+[233.758s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942169 s in the future
+[234.175s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[235.647s] [ 31%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp.o[0m
+[245.073s] [ 34%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp.o[0m
+[248.728s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[248.902s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[248.998s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942153 s in the future
+[249.393s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[255.498s] [ 36%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[257.170s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[257.559s] [ 36%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[258.662s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942144 s in the future
+[259.058s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[263.352s] [ 40%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[272.200s] [ 42%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection__type_support.cpp.o[0m
+[273.078s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_fastrtps_c[0m
+[273.223s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[273.316s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942129 s in the future
+[273.712s] [ 42%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[281.367s] [ 44%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection_array__type_support.cpp.o[0m
+[288.164s] [ 46%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/point__type_support_c.cpp.o[0m
+[290.111s] In file included from [01m[K/usr/include/c++/10/memory:66[m[K,
+[290.114s]                  from [01m[K/home/olive/workspace2/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:10[m[K,
+[290.118s]                  from [01m[K/home/olive/workspace2/build/apriltag_msgs/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[290.130s]                  from [01m[K/home/olive/workspace2/build/apriltag_msgs/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection_array__type_support.cpp:4[m[K:
+[290.139s] [01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*; _ForwardIterator = apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*; _Allocator = std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > >][m[K’:
+[290.141s] [01m[K/usr/include/c++/10/bits/stl_uninitialized.h:347:2:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[290.144s]   346 |       return [01;36m[Kstd::__uninitialized_copy_a[m[K
+[290.156s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[290.159s]   347 | [01;36m[K (_GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__first),[m[K
+[290.161s]       |  [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[290.178s]   348 | [01;36m[K  _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__last), __result, __alloc)[m[K;
+[290.181s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[290.217s] [01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*>; _ForwardIterator = apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*; _Tp = apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >][m[K’:
+[290.221s] [01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[290.224s]   323 |     [01;36m[K__uninitialized_copy_a[m[K(_InputIterator __first, _InputIterator __last,
+[290.238s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[290.243s] [01m[K/usr/include/c++/10/bits/stl_uninitialized.h:323:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[290.245s] [01m[K/usr/include/c++/10/bits/stl_uninitialized.h:325:37:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[290.248s]   325 |     { return [01;36m[Kstd::uninitialized_copy(__first, __last, __result)[m[K; }
+[290.250s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[290.317s] [01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In function ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*>; _ForwardIterator = apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*][m[K’:
+[290.321s] [01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[290.324s]   125 |     [01;36m[Kuninitialized_copy[m[K(_InputIterator __first, _InputIterator __last,
+[290.334s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[290.336s] [01m[K/usr/include/c++/10/bits/stl_uninitialized.h:125:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[290.339s] [01m[K/usr/include/c++/10/bits/stl_uninitialized.h:150:15:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[290.359s]   147 |       return [01;36m[Kstd::__uninitialized_copy<__is_trivial(_ValueType1)[m[K
+[290.361s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[290.363s]   148 | [01;36m[K           && __is_trivial(_ValueType2)[m[K
+[290.365s]       |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[290.386s]   149 | [01;36m[K           && __assignable>::[m[K
+[290.389s]       |            [01;36m[K~~~~~~~~~~~~~~~~~~[m[K
+[290.391s]   150 | [01;36m[K __uninit_copy(__first, __last, __result)[m[K;
+[290.393s]       |  [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[290.424s] [01m[K/usr/include/c++/10/bits/stl_uninitialized.h:[m[K In static member function ‘[01m[Kstatic _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*>; _ForwardIterator = apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*; bool _TrivialValueTypes = false][m[K’:
+[290.428s] [01m[K/usr/include/c++/10/bits/stl_uninitialized.h:84:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[290.432s]    84 |         [01;36m[K__uninit_copy[m[K(_InputIterator __first, _InputIterator __last,
+[290.448s]       |         [01;36m[K^~~~~~~~~~~~~[m[K
+[290.453s] [01m[K/usr/include/c++/10/bits/stl_uninitialized.h:84:9:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::move_iterator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >*>[m[K’ changed in GCC 7.1
+[291.553s] [ 48%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[293.228s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[293.623s] [ 48%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[295.552s] [ 51%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection__type_support_c.cpp.o[0m
+[302.219s] [ 53%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support_c.cpp.o[0m
+[308.704s] [ 55%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[310.065s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[310.437s] [ 55%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[310.528s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942092 s in the future
+[310.899s] [35m[1mScanning dependencies of target ament_cmake_python_build_apriltag_msgs_egg[0m
+[310.912s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[321.596s] running egg_info
+[321.614s] creating apriltag_msgs.egg-info
+[321.625s] writing apriltag_msgs.egg-info/PKG-INFO
+[321.631s] writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt
+[321.638s] writing top-level names to apriltag_msgs.egg-info/top_level.txt
+[321.749s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[322.178s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_c[0m
+[322.236s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[322.324s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942080 s in the future
+[322.703s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[322.981s] reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[322.995s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[323.649s] [ 57%] Built target ament_cmake_python_build_apriltag_msgs_egg
+[332.298s] [ 59%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/point__type_support.cpp.o[0m
+[333.865s] [ 61%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[334.842s] [ 63%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[335.871s] [ 65%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_c.so[0m
+[336.738s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[337.087s] [ 65%] Built target apriltag_msgs__rosidl_typesupport_c
+[337.182s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942065 s in the future
+[337.558s] [ 68%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[349.378s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_introspection_c[0m
+[349.452s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[349.540s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942053 s in the future
+[349.915s] [ 68%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[361.053s] [ 70%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/point__type_support.c.o[0m
+[361.320s] [ 72%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection__type_support.c.o[0m
+[362.239s] [ 74%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c.o[0m
+[363.334s] [ 76%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_typesupport_introspection_c.so[0m
+[364.171s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[364.517s] [ 76%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[364.943s] [35m[1mScanning dependencies of target apriltag_msgs[0m
+[365.029s] gmake[2]: Warning: File '/opt/ros2/humble/install/std_msgs/share/std_msgs/msg/Bool.idl' has modification time 8942047 s in the future
+[365.033s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[365.378s] [ 76%] Built target apriltag_msgs
+[365.809s] [35m[1mScanning dependencies of target apriltag_msgs__py[0m
+[365.903s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl' has modification time 8942036 s in the future
+[366.275s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[385.624s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[385.967s] [ 78%] Built target apriltag_msgs__py
+[386.397s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_generator_py[0m
+[386.877s] gmake[2]: Warning: File '/opt/ros2/humble/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h' has modification time 8943702 s in the future
+[387.247s] [ 80%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_s.c.o[0m
+[387.253s] [ 82%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_point_s.c.o[0m
+[389.652s] [ 85%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_array_s.c.o[0m
+[391.854s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so[0m
+[392.795s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[393.164s] [ 87%] Built target apriltag_msgs__rosidl_generator_py
+[393.612s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[393.638s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[393.873s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h' has modification time 8942009 s in the future
+[393.882s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h' has modification time 8942009 s in the future
+[394.237s] [ 89%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[394.275s] [ 91%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[396.629s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-39-arm-linux-gnueabihf.so[0m
+[396.838s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-39-arm-linux-gnueabihf.so[0m
+[397.699s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[397.897s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[398.076s] [ 95%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[398.280s] [ 95%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext
+[398.535s] [35m[1mScanning dependencies of target apriltag_msgs__rosidl_typesupport_c__pyext[0m
+[398.754s] gmake[2]: Warning: File '/opt/ros2/humble/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h' has modification time 8942004 s in the future
+[399.094s] [ 97%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[401.296s] [100%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-39-arm-linux-gnueabihf.so[0m
+[402.207s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[402.552s] [100%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[402.887s] Invoked command in '/home/olive/workspace2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olive/examples/install/shake_detector:/opt/ros2/humble/install/rqt_bag_plugins:/opt/ros2/humble/install/rqt_bag:/opt/ros2/humble/install/ros2bag:/opt/ros2/humble/install/tracetools_test:/opt/ros2/humble/install/tracetools_launch:/opt/ros2/humble/install/topic_monitor:/opt/ros2/humble/install/tf2_tools:/opt/ros2/humble/install/examples_tf2_py:/opt/ros2/humble/install/tf2_ros_py:/opt/ros2/humble/install/sros2:/opt/ros2/humble/install/rqt_topic:/opt/ros2/humble/install/rqt_srv:/opt/ros2/humble/install/rqt_shell:/opt/ros2/humble/install/rqt_service_caller:/opt/ros2/humble/install/rqt_reconfigure:/opt/ros2/humble/install/rqt_py_console:/opt/ros2/humble/install/rqt_publisher:/opt/ros2/humble/install/rqt_plot:/opt/ros2/humble/install/rqt_action:/opt/ros2/humble/install/rqt_msg:/opt/ros2/humble/install/rqt_console:/opt/ros2/humble/install/rqt:/opt/ros2/humble/install/rqt_graph:/opt/ros2/humble/install/rqt_gui_py:/opt/ros2/humble/install/rqt_gui:/opt/ros2/humble/install/ros2trace:/opt/ros2/humble/install/ros2topic:/opt/ros2/humble/install/ros2test:/opt/ros2/humble/install/ros2component:/opt/ros2/humble/install/ros2param:/opt/ros2/humble/install/ros2lifecycle:/opt/ros2/humble/install/ros2service:/opt/ros2/humble/install/ros2run:/opt/ros2/humble/install/ros2launch:/opt/ros2/humble/install/ros2pkg:/opt/ros2/humble/install/ros2node:/opt/ros2/humble/install/ros2multicast:/opt/ros2/humble/install/ros2interface:/opt/ros2/humble/install/ros2doctor:/opt/ros2/humble/install/ros2action:/opt/ros2/humble/install/ros2cli:/opt/ros2/humble/install/quality_of_service_demo_py:/opt/ros2/humble/install/lifecycle_py:/opt/ros2/humble/install/launch_testing_ros:/opt/ros2/humble/install/launch_ros:/opt/ros2/humble/install/examples_rclpy_pointcloud_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_subscriber:/opt/ros2/humble/install/examples_rclpy_minimal_service:/opt/ros2/humble/install/examples_rclpy_minimal_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_client:/opt/ros2/humble/install/examples_rclpy_minimal_action_server:/opt/ros2/humble/install/examples_rclpy_minimal_action_client:/opt/ros2/humble/install/examples_rclpy_guard_conditions:/opt/ros2/humble/install/examples_rclpy_executors:/opt/ros2/humble/install/demo_nodes_py:/opt/ros2/humble/install/action_tutorials_py:/opt/ros2/humble/install/ament_uncrustify:/opt/ros2/humble/install/tracetools_trace:/opt/ros2/humble/install/tracetools_read:/opt/ros2/humble/install/test_tracetools_launch:/opt/ros2/humble/install/test_launch_ros:/opt/ros2/humble/install/sensor_msgs_py:/opt/ros2/humble/install/rpyutils:/opt/ros2/humble/install/rosidl_runtime_py:/opt/ros2/humble/install/rosidl_cli:/opt/ros2/humble/install/launch_pytest:/opt/ros2/humble/install/launch_testing:/opt/ros2/humble/install/launch_yaml:/opt/ros2/humble/install/launch_xml:/opt/ros2/humble/install/launch:/opt/ros2/humble/install/osrf_pycommon:/opt/ros2/humble/install/launch_testing_examples:/opt/ros2/humble/install/domain_coordinator:/opt/ros2/humble/install/ament_xmllint:/opt/ros2/humble/install/ament_pyflakes:/opt/ros2/humble/install/ament_pycodestyle:/opt/ros2/humble/install/ament_pep257:/opt/ros2/humble/install/ament_pclint:/opt/ros2/humble/install/ament_package:/opt/ros2/humble/install/ament_mypy:/opt/ros2/humble/install/ament_lint_cmake:/opt/ros2/humble/install/ament_flake8:/opt/ros2/humble/install/ament_copyright:/opt/ros2/humble/install/ament_lint:/opt/ros2/humble/install/ament_index_python:/opt/ros2/humble/install/ament_cpplint:/opt/ros2/humble/install/ament_cppcheck:/opt/ros2/humble/install/ament_clang_tidy:/opt/ros2/humble/install/ament_clang_format /usr/bin/cmake --build /home/olive/workspace2/build/apriltag_msgs -- -j2 -l2
+[410.544s] Invoking command in '/home/olive/workspace2/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olive/examples/install/shake_detector:/opt/ros2/humble/install/rqt_bag_plugins:/opt/ros2/humble/install/rqt_bag:/opt/ros2/humble/install/ros2bag:/opt/ros2/humble/install/tracetools_test:/opt/ros2/humble/install/tracetools_launch:/opt/ros2/humble/install/topic_monitor:/opt/ros2/humble/install/tf2_tools:/opt/ros2/humble/install/examples_tf2_py:/opt/ros2/humble/install/tf2_ros_py:/opt/ros2/humble/install/sros2:/opt/ros2/humble/install/rqt_topic:/opt/ros2/humble/install/rqt_srv:/opt/ros2/humble/install/rqt_shell:/opt/ros2/humble/install/rqt_service_caller:/opt/ros2/humble/install/rqt_reconfigure:/opt/ros2/humble/install/rqt_py_console:/opt/ros2/humble/install/rqt_publisher:/opt/ros2/humble/install/rqt_plot:/opt/ros2/humble/install/rqt_action:/opt/ros2/humble/install/rqt_msg:/opt/ros2/humble/install/rqt_console:/opt/ros2/humble/install/rqt:/opt/ros2/humble/install/rqt_graph:/opt/ros2/humble/install/rqt_gui_py:/opt/ros2/humble/install/rqt_gui:/opt/ros2/humble/install/ros2trace:/opt/ros2/humble/install/ros2topic:/opt/ros2/humble/install/ros2test:/opt/ros2/humble/install/ros2component:/opt/ros2/humble/install/ros2param:/opt/ros2/humble/install/ros2lifecycle:/opt/ros2/humble/install/ros2service:/opt/ros2/humble/install/ros2run:/opt/ros2/humble/install/ros2launch:/opt/ros2/humble/install/ros2pkg:/opt/ros2/humble/install/ros2node:/opt/ros2/humble/install/ros2multicast:/opt/ros2/humble/install/ros2interface:/opt/ros2/humble/install/ros2doctor:/opt/ros2/humble/install/ros2action:/opt/ros2/humble/install/ros2cli:/opt/ros2/humble/install/quality_of_service_demo_py:/opt/ros2/humble/install/lifecycle_py:/opt/ros2/humble/install/launch_testing_ros:/opt/ros2/humble/install/launch_ros:/opt/ros2/humble/install/examples_rclpy_pointcloud_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_subscriber:/opt/ros2/humble/install/examples_rclpy_minimal_service:/opt/ros2/humble/install/examples_rclpy_minimal_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_client:/opt/ros2/humble/install/examples_rclpy_minimal_action_server:/opt/ros2/humble/install/examples_rclpy_minimal_action_client:/opt/ros2/humble/install/examples_rclpy_guard_conditions:/opt/ros2/humble/install/examples_rclpy_executors:/opt/ros2/humble/install/demo_nodes_py:/opt/ros2/humble/install/action_tutorials_py:/opt/ros2/humble/install/ament_uncrustify:/opt/ros2/humble/install/tracetools_trace:/opt/ros2/humble/install/tracetools_read:/opt/ros2/humble/install/test_tracetools_launch:/opt/ros2/humble/install/test_launch_ros:/opt/ros2/humble/install/sensor_msgs_py:/opt/ros2/humble/install/rpyutils:/opt/ros2/humble/install/rosidl_runtime_py:/opt/ros2/humble/install/rosidl_cli:/opt/ros2/humble/install/launch_pytest:/opt/ros2/humble/install/launch_testing:/opt/ros2/humble/install/launch_yaml:/opt/ros2/humble/install/launch_xml:/opt/ros2/humble/install/launch:/opt/ros2/humble/install/osrf_pycommon:/opt/ros2/humble/install/launch_testing_examples:/opt/ros2/humble/install/domain_coordinator:/opt/ros2/humble/install/ament_xmllint:/opt/ros2/humble/install/ament_pyflakes:/opt/ros2/humble/install/ament_pycodestyle:/opt/ros2/humble/install/ament_pep257:/opt/ros2/humble/install/ament_pclint:/opt/ros2/humble/install/ament_package:/opt/ros2/humble/install/ament_mypy:/opt/ros2/humble/install/ament_lint_cmake:/opt/ros2/humble/install/ament_flake8:/opt/ros2/humble/install/ament_copyright:/opt/ros2/humble/install/ament_lint:/opt/ros2/humble/install/ament_index_python:/opt/ros2/humble/install/ament_cpplint:/opt/ros2/humble/install/ament_cppcheck:/opt/ros2/humble/install/ament_clang_tidy:/opt/ros2/humble/install/ament_clang_format /usr/bin/cmake --install /home/olive/workspace2/build/apriltag_msgs
+[410.836s] -- Install configuration: ""
+[410.841s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs
+[410.844s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[410.851s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[410.854s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h
+[410.858s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h
+[410.861s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h
+[410.864s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[410.867s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h
+[410.874s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h
+[410.877s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.h
+[410.881s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c
+[410.883s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.h
+[410.886s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.c
+[410.889s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h
+[410.892s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.h
+[410.895s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h
+[410.897s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h
+[410.900s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h
+[410.902s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.c
+[410.904s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.h
+[410.909s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh
+[410.911s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv
+[410.915s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so
+[410.918s] -- Set runtime path of "/home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so" to ""
+[410.921s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[410.924s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[410.927s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[410.930s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c
+[410.932s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.c
+[410.934s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[410.942s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.c
+[410.946s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[410.948s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[410.951s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[410.953s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so
+[410.955s] -- Set runtime path of "/home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so" to ""
+[410.958s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[410.961s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[410.963s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[410.965s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[410.969s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[410.976s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[410.979s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[410.982s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so
+[410.984s] -- Set runtime path of "/home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[410.987s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so
+[410.991s] -- Set runtime path of "/home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so" to ""
+[410.994s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[410.997s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[411.001s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.hpp
+[411.003s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[411.007s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp
+[411.010s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
+[411.013s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__builder.hpp
+[411.015s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp
+[411.018s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp
+[411.020s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
+[411.022s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
+[411.025s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
+[411.029s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
+[411.032s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp
+[411.036s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
+[411.038s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[411.045s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[411.048s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[411.051s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp
+[411.053s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp
+[411.055s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.cpp
+[411.059s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[411.061s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[411.064s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[411.067s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so
+[411.070s] -- Set runtime path of "/home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[411.076s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[411.079s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[411.081s] -- Up-to-date: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[411.084s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[411.088s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[411.091s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[411.094s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/dds_fastrtps
+[411.097s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[411.100s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so
+[411.103s] -- Set runtime path of "/home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[411.106s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so
+[411.109s] -- Set runtime path of "/home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so" to ""
+[411.112s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh
+[411.115s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv
+[411.118s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs-2.0.1-py3.9.egg-info
+[411.120s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs-2.0.1-py3.9.egg-info/SOURCES.txt
+[411.122s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs-2.0.1-py3.9.egg-info/dependency_links.txt
+[411.124s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs-2.0.1-py3.9.egg-info/top_level.txt
+[411.127s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs-2.0.1-py3.9.egg-info/PKG-INFO
+[411.129s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs
+[411.131s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so
+[411.133s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-39-arm-linux-gnueabihf.so
+[411.135s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-39-arm-linux-gnueabihf.so
+[411.137s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c
+[411.139s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[411.141s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-39-arm-linux-gnueabihf.so
+[411.143s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/msg
+[411.144s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/msg/_point_s.c
+[411.150s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/msg/_april_tag_detection_array.py
+[411.152s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/msg/_april_tag_detection.py
+[411.154s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c
+[411.156s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/msg/_april_tag_detection_s.c
+[411.158s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/msg/__init__.py
+[411.160s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/msg/_point.py
+[411.162s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[411.163s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/__init__.py
+[414.207s] Listing '/home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs'...
+[414.209s] Compiling '/home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/__init__.py'...
+[414.212s] Listing '/home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/msg'...
+[414.215s] Compiling '/home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/msg/__init__.py'...
+[414.218s] Compiling '/home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/msg/_april_tag_detection.py'...
+[414.220s] Compiling '/home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/msg/_april_tag_detection_array.py'...
+[414.223s] Compiling '/home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/msg/_point.py'...
+[414.294s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-39-arm-linux-gnueabihf.so
+[414.303s] -- Set runtime path of "/home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-39-arm-linux-gnueabihf.so" to ""
+[414.309s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-39-arm-linux-gnueabihf.so
+[414.317s] -- Set runtime path of "/home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-39-arm-linux-gnueabihf.so" to ""
+[414.324s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-39-arm-linux-gnueabihf.so
+[414.331s] -- Set runtime path of "/home/olive/workspace2/install/apriltag_msgs/lib/python3.9/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-39-arm-linux-gnueabihf.so" to ""
+[414.334s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so
+[414.344s] -- Set runtime path of "/home/olive/workspace2/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so" to ""
+[414.347s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/msg/Point.idl
+[414.350s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl
+[414.353s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl
+[414.355s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/msg/Point.msg
+[414.358s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg
+[414.361s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg
+[414.363s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs
+[414.367s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs
+[414.370s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh
+[414.373s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv
+[414.376s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh
+[414.379s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv
+[414.382s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash
+[414.385s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh
+[414.392s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh
+[414.395s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv
+[414.398s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/package.dsv
+[414.401s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs
+[414.404s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake
+[414.407s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake
+[414.409s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake
+[414.413s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[414.415s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[414.419s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[414.423s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake
+[414.427s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[414.430s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake
+[414.434s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[414.438s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[414.445s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[414.448s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[414.450s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake
+[414.453s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[414.457s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake
+[414.460s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake
+[414.463s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake
+[414.466s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[414.470s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[414.473s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[414.476s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[414.479s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[414.482s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[414.485s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake
+[414.488s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake
+[414.495s] -- Installing: /home/olive/workspace2/install/apriltag_msgs/share/apriltag_msgs/package.xml
+[414.530s] Invoked command in '/home/olive/workspace2/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olive/examples/install/shake_detector:/opt/ros2/humble/install/rqt_bag_plugins:/opt/ros2/humble/install/rqt_bag:/opt/ros2/humble/install/ros2bag:/opt/ros2/humble/install/tracetools_test:/opt/ros2/humble/install/tracetools_launch:/opt/ros2/humble/install/topic_monitor:/opt/ros2/humble/install/tf2_tools:/opt/ros2/humble/install/examples_tf2_py:/opt/ros2/humble/install/tf2_ros_py:/opt/ros2/humble/install/sros2:/opt/ros2/humble/install/rqt_topic:/opt/ros2/humble/install/rqt_srv:/opt/ros2/humble/install/rqt_shell:/opt/ros2/humble/install/rqt_service_caller:/opt/ros2/humble/install/rqt_reconfigure:/opt/ros2/humble/install/rqt_py_console:/opt/ros2/humble/install/rqt_publisher:/opt/ros2/humble/install/rqt_plot:/opt/ros2/humble/install/rqt_action:/opt/ros2/humble/install/rqt_msg:/opt/ros2/humble/install/rqt_console:/opt/ros2/humble/install/rqt:/opt/ros2/humble/install/rqt_graph:/opt/ros2/humble/install/rqt_gui_py:/opt/ros2/humble/install/rqt_gui:/opt/ros2/humble/install/ros2trace:/opt/ros2/humble/install/ros2topic:/opt/ros2/humble/install/ros2test:/opt/ros2/humble/install/ros2component:/opt/ros2/humble/install/ros2param:/opt/ros2/humble/install/ros2lifecycle:/opt/ros2/humble/install/ros2service:/opt/ros2/humble/install/ros2run:/opt/ros2/humble/install/ros2launch:/opt/ros2/humble/install/ros2pkg:/opt/ros2/humble/install/ros2node:/opt/ros2/humble/install/ros2multicast:/opt/ros2/humble/install/ros2interface:/opt/ros2/humble/install/ros2doctor:/opt/ros2/humble/install/ros2action:/opt/ros2/humble/install/ros2cli:/opt/ros2/humble/install/quality_of_service_demo_py:/opt/ros2/humble/install/lifecycle_py:/opt/ros2/humble/install/launch_testing_ros:/opt/ros2/humble/install/launch_ros:/opt/ros2/humble/install/examples_rclpy_pointcloud_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_subscriber:/opt/ros2/humble/install/examples_rclpy_minimal_service:/opt/ros2/humble/install/examples_rclpy_minimal_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_client:/opt/ros2/humble/install/examples_rclpy_minimal_action_server:/opt/ros2/humble/install/examples_rclpy_minimal_action_client:/opt/ros2/humble/install/examples_rclpy_guard_conditions:/opt/ros2/humble/install/examples_rclpy_executors:/opt/ros2/humble/install/demo_nodes_py:/opt/ros2/humble/install/action_tutorials_py:/opt/ros2/humble/install/ament_uncrustify:/opt/ros2/humble/install/tracetools_trace:/opt/ros2/humble/install/tracetools_read:/opt/ros2/humble/install/test_tracetools_launch:/opt/ros2/humble/install/test_launch_ros:/opt/ros2/humble/install/sensor_msgs_py:/opt/ros2/humble/install/rpyutils:/opt/ros2/humble/install/rosidl_runtime_py:/opt/ros2/humble/install/rosidl_cli:/opt/ros2/humble/install/launch_pytest:/opt/ros2/humble/install/launch_testing:/opt/ros2/humble/install/launch_yaml:/opt/ros2/humble/install/launch_xml:/opt/ros2/humble/install/launch:/opt/ros2/humble/install/osrf_pycommon:/opt/ros2/humble/install/launch_testing_examples:/opt/ros2/humble/install/domain_coordinator:/opt/ros2/humble/install/ament_xmllint:/opt/ros2/humble/install/ament_pyflakes:/opt/ros2/humble/install/ament_pycodestyle:/opt/ros2/humble/install/ament_pep257:/opt/ros2/humble/install/ament_pclint:/opt/ros2/humble/install/ament_package:/opt/ros2/humble/install/ament_mypy:/opt/ros2/humble/install/ament_lint_cmake:/opt/ros2/humble/install/ament_flake8:/opt/ros2/humble/install/ament_copyright:/opt/ros2/humble/install/ament_lint:/opt/ros2/humble/install/ament_index_python:/opt/ros2/humble/install/ament_cpplint:/opt/ros2/humble/install/ament_cppcheck:/opt/ros2/humble/install/ament_clang_tidy:/opt/ros2/humble/install/ament_clang_format /usr/bin/cmake --install /home/olive/workspace2/build/apriltag_msgs

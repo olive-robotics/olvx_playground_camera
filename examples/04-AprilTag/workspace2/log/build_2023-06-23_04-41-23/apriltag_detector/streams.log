@@ -1,0 +1,61 @@
+[1.033s] Invoking command in '/home/olive/workspace2/build/apriltag_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olive/examples/install/shake_detector:/opt/ros2/humble/install/rqt_bag_plugins:/opt/ros2/humble/install/rqt_bag:/opt/ros2/humble/install/ros2bag:/opt/ros2/humble/install/tracetools_test:/opt/ros2/humble/install/tracetools_launch:/opt/ros2/humble/install/topic_monitor:/opt/ros2/humble/install/tf2_tools:/opt/ros2/humble/install/examples_tf2_py:/opt/ros2/humble/install/tf2_ros_py:/opt/ros2/humble/install/sros2:/opt/ros2/humble/install/rqt_topic:/opt/ros2/humble/install/rqt_srv:/opt/ros2/humble/install/rqt_shell:/opt/ros2/humble/install/rqt_service_caller:/opt/ros2/humble/install/rqt_reconfigure:/opt/ros2/humble/install/rqt_py_console:/opt/ros2/humble/install/rqt_publisher:/opt/ros2/humble/install/rqt_plot:/opt/ros2/humble/install/rqt_action:/opt/ros2/humble/install/rqt_msg:/opt/ros2/humble/install/rqt_console:/opt/ros2/humble/install/rqt:/opt/ros2/humble/install/rqt_graph:/opt/ros2/humble/install/rqt_gui_py:/opt/ros2/humble/install/rqt_gui:/opt/ros2/humble/install/ros2trace:/opt/ros2/humble/install/ros2topic:/opt/ros2/humble/install/ros2test:/opt/ros2/humble/install/ros2component:/opt/ros2/humble/install/ros2param:/opt/ros2/humble/install/ros2lifecycle:/opt/ros2/humble/install/ros2service:/opt/ros2/humble/install/ros2run:/opt/ros2/humble/install/ros2launch:/opt/ros2/humble/install/ros2pkg:/opt/ros2/humble/install/ros2node:/opt/ros2/humble/install/ros2multicast:/opt/ros2/humble/install/ros2interface:/opt/ros2/humble/install/ros2doctor:/opt/ros2/humble/install/ros2action:/opt/ros2/humble/install/ros2cli:/opt/ros2/humble/install/quality_of_service_demo_py:/opt/ros2/humble/install/lifecycle_py:/opt/ros2/humble/install/launch_testing_ros:/opt/ros2/humble/install/launch_ros:/opt/ros2/humble/install/examples_rclpy_pointcloud_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_subscriber:/opt/ros2/humble/install/examples_rclpy_minimal_service:/opt/ros2/humble/install/examples_rclpy_minimal_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_client:/opt/ros2/humble/install/examples_rclpy_minimal_action_server:/opt/ros2/humble/install/examples_rclpy_minimal_action_client:/opt/ros2/humble/install/examples_rclpy_guard_conditions:/opt/ros2/humble/install/examples_rclpy_executors:/opt/ros2/humble/install/demo_nodes_py:/opt/ros2/humble/install/action_tutorials_py:/opt/ros2/humble/install/ament_uncrustify:/opt/ros2/humble/install/tracetools_trace:/opt/ros2/humble/install/tracetools_read:/opt/ros2/humble/install/test_tracetools_launch:/opt/ros2/humble/install/test_launch_ros:/opt/ros2/humble/install/sensor_msgs_py:/opt/ros2/humble/install/rpyutils:/opt/ros2/humble/install/rosidl_runtime_py:/opt/ros2/humble/install/rosidl_cli:/opt/ros2/humble/install/launch_pytest:/opt/ros2/humble/install/launch_testing:/opt/ros2/humble/install/launch_yaml:/opt/ros2/humble/install/launch_xml:/opt/ros2/humble/install/launch:/opt/ros2/humble/install/osrf_pycommon:/opt/ros2/humble/install/launch_testing_examples:/opt/ros2/humble/install/domain_coordinator:/opt/ros2/humble/install/ament_xmllint:/opt/ros2/humble/install/ament_pyflakes:/opt/ros2/humble/install/ament_pycodestyle:/opt/ros2/humble/install/ament_pep257:/opt/ros2/humble/install/ament_pclint:/opt/ros2/humble/install/ament_package:/opt/ros2/humble/install/ament_mypy:/opt/ros2/humble/install/ament_lint_cmake:/opt/ros2/humble/install/ament_flake8:/opt/ros2/humble/install/ament_copyright:/opt/ros2/humble/install/ament_lint:/opt/ros2/humble/install/ament_index_python:/opt/ros2/humble/install/ament_cpplint:/opt/ros2/humble/install/ament_cppcheck:/opt/ros2/humble/install/ament_clang_tidy:/opt/ros2/humble/install/ament_clang_format /usr/bin/cmake /home/olive/workspace2/src/apriltag_detector -DCMAKE_INSTALL_PREFIX=/home/olive/workspace2/install/apriltag_detector
+[4.094s] -- The C compiler identification is GNU 10.2.1
+[7.198s] -- The CXX compiler identification is GNU 10.2.1
+[7.657s] -- Detecting C compiler ABI info
+[9.903s] -- Detecting C compiler ABI info - done
+[10.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.144s] -- Detecting C compile features
+[10.154s] -- Detecting C compile features - done
+[10.222s] -- Detecting CXX compiler ABI info
+[12.706s] -- Detecting CXX compiler ABI info - done
+[12.946s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[12.951s] -- Detecting CXX compile features
+[12.964s] -- Detecting CXX compile features - done
+[13.288s] -- Found ament_cmake: 1.3.2 (/opt/ros2/humble/install/ament_cmake/share/ament_cmake/cmake)
+[23.761s] -- Found Python3: /usr/bin/python3.9 (found version "3.9.2") found components: Interpreter 
+[32.116s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros2/humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[33.300s] -- Looking for pthread.h
+[35.798s] -- Looking for pthread.h - found
+[35.803s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[38.115s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[38.117s] -- Looking for pthread_create in pthreads
+[40.123s] -- Looking for pthread_create in pthreads - not found
+[40.134s] -- Looking for pthread_create in pthread
+[42.367s] -- Looking for pthread_create in pthread - found
+[42.385s] -- Found Threads: TRUE  
+[42.509s] -- Found rclcpp: 16.0.1 (/opt/ros2/humble/install/rclcpp/share/rclcpp/cmake)
+[46.063s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros2/humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+[46.585s] -- Found rosidl_adapter: 3.1.3 (/opt/ros2/humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[47.121s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros2/humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+[49.018s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[50.889s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[55.146s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros2/humble/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[56.020s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros2/humble/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+[61.459s] -- Found OpenSSL: /usr/lib/arm-linux-gnueabihf/libcrypto.so (found version "1.1.1w")  
+[62.829s] -- Found FastRTPS: /opt/ros2/humble/install/fastrtps/include  
+[65.193s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[72.081s] -- Found rclcpp_components: 16.0.1 (/opt/ros2/humble/install/rclcpp_components/share/rclcpp_components/cmake)
+[74.621s] -- Found image_transport: 3.1.4 (/opt/ros2/humble/install/image_transport/share/image_transport/cmake)
+[80.913s] CMake Error at cmake/ROS2.cmake:33 (find_package):
+[80.916s]   By not providing "Findcv_bridge.cmake" in CMAKE_MODULE_PATH this project
+[80.919s]   has asked CMake to find a package configuration file provided by
+[80.921s]   "cv_bridge", but CMake did not find one.
+[80.923s] 
+[80.925s]   Could not find a package configuration file provided by "cv_bridge" with
+[80.927s]   any of the following names:
+[80.930s] 
+[80.937s]     cv_bridgeConfig.cmake
+[80.939s]     cv_bridge-config.cmake
+[80.942s] 
+[80.945s]   Add the installation prefix of "cv_bridge" to CMAKE_PREFIX_PATH or set
+[80.947s]   "cv_bridge_DIR" to a directory containing one of the above files.  If
+[80.949s]   "cv_bridge" provides a separate development package or SDK, be sure it has
+[80.952s]   been installed.
+[80.955s] Call Stack (most recent call first):
+[80.964s]   CMakeLists.txt:21 (include)
+[80.966s] 
+[80.968s] 
+[80.971s] -- Configuring incomplete, errors occurred!
+[80.973s] See also "/home/olive/workspace2/build/apriltag_detector/CMakeFiles/CMakeOutput.log".
+[80.976s] See also "/home/olive/workspace2/build/apriltag_detector/CMakeFiles/CMakeError.log".
+[81.045s] Invoked command in '/home/olive/workspace2/build/apriltag_detector' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/olive/examples/install/shake_detector:/opt/ros2/humble/install/rqt_bag_plugins:/opt/ros2/humble/install/rqt_bag:/opt/ros2/humble/install/ros2bag:/opt/ros2/humble/install/tracetools_test:/opt/ros2/humble/install/tracetools_launch:/opt/ros2/humble/install/topic_monitor:/opt/ros2/humble/install/tf2_tools:/opt/ros2/humble/install/examples_tf2_py:/opt/ros2/humble/install/tf2_ros_py:/opt/ros2/humble/install/sros2:/opt/ros2/humble/install/rqt_topic:/opt/ros2/humble/install/rqt_srv:/opt/ros2/humble/install/rqt_shell:/opt/ros2/humble/install/rqt_service_caller:/opt/ros2/humble/install/rqt_reconfigure:/opt/ros2/humble/install/rqt_py_console:/opt/ros2/humble/install/rqt_publisher:/opt/ros2/humble/install/rqt_plot:/opt/ros2/humble/install/rqt_action:/opt/ros2/humble/install/rqt_msg:/opt/ros2/humble/install/rqt_console:/opt/ros2/humble/install/rqt:/opt/ros2/humble/install/rqt_graph:/opt/ros2/humble/install/rqt_gui_py:/opt/ros2/humble/install/rqt_gui:/opt/ros2/humble/install/ros2trace:/opt/ros2/humble/install/ros2topic:/opt/ros2/humble/install/ros2test:/opt/ros2/humble/install/ros2component:/opt/ros2/humble/install/ros2param:/opt/ros2/humble/install/ros2lifecycle:/opt/ros2/humble/install/ros2service:/opt/ros2/humble/install/ros2run:/opt/ros2/humble/install/ros2launch:/opt/ros2/humble/install/ros2pkg:/opt/ros2/humble/install/ros2node:/opt/ros2/humble/install/ros2multicast:/opt/ros2/humble/install/ros2interface:/opt/ros2/humble/install/ros2doctor:/opt/ros2/humble/install/ros2action:/opt/ros2/humble/install/ros2cli:/opt/ros2/humble/install/quality_of_service_demo_py:/opt/ros2/humble/install/lifecycle_py:/opt/ros2/humble/install/launch_testing_ros:/opt/ros2/humble/install/launch_ros:/opt/ros2/humble/install/examples_rclpy_pointcloud_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_subscriber:/opt/ros2/humble/install/examples_rclpy_minimal_service:/opt/ros2/humble/install/examples_rclpy_minimal_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_client:/opt/ros2/humble/install/examples_rclpy_minimal_action_server:/opt/ros2/humble/install/examples_rclpy_minimal_action_client:/opt/ros2/humble/install/examples_rclpy_guard_conditions:/opt/ros2/humble/install/examples_rclpy_executors:/opt/ros2/humble/install/demo_nodes_py:/opt/ros2/humble/install/action_tutorials_py:/opt/ros2/humble/install/ament_uncrustify:/opt/ros2/humble/install/tracetools_trace:/opt/ros2/humble/install/tracetools_read:/opt/ros2/humble/install/test_tracetools_launch:/opt/ros2/humble/install/test_launch_ros:/opt/ros2/humble/install/sensor_msgs_py:/opt/ros2/humble/install/rpyutils:/opt/ros2/humble/install/rosidl_runtime_py:/opt/ros2/humble/install/rosidl_cli:/opt/ros2/humble/install/launch_pytest:/opt/ros2/humble/install/launch_testing:/opt/ros2/humble/install/launch_yaml:/opt/ros2/humble/install/launch_xml:/opt/ros2/humble/install/launch:/opt/ros2/humble/install/osrf_pycommon:/opt/ros2/humble/install/launch_testing_examples:/opt/ros2/humble/install/domain_coordinator:/opt/ros2/humble/install/ament_xmllint:/opt/ros2/humble/install/ament_pyflakes:/opt/ros2/humble/install/ament_pycodestyle:/opt/ros2/humble/install/ament_pep257:/opt/ros2/humble/install/ament_pclint:/opt/ros2/humble/install/ament_package:/opt/ros2/humble/install/ament_mypy:/opt/ros2/humble/install/ament_lint_cmake:/opt/ros2/humble/install/ament_flake8:/opt/ros2/humble/install/ament_copyright:/opt/ros2/humble/install/ament_lint:/opt/ros2/humble/install/ament_index_python:/opt/ros2/humble/install/ament_cpplint:/opt/ros2/humble/install/ament_cppcheck:/opt/ros2/humble/install/ament_clang_tidy:/opt/ros2/humble/install/ament_clang_format /usr/bin/cmake /home/olive/workspace2/src/apriltag_detector -DCMAKE_INSTALL_PREFIX=/home/olive/workspace2/install/apriltag_detector
