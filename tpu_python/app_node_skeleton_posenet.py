@@ -31,6 +31,8 @@ from pose_engine import KeypointType
 
 _NUM_KEYPOINTS = 17
 
+FILEPATH_POSE_MODEL_TPU='test_data/pose_model_thunder_uint8_tpu_edgetpu.tflite'
+FILEPATH_CLASSIFICATION_MODEL_TPU='test_data/pose_classifier_edgetpu.tflite'
 
 EDGES = (
     (KeypointType.NOSE, KeypointType.LEFT_EYE),
