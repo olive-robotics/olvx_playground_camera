@@ -15,44 +15,10 @@ With "ros2 topic list" or "ros2 topic echo /gesturerecognition" it can be checke
 
 ## Gestures
 The following gestures can be used by default
-```
 
-.      .
-.   #  .
-... ....
-    #	
-    #
-   . .
-  .   .
-
-           .
-       #   .
- ...... ....
-       #	
-       #
-      . .
-     .   . 
-.
-.   # 
-... .........
-    #	
-    #
-   . .
-  .   . 
-
-       
-    # 
-  . .......
-  . #	
-  . #
-   . .
-  .   .
+1) Both hands down
+2) Both hands up
+3) Left down / right up
+4) Right down / left up
 
 
-       #
- ...... .
-       #.	
-       #.
-      . .
-     .   .
-``` 
