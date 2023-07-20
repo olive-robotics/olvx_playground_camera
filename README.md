@@ -20,5 +20,8 @@ The following gestures can be used by default
 2) Both hands up
 3) Left down / right up
 4) Right down / left up
+5) Left down / right side
+6) Right down / left side
+7) Hands on hip
 
 
