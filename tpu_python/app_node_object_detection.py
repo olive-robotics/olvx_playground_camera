@@ -31,7 +31,7 @@ class AppNode(Node):
     
         print('Olive TPU Object Detection v0.2')
         
-        self.sub = self.create_subscription(CompressedImage,'/olive/camera/eye/image/compressed',self.image_callback,qos_profile=rclpy.qos.qos_profile_sensor_data)
+        self.sub = self.create_subscription(CompressedImage,'/olive/camera/x1687477489523/image/compressed',self.image_callback,qos_profile=rclpy.qos.qos_profile_sensor_data)
         self.pub = self.create_publisher(CompressedImage, '/olive/one/tpu/compressed', 1)
         
         script_dir = pathlib.Path(__file__).parent.absolute()
@@ -87,6 +87,7 @@ class AppNode(Node):
             buffer = io.BytesIO(bytes(msg.data))
             # Open the image buffer using PIL Image
             pil_image = Image.open(buffer)
+            pil_image = pil_image.rotate(90)
             _, scale = common.set_resized_input(
             self.interpreter, pil_image.size, lambda size: pil_image.resize(size, Image.ANTIALIAS))
             print("Received image data and converted to PIL!")

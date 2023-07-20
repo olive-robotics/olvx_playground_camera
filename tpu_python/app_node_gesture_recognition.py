@@ -75,12 +75,12 @@ class AppNode(Node):
     def __init__(self):
         super().__init__('app_node_skeleton')
     
-        print('Olive TPU Gesture Recognition MLP v0.3')
+        print('Olive TPU Gesture Recognition MLP v1.0')
         
-        self.mlp = load('mlp_model.joblib')
-        self.le = load('label_encoder.joblib')
+        self.mlp = load('test_data/mlp_model2.joblib')
+        self.le = load('test_data/label_encoder2.joblib')
         
-        self.sub = self.create_subscription(CompressedImage,'/olive/camera/owl1eye/image/compressed',self.image_callbackTest,qos_profile=rclpy.qos.qos_profile_sensor_data)
+        self.sub = self.create_subscription(CompressedImage,'/olive/camera/x1687477489523/image/compressed',self.image_callbackTest,qos_profile=rclpy.qos.qos_profile_sensor_data)
         self.pub = self.create_publisher(CompressedImage, '/olive/camera/owl1eye/tpu/compressed', 1)
         self.pub_result = self.create_publisher(String, '/olive/camera/owl1eye/tpu/gesture', 1)
         
@@ -103,7 +103,7 @@ class AppNode(Node):
         columns = [f'{i}{j}' for i in 'XY' for j in range(1, 18)] + ['Label']
         
         # Read the data from the text file
-        df = pd.read_csv('data.txt', header=None, names=columns)
+        df = pd.read_csv('test_data/data2.txt', header=None, names=columns)
         
         # We need to convert the labels into numerical form for MLP
         le = LabelEncoder()
@@ -129,8 +129,8 @@ class AppNode(Node):
         print(f"Accuracy: {accuracy_score(y_test, y_pred)*100:.2f}%")
         
         # Save the model and the label encoder
-        dump(mlp, 'mlp_model.joblib')
-        dump(le, 'label_encoder.joblib')
+        dump(mlp, 'test_data/mlp_model2.joblib')
+        dump(le, 'test_data/label_encoder2.joblib')
         
     def image_callbackTest(self,msg):
         if not self.busy:
@@ -265,12 +265,12 @@ class AppNode(Node):
                         values.append(str(y))
 
                     # Append the label at the end
-                    values.append('4')
+                    values.append('7')
 
                     # Create a single string of all values separated by comma
                     line = ','.join(values)
                     
-                    with open('data2.txt', 'a') as f:
+                    with open('test_data/data2.txt', 'a') as f:
                         # Write the headers
                         # Write this line to the file
                         f.write(line + '\n')
