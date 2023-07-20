@@ -3,7 +3,7 @@ Simple python ROS 2 package with multiple nodes to start working with the Olive 
 
 # Apps 
 
-# 1- Object recognition App
+# 1- Object Recognition App
 An example that performs object detection with a ROS2 image topic and draws a square around each object. 
 
 ### Object List
