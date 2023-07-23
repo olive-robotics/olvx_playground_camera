@@ -98,6 +98,9 @@ teddy bear
 hair drier
 toothbrush
 
+More Information:
+https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/ObjectDetection.md
+
 # 2- Skeleton Detection App
 An example showing how to use the PoseNet model to detect human poses from ROS2 image topic, such as locating the position of someone’s elbow, shoulder or foot.
 
@@ -120,6 +123,9 @@ An example showing how to use the PoseNet model to detect human poses from ROS2 
 15	leftAnkle
 16	rightAnkle
 
+More Information:
+https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/SkeletonDetection.md
+
 # 3- Gesture Recognition App
 An exmaple of showing how to use MLP neural network model to train gesture classes.
 
@@ -138,4 +144,5 @@ The following gestures can be used by default
 6) Right down / left side
 7) Hands on hip
 
-
+More Information:
+https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/GestureRecognition.md
