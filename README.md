@@ -99,23 +99,23 @@ An example showing how to use the PoseNet model to detect human poses from ROS2 
 ![img_skeleton_detection](https://github.com/olive-robotics/olv_camera_tpu_playground_py/assets/5897501/15bbbcb8-b523-4865-ada3-1ff0c2396023)
 
 ### Body point list
-* 0	nose
-* 1	leftEye
-* 2	rightEye
-* 3	leftEar
-* 4	rightEar
-* 5	leftShoulder
-* 6	rightShoulder
-* 7	leftElbow
-* 8	rightElbow
-* 9	leftWrist
-* 10	rightWrist
-* 11	leftHip
-* 12	rightHip
-* 13	leftKnee
-* 14	rightKnee
-* 15	leftAnkle
-* 16	rightAnkle
+0)	nose
+1)	leftEye
+2)	rightEye
+3)	leftEar
+4)	rightEar
+5)	leftShoulder
+6)	rightShoulder
+7)	leftElbow
+8)	rightElbow
+9)	leftWrist
+10)	rightWrist
+11)	leftHip
+12)	rightHip
+13)	leftKnee
+14)	rightKnee
+15)	leftAnkle
+16)	rightAnkle
 
 More Information:
 https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/SkeletonDetection.md
