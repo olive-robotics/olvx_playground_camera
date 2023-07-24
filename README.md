@@ -9,96 +9,86 @@ An example that performs object detection with a ROS2 image topic and draws a sq
 ![img_object_detection](https://github.com/olive-robotics/olv_camera_tpu_playground_py/assets/5897501/166cda6f-37e7-43a0-8ac1-754c82cbd4dd)
 
 ### Object List
-person
-bicycle
-car
-motorcycle
-airplane
-bus
-train
-truck
-boat
-traffic light
-fire hydrant
-n/a
-stop sign
-parking meter
-bench
-bird
-cat
-dog
-horse
-sheep
-cow
-elephant
-bear
-zebra
-giraffe
-n/a
-backpack
-umbrella
-n/a
-n/a
-handbag
-tie
-suitcase
-frisbee
-skis
-snowboard
-sports ball
-kite
-baseball bat
-baseball glove
-skateboard
-surfboard
-tennis racket
-bottle
-n/a
-wine glass
-cup
-fork
-knife
-spoon
-bowl
-banana
-apple
-sandwich
-orange
-broccoli
-carrot
-hot dog
-pizza
-donut
-cake
-chair
-couch
-potted plant
-bed
-n/a
-dining table
-n/a
-n/a
-toilet
-n/a
-tv
-laptop
-mouse
-remote
-keyboard
-cell phone
-microwave
-oven
-toaster
-sink
-refrigerator
-n/a
-book
-clock
-vase
-scissors
-teddy bear
-hair drier
-toothbrush
+* person
+* bicycle
+* car
+* motorcycle
+* airplane
+* bus
+* train
+* truck
+* boat
+* traffic light
+* fire hydrant
+* stop sign
+* parking meter
+* bench
+* bird
+* cat
+* dog
+* horse
+* sheep
+* cow
+* elephant
+* bear
+* zebra
+* giraffe
+* backpack
+* umbrella
+* handbag
+* tie
+* suitcase
+* frisbee
+* skis
+* snowboard
+* sports ball
+* kite
+* baseball bat
+* baseball glove
+* skateboard
+* surfboard
+* tennis racket
+* bottle
+* wine glass
+* cup
+* fork
+* knife
+* spoon
+* bowl
+* banana
+* apple
+* sandwich
+* orange
+* broccoli
+* carrot
+* hot dog
+* pizza
+* donut
+* cake
+* chair
+* couch
+* potted plant
+* bed
+* dining table
+* toilet
+* tv
+* laptop
+* mouse
+* remote
+* keyboard
+* cell phone
+* microwave
+* oven
+* toaster
+* sink
+* refrigerator
+* book
+* clock
+* vase
+* scissors
+* teddy bear
+* hair drier
+* toothbrush
 
 More Information:
 https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/ObjectDetection.md
