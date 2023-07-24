@@ -47,8 +47,7 @@ This is a Python script that performs object detection using a TensorFlow Lite m
 ## Usage
 
 1. Make sure you have all the required dependencies installed (e.g., ROS2, pycoral, etc.).
-2. Run the ROS2 master node if it's not already running.
-3. Run the script. It will initialize the ROS2 node and wait for incoming images from the specified camera topic.
-4. When an image is received, it will perform object detection and publish the processed image to the specified topic with bounding boxes and labels.
+2. Run the script. It will initialize the ROS2 node and wait for incoming images from the specified camera topic.
+3. When an image is received, it will perform object detection and publish the processed image to the specified topic with bounding boxes and labels.
 
 Note: Ensure that the TensorFlow Lite model files (e.g., ssd_mobilenet_v2_coco_quant_postprocess_edgetpu.tflite) and label files (e.g., coco_labels.txt) are available in the appropriate locations as specified in the script. The script may also require a connected Edge TPU device for object detection inference.
