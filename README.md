@@ -6,6 +6,8 @@ Simple python ROS 2 package with multiple nodes to start working with the Olive 
 # 1- Object Recognition App
 An example that performs object detection with a ROS2 image topic and draws a square around each object. 
 
+![img_object_detection](https://github.com/olive-robotics/olv_camera_tpu_playground_py/assets/5897501/166cda6f-37e7-43a0-8ac1-754c82cbd4dd)
+
 ### Object List
 person
 bicycle
@@ -104,6 +106,8 @@ https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/ObjectD
 # 2- Skeleton Detection App
 An example showing how to use the PoseNet model to detect human poses from ROS2 image topic, such as locating the position of someone’s elbow, shoulder or foot.
 
+![img_skeleton_detection](https://github.com/olive-robotics/olv_camera_tpu_playground_py/assets/5897501/15bbbcb8-b523-4865-ada3-1ff0c2396023)
+
 ### Body point list
 0	nose
 1	leftEye
@@ -128,6 +132,8 @@ https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/Skeleto
 
 # 3- Gesture Recognition App
 An exmaple of showing how to use MLP neural network model to train gesture classes.
+
+![img_gesture_recognition](https://github.com/olive-robotics/olv_camera_tpu_playground_py/assets/5897501/2f1dda5e-51bc-43af-93a2-f22f5d41355b)
 
 ### ROS2 topic
 The detection result will be published on the topic "/gesturerecognition"
