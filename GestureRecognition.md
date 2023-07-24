@@ -58,11 +58,10 @@ This Python script performs gesture recognition using a TensorFlow Lite model ru
 ## Usage
 
 1. Ensure that you have all the required dependencies installed (e.g., ROS2, pycoral, svgwrite, PIL, pandas, scikit-learn, joblib, numpy, tflite_runtime, etc.).
-2. Run the ROS2 master node if it's not already running.
-3. To train the MLP model for gesture recognition, uncomment the `self.trainMLP()` line in the `__init__()` function and run the script. This step should be performed once before performing gesture recognition.
-4. After training the MLP model, comment out the `self.trainMLP()` line again and run the script. It will initialize the ROS2 node and wait for incoming images from the specified camera topic.
-5. When an image is received, it will perform skeleton detection, predict the gesture, and publish the processed image with keypoints and edges to the specified topic.
-6. The predicted gesture will also be published to the '/olive/camera/owl1eye/tpu/gesture' topic.
+2. To train the MLP model for gesture recognition, uncomment the `self.trainMLP()` line in the `__init__()` function and run the script. This step should be performed once before performing gesture recognition.
+3. After training the MLP model, comment out the `self.trainMLP()` line again and run the script. It will initialize the ROS2 node and wait for incoming images from the specified camera topic.
+4. When an image is received, it will perform skeleton detection, predict the gesture, and publish the processed image with keypoints and edges to the specified topic.
+5. The predicted gesture will also be published to the '/olive/camera/owl1eye/tpu/gesture' topic.
 
 Note: The script assumes that you have the necessary TensorFlow Lite model files (e.g., posenet_mobilenet_v1_075_353_481_quant_decoder_edgetpu.tflite) and test data (e.g., test_data/data2.txt) available in the specified locations. Also, make sure that you have a connected Edge TPU device for gesture recognition inference.
 
