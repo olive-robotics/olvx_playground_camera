@@ -9,10 +9,7 @@ This example demonstrates object detection utilizing a ROS2 image topic and enca
 ![Object Detection Image](https://github.com/olive-robotics/olv_camera_tpu_playground_py/assets/5897501/166cda6f-37e7-43a0-8ac1-754c82cbd4dd)
 
 #### 📋 Object List
-* person
-* bicycle
-* car
-* [More...]
+person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, traffic light, fire hydrant, stop sign, parking meter, bench, bird, cat, dog, horse, sheep, cow, elephant, bear, zebra, giraffe, backpack, umbrella, handbag, tie, suitcase, frisbee, skis, snowboard, sports ball, kite, baseball bat, baseball glove, skateboard, surfboard, tennis racket, bottle, wine glass, cup, fork, knife, spoon, bowl, banana, apple, sandwich, orange, broccoli, carrot, hot dog, pizza, donut, cake, chair, couch, potted plant, bed, dining table, toilet, tv, laptop, mouse, remote, keyboard, cell phone, microwave, oven, toaster, sink, refrigerator, book, clock, vase, scissors, teddy bear, hair drier, toothbrush.
 
 🔗 **More Information**: [ObjectDetection.md](https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/ObjectDetection.md)
 
@@ -22,10 +19,7 @@ Explore the utilization of the PoseNet model to detect human poses from a ROS2 i
 ![Skeleton Detection Image](https://github.com/olive-robotics/olv_camera_tpu_playground_py/assets/5897501/15bbbcb8-b523-4865-ada3-1ff0c2396023)
 
 #### 🚶‍♂️ Body Point List
-0) nose
-1) leftEye
-2) rightEye
-[More...]
+nose, leftEye, rightEye, leftEar, rightEar, leftShoulder, rightShoulder, leftElbow, rightElbow, leftWrist, rightWrist, leftHip, rightHip, leftKnee, rightKnee, leftAnkle, rightAnkle.
 
 🔗 **More Information**: [SkeletonDetection.md](https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/SkeletonDetection.md)
 
@@ -38,11 +32,6 @@ An example showcasing the use of an MLP neural network model to train gesture cl
 The detection results will be published on the topic `/gesturerecognition`. Utilize `ros2 topic list` or `ros2 topic echo /gesturerecognition` to check whether a message is published, verifying the device’s operational status.
 
 #### 🤏 Gestures
-The default usable gestures include:
-
-1) Both hands down
-2) Both hands up
-3) Left down / right up
-[More...]
+Both hands down, both hands up, left down / right up, right down / left up, left down / right side, right down / left side, hands on hip.
 
 🔗 **More Information**: [GestureRecognition.md](https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/GestureRecognition.md)
