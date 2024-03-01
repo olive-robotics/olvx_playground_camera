@@ -6,7 +6,8 @@ A straightforward ROS 2 package written in Python, featuring multiple nodes to f
 ### 1️⃣ Object Recognition App
 This example demonstrates object detection utilizing a ROS2 image topic and encases each detected object within a square.
 
-![Object Detection Image](https://github.com/olive-robotics/olv_camera_tpu_playground_py/assets/5897501/166cda6f-37e7-43a0-8ac1-754c82cbd4dd)
+![1.png](/images/cover.gif "1.png")
+![Object Detection Image](/images/object_recognition.gif "object_recognition.gif")
 
 #### 📋 Object List
 person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, traffic light, fire hydrant, stop sign, parking meter, bench, bird, cat, dog, horse, sheep, cow, elephant, bear, zebra, giraffe, backpack, umbrella, handbag, tie, suitcase, frisbee, skis, snowboard, sports ball, kite, baseball bat, baseball glove, skateboard, surfboard, tennis racket, bottle, wine glass, cup, fork, knife, spoon, bowl, banana, apple, sandwich, orange, broccoli, carrot, hot dog, pizza, donut, cake, chair, couch, potted plant, bed, dining table, toilet, tv, laptop, mouse, remote, keyboard, cell phone, microwave, oven, toaster, sink, refrigerator, book, clock, vase, scissors, teddy bear, hair drier, toothbrush.
