@@ -6,7 +6,6 @@ A straightforward ROS 2 package written in Python, featuring multiple nodes to f
 ### 1️⃣ Object Recognition App
 This example demonstrates object detection utilizing a ROS2 image topic and encases each detected object within a square.
 
-![1.png](/images/cover.gif "1.png")
 ![Object Detection Image](/images/object_recognition.gif "object_recognition.gif")
 
 #### 📋 Object List
@@ -17,7 +16,7 @@ person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, traffic lig
 ### 2️⃣ Skeleton Detection App
 Explore the utilization of the PoseNet model to detect human poses from a ROS2 image topic, pinpointing the location of body parts like elbows, shoulders, or feet.
 
-![Skeleton Detection Image](https://github.com/olive-robotics/olv_camera_tpu_playground_py/assets/5897501/15bbbcb8-b523-4865-ada3-1ff0c2396023)
+![Skeleton Detection Image](/images/skeleton.gif "skeleton.gif")
 
 #### 🚶‍♂️ Body Point List
 nose, leftEye, rightEye, leftEar, rightEar, leftShoulder, rightShoulder, leftElbow, rightElbow, leftWrist, rightWrist, leftHip, rightHip, leftKnee, rightKnee, leftAnkle, rightAnkle.
