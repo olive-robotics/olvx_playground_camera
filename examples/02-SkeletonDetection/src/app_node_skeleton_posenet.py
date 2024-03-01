@@ -55,8 +55,6 @@ from pose_engine import KeypointType
 
 _NUM_KEYPOINTS = 17
 
-FILEPATH_POSE_MODEL_TPU='test_data/pose_model_thunder_uint8_tpu_edgetpu.tflite'
-
 EDGES = (
     (KeypointType.NOSE, KeypointType.LEFT_EYE),
     (KeypointType.NOSE, KeypointType.RIGHT_EYE),
@@ -88,8 +86,7 @@ class AppNode(Node):
         self.pub = self.create_publisher(CompressedImage, '/olive/camera/owl1eye/tpu/compressed', 1)
         
         script_dir = pathlib.Path(__file__).parent.absolute()
-        #self.engine = PoseEngine('test_data/posenet_mobilenet_v1_075_481_641_quant_decoder_edgetpu.tflite')
-        self.engine = PoseEngine('test_data/posenet_mobilenet_v1_075_353_481_quant_decoder_edgetpu.tflite')
+        self.engine = PoseEngine('models/posenet_mobilenet_v1_075_353_481_quant_decoder_edgetpu.tflite')
         
         # Global variable
         self.busy = False

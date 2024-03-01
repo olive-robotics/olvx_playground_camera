@@ -109,7 +109,6 @@ class AppNode(Node):
         self.pub_result = self.create_publisher(String, '/olive/camera/owl1eye/tpu/gesture', 1)
         
         script_dir = pathlib.Path(__file__).parent.absolute()
-        #self.engine = PoseEngine('models/posenet_mobilenet_v1_075_481_641_quant_decoder_edgetpu.tflite')
         self.engine = PoseEngine('models/posenet_mobilenet_v1_075_353_481_quant_decoder_edgetpu.tflite')
         
         # Global variable
