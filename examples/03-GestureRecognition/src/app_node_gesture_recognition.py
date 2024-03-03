@@ -158,14 +158,14 @@ class AppNode(Node):
     def image_callbackTest(self,msg):
         if not self.busy:
             self.busy = True
-            #print("Received image data!")
+            # print("Received image data!")
             buffer = io.BytesIO(bytes(msg.data))
             # Open the image buffer using PIL Image
             pil_image = Image.open(buffer)
-            pil_image = pil_image.rotate(90)
+            # pil_image = pil_image.rotate(90)
            
             poses, inference_time = self.engine.DetectPosesInImage(pil_image)
-            #print('Inference time: %.f ms' % (inference_time * 1000))
+            # print('Inference time: %.f ms' % (inference_time * 1000))
         
             pil_image = pil_image.convert('RGB')
             draw = ImageDraw.Draw(pil_image)
@@ -194,7 +194,7 @@ class AppNode(Node):
                     bx, by = self.xys[b]
                     draw.line(xy=[ax, ay,bx, by],fill=(255, 255, 0),width=3)
 
-                #print(len(self.xys))
+                print(len(self.xys))
 
                 if len(self.xys) == 17:
                     # Collect all x, y values into a list
@@ -249,7 +249,7 @@ class AppNode(Node):
             pil_image = pil_image.rotate(90)
            
             poses, inference_time = self.engine.DetectPosesInImage(pil_image)
-            #print('Inference time: %.f ms' % (inference_time * 1000))
+            print('Inference time: %.f ms' % (inference_time * 1000))
         
             pil_image = pil_image.convert('RGB')
             draw = ImageDraw.Draw(pil_image)
