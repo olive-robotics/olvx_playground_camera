@@ -104,9 +104,9 @@ class AppNode(Node):
         self.mlp = load('models/mlp_model2.joblib')
         self.le = load('models/label_encoder2.joblib')
         
-        self.sub = self.create_subscription(CompressedImage,'/olive/camera/x1687477489523/image/compressed',self.image_callbackTest,qos_profile=rclpy.qos.qos_profile_sensor_data)
-        self.pub = self.create_publisher(CompressedImage, '/olive/camera/owl1eye/tpu/compressed', 1)
-        self.pub_result = self.create_publisher(String, '/olive/camera/owl1eye/tpu/gesture', 1)
+        self.sub = self.create_subscription(CompressedImage,'/olive/camera/id01/image/compressed',self.image_callbackTest,qos_profile=rclpy.qos.qos_profile_sensor_data)
+        self.pub = self.create_publisher(CompressedImage, '/olive/camera/id01/tpu/compressed', 1)
+        self.pub_result = self.create_publisher(String, '/olive/camera/id01/tpu/gesture', 1)
         
         script_dir = pathlib.Path(__file__).parent.absolute()
         self.engine = PoseEngine('models/posenet_mobilenet_v1_075_353_481_quant_decoder_edgetpu.tflite')
