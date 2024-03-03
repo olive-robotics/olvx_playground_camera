@@ -82,8 +82,8 @@ class AppNode(Node):
     
         print('Olive TPU Skeleton Detection v0.2')
         
-        self.sub = self.create_subscription(CompressedImage,'/olive/camera/owl1eye/image/compressed',self.image_callback,qos_profile=rclpy.qos.qos_profile_sensor_data)
-        self.pub = self.create_publisher(CompressedImage, '/olive/camera/owl1eye/tpu/compressed', 1)
+        self.sub = self.create_subscription(CompressedImage,'/olive/camera/id01/image/compressed',self.image_callback,qos_profile=rclpy.qos.qos_profile_sensor_data)
+        self.pub = self.create_publisher(CompressedImage, '/olive/camera/id01/tpu/compressed', 1)
         
         script_dir = pathlib.Path(__file__).parent.absolute()
         self.engine = PoseEngine('models/posenet_mobilenet_v1_075_353_481_quant_decoder_edgetpu.tflite')

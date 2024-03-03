@@ -57,9 +57,9 @@ class AppNode(Node):
         
         # Specify the TensorFlow model, labels, and image
         script_dir = pathlib.Path(__file__).parent.absolute()
-        model_file = os.path.join(script_dir, 'test_data/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite')
-        label_file = os.path.join(script_dir, 'test_data/inat_bird_labels.txt')
-        image_file = os.path.join(script_dir, 'test_data/parrot.jpg')
+        model_file = os.path.join(script_dir, 'models/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite')
+        label_file = os.path.join(script_dir, 'models/inat_bird_labels.txt')
+        image_file = os.path.join(script_dir, 'models/parrot.jpg')
 
         print('step1')
         
