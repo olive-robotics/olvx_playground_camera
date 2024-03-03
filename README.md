@@ -3,6 +3,10 @@ A straightforward ROS 2 package written in Python, featuring multiple nodes to f
 
 ## 🚀 Apps 
 
+### 0️⃣ Hello World App
+
+This example is a simple parrot detector which you can test the hardware and make sure the Coral TPU is enabled. 
+
 ### 1️⃣ Object Recognition App
 This example demonstrates object detection utilizing a ROS2 image topic and encases each detected object within a square.
 
