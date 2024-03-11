@@ -1,0 +1,6 @@
+msg/AprilTagDetection.idl
+msg/AprilTagDetection.msg
+msg/AprilTagDetectionArray.idl
+msg/AprilTagDetectionArray.msg
+msg/Point.idl
+msg/Point.msg

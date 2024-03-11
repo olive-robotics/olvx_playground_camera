@@ -1,0 +1,6 @@
+-- Found ament_cmake: 1.3.2 (/opt/ros2/humble/install/ament_cmake/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros2/humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/olive/workspace/apriltag_detector/build/apriltag_detector/CMakeFiles/CMakeOutput.log".
+See also "/home/olive/workspace/apriltag_detector/build/apriltag_detector/CMakeFiles/CMakeError.log".

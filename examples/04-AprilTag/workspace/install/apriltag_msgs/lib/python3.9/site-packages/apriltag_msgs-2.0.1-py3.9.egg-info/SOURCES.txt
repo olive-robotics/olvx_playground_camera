@@ -1,0 +1,10 @@
+setup.py
+apriltag_msgs/__init__.py
+apriltag_msgs.egg-info/PKG-INFO
+apriltag_msgs.egg-info/SOURCES.txt
+apriltag_msgs.egg-info/dependency_links.txt
+apriltag_msgs.egg-info/top_level.txt
+apriltag_msgs/msg/__init__.py
+apriltag_msgs/msg/_april_tag_detection.py
+apriltag_msgs/msg/_april_tag_detection_array.py
+apriltag_msgs/msg/_point.py

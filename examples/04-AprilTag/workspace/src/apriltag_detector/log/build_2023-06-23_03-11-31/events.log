@@ -1,0 +1,488 @@
+[0.000000] (-) TimerEvent: {}
+[0.003688] (apriltag_detector) JobQueued: {'identifier': 'apriltag_detector', 'dependencies': OrderedDict()}
+[0.007212] (apriltag_detector) JobStarted: {'identifier': 'apriltag_detector'}
+[0.097135] (-) TimerEvent: {}
+[0.202339] (-) TimerEvent: {}
+[0.307089] (-) TimerEvent: {}
+[0.410496] (-) TimerEvent: {}
+[0.512497] (-) TimerEvent: {}
+[0.615060] (-) TimerEvent: {}
+[0.717319] (-) TimerEvent: {}
+[0.819226] (-) TimerEvent: {}
+[0.921549] (-) TimerEvent: {}
+[1.023401] (-) TimerEvent: {}
+[1.127410] (-) TimerEvent: {}
+[1.229388] (-) TimerEvent: {}
+[1.332054] (-) TimerEvent: {}
+[1.438571] (-) TimerEvent: {}
+[1.541845] (-) TimerEvent: {}
+[1.641353] (apriltag_detector) JobProgress: {'identifier': 'apriltag_detector', 'progress': 'cmake'}
+[1.642036] (-) TimerEvent: {}
+[1.646446] (apriltag_detector) Command: {'cmd': ['/usr/bin/cmake', '/home/olive/workspace/apriltag_detector', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/olive/workspace/apriltag_detector/install/apriltag_detector'], 'cwd': '/home/olive/workspace/apriltag_detector/build/apriltag_detector', 'env': OrderedDict([('JUPYTER_SERVER_ROOT', '/'), ('USER', 'olive'), ('SSH_CLIENT', '10.42.0.100 54505 22'), ('LC_TIME', 'de_DE.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros2/humble/install/rosbag2_compression_zstd/lib:/opt/ros2/humble/install/zstd_vendor/lib:/opt/ros2/humble/install/rviz_default_plugins/lib:/opt/ros2/humble/install/rviz_common/lib:/opt/ros2/humble/install/rosbag2_transport/lib:/opt/ros2/humble/install/rosbag2_compression/lib:/opt/ros2/humble/install/rosbag2_cpp/lib:/opt/ros2/humble/install/rosbag2_storage_default_plugins/lib:/opt/ros2/humble/install/rosbag2_storage/lib:/opt/ros2/humble/install/camera_info_manager/lib:/opt/ros2/humble/install/camera_calibration_parsers/lib:/opt/ros2/humble/install/interactive_markers/lib:/opt/ros2/humble/install/visualization_msgs/lib:/opt/ros2/humble/install/robot_state_publisher/lib:/opt/ros2/humble/install/kdl_parser/lib:/opt/ros2/humble/install/urdf/lib:/opt/ros2/humble/install/urdfdom/lib:/opt/ros2/humble/install/turtlesim/lib:/opt/ros2/humble/install/tf2_ros/lib:/opt/ros2/humble/install/tf2_msgs/lib:/opt/ros2/humble/install/test_msgs/lib:/opt/ros2/humble/install/ros2cli_test_interfaces/lib:/opt/ros2/humble/install/quality_of_service_demo_cpp/lib:/opt/ros2/humble/install/image_transport/lib:/opt/ros2/humble/install/message_filters/lib:/opt/ros2/humble/install/demo_nodes_cpp/lib:/opt/ros2/humble/install/composition/lib:/opt/ros2/humble/install/laser_geometry/lib:/opt/ros2/humble/install/rclpy/lib:/opt/ros2/humble/install/action_tutorials_cpp/lib:/opt/ros2/humble/install/rclcpp_action/lib:/opt/ros2/humble/install/rcl_action/lib:/opt/ros2/humble/install/examples_rclcpp_wait_set/lib:/opt/ros2/humble/install/example_interfaces/lib:/opt/ros2/humble/install/action_tutorials_interfaces/lib:/opt/ros2/humble/install/action_msgs/lib:/opt/ros2/humble/install/unique_identifier_msgs/lib:/opt/ros2/humble/install/trajectory_msgs/lib:/opt/ros2/humble/install/rqt_gui_cpp/lib:/opt/ros2/humble/install/rclcpp_lifecycle/lib:/opt/ros2/humble/install/logging_demo/lib:/opt/ros2/humble/install/image_tools/lib:/opt/ros2/humble/install/examples_rclcpp_minimal_subscriber/lib:/opt/ros2/humble/install/examples_rclcpp_minimal_composition/lib:/opt/ros2/humble/install/demo_nodes_cpp_native/lib:/opt/ros2/humble/install/rclcpp_components/lib:/opt/ros2/humble/install/rclcpp/lib:/opt/ros2/humble/install/rcl_lifecycle/lib:/opt/ros2/humble/install/libstatistics_collector/lib:/opt/ros2/humble/install/rcl/lib:/opt/ros2/humble/install/rmw_implementation/lib:/opt/ros2/humble/install/rmw_fastrtps_dynamic_cpp/lib:/opt/ros2/humble/install/rmw_fastrtps_cpp/lib:/opt/ros2/humble/install/rmw_fastrtps_shared_cpp/lib:/opt/ros2/humble/install/rmw_cyclonedds_cpp/lib:/opt/ros2/humble/install/tracetools/lib:/opt/ros2/humble/install/qt_gui_cpp/lib:/opt/ros2/humble/install/tf2_eigen_kdl/lib:/opt/ros2/humble/install/tf2/lib:/opt/ros2/humble/install/stereo_msgs/lib:/opt/ros2/humble/install/std_srvs/lib:/opt/ros2/humble/install/shape_msgs/lib:/opt/ros2/humble/install/map_msgs/lib:/opt/ros2/humble/install/sensor_msgs/lib:/opt/ros2/humble/install/nav_msgs/lib:/opt/ros2/humble/install/diagnostic_msgs/lib:/opt/ros2/humble/install/geometry_msgs/lib:/opt/ros2/humble/install/actionlib_msgs/lib:/opt/ros2/humble/install/std_msgs/lib:/opt/ros2/humble/install/statistics_msgs/lib:/opt/ros2/humble/install/rcl_logging_spdlog/lib:/opt/ros2/humble/install/rviz_rendering/lib:/opt/ros2/humble/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/opt/ros2/humble/install/rttest/lib:/opt/ros2/humble/install/rosgraph_msgs/lib:/opt/ros2/humble/install/rosbag2_interfaces/lib:/opt/ros2/humble/install/rmw_dds_common/lib:/opt/ros2/humble/install/composition_interfaces/lib:/opt/ros2/humble/install/rcl_interfaces/lib:/opt/ros2/humble/install/pendulum_msgs/lib:/opt/ros2/humble/install/lifecycle_msgs/lib:/opt/ros2/humble/install/builtin_interfaces/lib:/opt/ros2/humble/install/rosidl_typesupport_cpp/lib:/opt/ros2/humble/install/rosidl_typesupport_introspection_cpp/lib:/opt/ros2/humble/install/rosidl_typesupport_c/lib:/opt/ros2/humble/install/rosidl_typesupport_introspection_c/lib:/opt/ros2/humble/install/rosidl_typesupport_fastrtps_c/lib:/opt/ros2/humble/install/rosidl_typesupport_fastrtps_cpp/lib:/opt/ros2/humble/install/rcl_yaml_param_parser/lib:/opt/ros2/humble/install/rmw/lib:/opt/ros2/humble/install/rosidl_runtime_c/lib:/opt/ros2/humble/install/resource_retriever/lib:/opt/ros2/humble/install/class_loader/lib:/opt/ros2/humble/install/rcpputils/lib:/opt/ros2/humble/install/rcl_logging_noop/lib:/opt/ros2/humble/install/rcl_logging_interface/lib:/opt/ros2/humble/install/rcutils/lib:/opt/ros2/humble/install/performance_test_fixture/lib:/opt/ros2/humble/install/osrf_testing_tools_cpp/lib:/opt/ros2/humble/install/orocos_kdl_vendor/lib:/opt/ros2/humble/install/mimick_vendor/lib:/opt/ros2/humble/install/libyaml_vendor/lib:/opt/ros2/humble/install/keyboard_handler/lib:/opt/ros2/humble/install/cyclonedds/lib:/opt/ros2/humble/install/iceoryx_posh/lib:/opt/ros2/humble/install/iceoryx_hoofs/lib:/opt/ros2/humble/install/iceoryx_binding_c/lib:/opt/ros2/humble/install/google_benchmark_vendor/lib:/opt/ros2/humble/install/fastrtps/lib:/opt/ros2/humble/install/fastcdr/lib:/opt/ros2/humble/install/console_bridge_vendor/lib:/opt/ros2/humble/install/ament_index_cpp/lib:/opt/olive/lib:/opt/opencv/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/olive'), ('CYCLONEDDS_URI', '/opt/olive/config/current/cyclonedds.xml'), ('OLDPWD', '/home/olive/workspace'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('COLCON_PREFIX_PATH', '/opt/olive/packages/install:/opt/ros2/humble/install:/home/olive/examples/install'), ('PYXTERM_DIMENSIONS', '80x25'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'olive'), ('JOURNAL_STREAM', '7:11344'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros2/humble/install/urdfdom/lib/arm-linux-gnueabihf/pkgconfig:/opt/ros2/humble/install/urdfdom/lib/pkgconfig:/opt/ros2/humble/install/urdfdom_headers/lib/pkgconfig:/opt/ros2/humble/install/test_osrf_testing_tools_cpp/lib/arm-linux-gnueabihf/pkgconfig:/opt/ros2/humble/install/test_osrf_testing_tools_cpp/lib/pkgconfig:/opt/ros2/humble/install/osrf_testing_tools_cpp/lib/arm-linux-gnueabihf/pkgconfig:/opt/ros2/humble/install/osrf_testing_tools_cpp/lib/pkgconfig:/opt/ros2/humble/install/ignition_math6_vendor/lib/arm-linux-gnueabihf/pkgconfig:/opt/ros2/humble/install/ignition_math6_vendor/lib/pkgconfig:/opt/ros2/humble/install/ignition_cmake2_vendor/lib/arm-linux-gnueabihf/pkgconfig:/opt/ros2/humble/install/ignition_cmake2_vendor/lib/pkgconfig:/opt/ros2/humble/install/cyclonedds/lib/arm-linux-gnueabihf/pkgconfig:/opt/ros2/humble/install/cyclonedds/lib/pkgconfig:/opt/ros2/humble/install/iceoryx_posh/lib/arm-linux-gnueabihf/pkgconfig:/opt/ros2/humble/install/iceoryx_posh/lib/pkgconfig:/opt/ros2/humble/install/iceoryx_hoofs/lib/arm-linux-gnueabihf/pkgconfig:/opt/ros2/humble/install/iceoryx_hoofs/lib/pkgconfig:/opt/ros2/humble/install/iceoryx_binding_c/lib/arm-linux-gnueabihf/pkgconfig:/opt/ros2/humble/install/iceoryx_binding_c/lib/pkgconfig:/opt/ros2/humble/install/gmock_vendor/lib/arm-linux-gnueabihf/pkgconfig:/opt/ros2/humble/install/gmock_vendor/lib/pkgconfig:/opt/ros2/humble/install/gtest_vendor/lib/arm-linux-gnueabihf/pkgconfig:/opt/ros2/humble/install/gtest_vendor/lib/pkgconfig:/opt/ros2/humble/install/google_benchmark_vendor/lib/arm-linux-gnueabihf/pkgconfig:/opt/ros2/humble/install/google_benchmark_vendor/lib/pkgconfig:/opt/ros2/humble/install/foonathan_memory_vendor/lib/arm-linux-gnueabihf/pkgconfig:/opt/ros2/humble/install/foonathan_memory_vendor/lib/pkgconfig'), ('COLUMNS', '80'), ('TERM', 'xterm-256color'), ('DOTNET_ROOT', '/home/olive/.dotnet'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/olive/.local/bin:/home/olive/.local/bin:/opt/ros2/humble/install/rviz2/bin:/opt/ros2/humble/install/rqt_bag/bin:/opt/ros2/humble/install/urdfdom/bin:/opt/ros2/humble/install/rqt_graph/bin:/opt/ros2/humble/install/rqt_gui/bin:/opt/ros2/humble/install/ros2cli/bin:/opt/ros2/humble/install/ament_uncrustify/bin:/opt/ros2/humble/install/pendulum_control/bin:/opt/ros2/humble/install/tlsf_cpp/bin:/opt/ros2/humble/install/rttest/bin:/opt/ros2/humble/install/rosidl_cli/bin:/opt/ros2/humble/install/launch_testing/bin:/opt/ros2/humble/install/cyclonedds/bin:/opt/ros2/humble/install/iceoryx_posh/bin:/opt/ros2/humble/install/fastrtps/bin:/opt/ros2/humble/install/foonathan_memory_vendor/bin:/opt/ros2/humble/install/ament_xmllint/bin:/opt/ros2/humble/install/ament_pyflakes/bin:/opt/ros2/humble/install/ament_pycodestyle/bin:/opt/ros2/humble/install/ament_pep257/bin:/opt/ros2/humble/install/ament_pclint/bin:/opt/ros2/humble/install/ament_mypy/bin:/opt/ros2/humble/install/ament_lint_cmake/bin:/opt/ros2/humble/install/ament_flake8/bin:/opt/ros2/humble/install/ament_copyright/bin:/opt/ros2/humble/install/ament_index_python/bin:/opt/ros2/humble/install/ament_cpplint/bin:/opt/ros2/humble/install/ament_cppcheck/bin:/opt/ros2/humble/install/ament_clang_tidy/bin:/opt/ros2/humble/install/ament_clang_format/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/home/olive/.dotnet:/home/olive/.dotnet/tools'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/opt/olive/config/current/fastdds.xml'), ('INVOCATION_ID', '80f5c114bfef4f14a854da6005a6b892'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('ECORE_EVAS_ENGINE', 'wayland_shm'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/olive/packages/install/position_control:/home/olive/examples/install/shake_detector:/opt/olive/packages/install/olive_dcm:/opt/ros2/humble/install/rqt_bag_plugins:/opt/ros2/humble/install/rosbag2:/opt/ros2/humble/install/rosbag2_compression_zstd:/opt/ros2/humble/install/zstd_vendor:/opt/ros2/humble/install/rviz_visual_testing_framework:/opt/ros2/humble/install/rviz2:/opt/ros2/humble/install/rviz_default_plugins:/opt/ros2/humble/install/rviz_common:/opt/ros2/humble/install/rqt_bag:/opt/ros2/humble/install/ros2bag:/opt/ros2/humble/install/rosbag2_py:/opt/ros2/humble/install/rosbag2_transport:/opt/ros2/humble/install/rosbag2_performance_benchmarking:/opt/ros2/humble/install/rosbag2_compression:/opt/ros2/humble/install/rosbag2_cpp:/opt/ros2/humble/install/rosbag2_storage_default_plugins:/opt/ros2/humble/install/rosbag2_storage:/opt/ros2/humble/install/image_common:/opt/ros2/humble/install/camera_info_manager:/opt/ros2/humble/install/camera_calibration_parsers:/opt/ros2/humble/install/yaml_cpp_vendor:/opt/ros2/humble/install/interactive_markers:/opt/ros2/humble/install/common_interfaces:/opt/ros2/humble/install/visualization_msgs:/opt/ros2/humble/install/dummy_robot_bringup:/opt/ros2/humble/install/robot_state_publisher:/opt/ros2/humble/install/kdl_parser:/opt/ros2/humble/install/urdf:/opt/ros2/humble/install/urdf_parser_plugin:/opt/ros2/humble/install/turtlesim:/opt/ros2/humble/install/tracetools_test:/opt/ros2/humble/install/tracetools_launch:/opt/ros2/humble/install/topic_monitor:/opt/ros2/humble/install/geometry2:/opt/ros2/humble/install/tf2_tools:/opt/ros2/humble/install/tf2_sensor_msgs:/opt/ros2/humble/install/test_tf2:/opt/ros2/humble/install/tf2_kdl:/opt/ros2/humble/install/tf2_geometry_msgs:/opt/ros2/humble/install/examples_tf2_py:/opt/ros2/humble/install/tf2_ros_py:/opt/ros2/humble/install/tf2_eigen:/opt/ros2/humble/install/tf2_bullet:/opt/ros2/humble/install/tf2_ros:/opt/ros2/humble/install/tf2_py:/opt/ros2/humble/install/tf2_msgs:/opt/ros2/humble/install/test_msgs:/opt/ros2/humble/install/sros2_cmake:/opt/ros2/humble/install/ros2cli_common_extensions:/opt/ros2/humble/install/sros2:/opt/ros2/humble/install/rqt_topic:/opt/ros2/humble/install/rqt_srv:/opt/ros2/humble/install/rqt_shell:/opt/ros2/humble/install/rqt_service_caller:/opt/ros2/humble/install/rqt_reconfigure:/opt/ros2/humble/install/rqt_py_console:/opt/ros2/humble/install/rqt_publisher:/opt/ros2/humble/install/rqt_plot:/opt/ros2/humble/install/rqt_action:/opt/ros2/humble/install/rqt_msg:/opt/ros2/humble/install/rqt_console:/opt/ros2/humble/install/rqt:/opt/ros2/humble/install/rqt_py_common:/opt/ros2/humble/install/rqt_graph:/opt/ros2/humble/install/rqt_gui_py:/opt/ros2/humble/install/rqt_gui:/opt/ros2/humble/install/ros_testing:/opt/ros2/humble/install/ros2trace:/opt/ros2/humble/install/ros2topic:/opt/ros2/humble/install/ros2test:/opt/ros2/humble/install/ros2component:/opt/ros2/humble/install/ros2param:/opt/ros2/humble/install/ros2lifecycle:/opt/ros2/humble/install/ros2service:/opt/ros2/humble/install/ros2run:/opt/ros2/humble/install/ros2launch:/opt/ros2/humble/install/ros2pkg:/opt/ros2/humble/install/ros2node:/opt/ros2/humble/install/ros2multicast:/opt/ros2/humble/install/ros2interface:/opt/ros2/humble/install/ros2doctor:/opt/ros2/humble/install/ros2cli_test_interfaces:/opt/ros2/humble/install/ros2action:/opt/ros2/humble/install/ros2cli:/opt/ros2/humble/install/quality_of_service_demo_py:/opt/ros2/humble/install/quality_of_service_demo_cpp:/opt/ros2/humble/install/image_transport:/opt/ros2/humble/install/message_filters:/opt/ros2/humble/install/lifecycle_py:/opt/ros2/humble/install/launch_testing_ros:/opt/ros2/humble/install/demo_nodes_cpp:/opt/ros2/humble/install/composition:/opt/ros2/humble/install/launch_ros:/opt/ros2/humble/install/laser_geometry:/opt/ros2/humble/install/examples_rclpy_pointcloud_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_subscriber:/opt/ros2/humble/install/examples_rclpy_minimal_service:/opt/ros2/humble/install/examples_rclpy_minimal_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_client:/opt/ros2/humble/install/examples_rclpy_minimal_action_server:/opt/ros2/humble/install/examples_rclpy_minimal_action_client:/opt/ros2/humble/install/examples_rclpy_guard_conditions:/opt/ros2/humble/install/examples_rclpy_executors:/opt/ros2/humble/install/demo_nodes_py:/opt/ros2/humble/install/action_tutorials_py:/opt/ros2/humble/install/rclpy:/opt/ros2/humble/install/examples_rclcpp_minimal_action_server:/opt/ros2/humble/install/examples_rclcpp_minimal_action_client:/opt/ros2/humble/install/action_tutorials_cpp:/opt/ros2/humble/install/rclcpp_action:/opt/ros2/humble/install/rcl_action:/opt/ros2/humble/install/examples_rclcpp_wait_set:/opt/ros2/humble/install/examples_rclcpp_minimal_service:/opt/ros2/humble/install/examples_rclcpp_minimal_client:/opt/ros2/humble/install/examples_rclcpp_async_client:/opt/ros2/humble/install/example_interfaces:/opt/ros2/humble/install/action_tutorials_interfaces:/opt/ros2/humble/install/action_msgs:/opt/ros2/humble/install/unique_identifier_msgs:/opt/ros2/humble/install/ament_lint_common:/opt/ros2/humble/install/ament_cmake_uncrustify:/opt/ros2/humble/install/ament_uncrustify:/opt/ros2/humble/install/uncrustify_vendor:/opt/ros2/humble/install/trajectory_msgs:/opt/ros2/humble/install/tracetools_trace:/opt/ros2/humble/install/tracetools_read:/opt/ros2/humble/install/topic_statistics_demo:/opt/ros2/humble/install/pendulum_control:/opt/ros2/humble/install/tlsf_cpp:/opt/ros2/humble/install/test_tracetools:/opt/ros2/humble/install/rqt_gui_cpp:/opt/ros2/humble/install/rosbag2_test_common:/opt/ros2/humble/install/ros2lifecycle_test_fixtures:/opt/ros2/humble/install/lifecycle:/opt/ros2/humble/install/rclcpp_lifecycle:/opt/ros2/humble/install/logging_demo:/opt/ros2/humble/install/image_tools:/opt/ros2/humble/install/examples_rclcpp_minimal_subscriber:/opt/ros2/humble/install/examples_rclcpp_minimal_composition:/opt/ros2/humble/install/demo_nodes_cpp_native:/opt/ros2/humble/install/rclcpp_components:/opt/ros2/humble/install/intra_process_demo:/opt/ros2/humble/install/examples_rclcpp_multithreaded_executor:/opt/ros2/humble/install/examples_rclcpp_minimal_timer:/opt/ros2/humble/install/examples_rclcpp_minimal_publisher:/opt/ros2/humble/install/examples_rclcpp_cbg_executor:/opt/ros2/humble/install/dummy_sensors:/opt/ros2/humble/install/dummy_map_server:/opt/ros2/humble/install/rclcpp:/opt/ros2/humble/install/rcl_lifecycle:/opt/ros2/humble/install/libstatistics_collector:/opt/ros2/humble/install/rcl:/opt/ros2/humble/install/rmw_implementation:/opt/ros2/humble/install/rmw_fastrtps_dynamic_cpp:/opt/ros2/humble/install/rmw_fastrtps_cpp:/opt/ros2/humble/install/rmw_fastrtps_shared_cpp:/opt/ros2/humble/install/rmw_cyclonedds_cpp:/opt/ros2/humble/install/tracetools:/opt/ros2/humble/install/tlsf:/opt/ros2/humble/install/tinyxml_vendor:/opt/ros2/humble/install/qt_gui_core:/opt/ros2/humble/install/qt_gui_cpp:/opt/ros2/humble/install/pluginlib:/opt/ros2/humble/install/tinyxml2_vendor:/opt/ros2/humble/install/tf2_eigen_kdl:/opt/ros2/humble/install/tf2:/opt/ros2/humble/install/test_tracetools_launch:/opt/ros2/humble/install/test_security:/opt/ros2/humble/install/test_rmw_implementation:/opt/ros2/humble/install/test_rclcpp:/opt/ros2/humble/install/test_quality_of_service:/opt/ros2/humble/install/test_launch_testing:/opt/ros2/humble/install/test_launch_ros:/opt/ros2/humble/install/test_interface_files:/opt/ros2/humble/install/test_communication:/opt/ros2/humble/install/test_cli_remapping:/opt/ros2/humble/install/test_cli:/opt/ros2/humble/install/qt_gui_app:/opt/ros2/humble/install/qt_gui:/opt/ros2/humble/install/tango_icons_vendor:/opt/ros2/humble/install/stereo_msgs:/opt/ros2/humble/install/std_srvs:/opt/ros2/humble/install/shape_msgs:/opt/ros2/humble/install/sensor_msgs_py:/opt/ros2/humble/install/map_msgs:/opt/ros2/humble/install/sensor_msgs:/opt/ros2/humble/install/nav_msgs:/opt/ros2/humble/install/diagnostic_msgs:/opt/ros2/humble/install/geometry_msgs:/opt/ros2/humble/install/actionlib_msgs:/opt/ros2/humble/install/std_msgs:/opt/ros2/humble/install/statistics_msgs:/opt/ros2/humble/install/sqlite3_vendor:/opt/ros2/humble/install/rcl_logging_spdlog:/opt/ros2/humble/install/spdlog_vendor:/opt/ros2/humble/install/shared_queues_vendor:/opt/ros2/humble/install/rviz_rendering_tests:/opt/ros2/humble/install/rviz_rendering:/opt/ros2/humble/install/rviz_ogre_vendor:/opt/ros2/humble/install/rviz_assimp_vendor:/opt/ros2/humble/install/rttest:/opt/ros2/humble/install/rmw_connextddsmicro:/opt/ros2/humble/install/rmw_connextdds:/opt/ros2/humble/install/rmw_connextdds_common:/opt/ros2/humble/install/rti_connext_dds_cmake_module:/opt/ros2/humble/install/rosgraph_msgs:/opt/ros2/humble/install/rosbag2_interfaces:/opt/ros2/humble/install/rmw_dds_common:/opt/ros2/humble/install/composition_interfaces:/opt/ros2/humble/install/rcl_interfaces:/opt/ros2/humble/install/pendulum_msgs:/opt/ros2/humble/install/lifecycle_msgs:/opt/ros2/humble/install/builtin_interfaces:/opt/ros2/humble/install/rosidl_default_runtime:/opt/ros2/humble/install/rosidl_default_generators:/opt/ros2/humble/install/rosidl_generator_py:/opt/ros2/humble/install/rpyutils:/opt/ros2/humble/install/rosidl_typesupport_introspection_tests:/opt/ros2/humble/install/rosidl_typesupport_cpp:/opt/ros2/humble/install/rosidl_typesupport_introspection_cpp:/opt/ros2/humble/install/rosidl_typesupport_c:/opt/ros2/humble/install/rosidl_typesupport_introspection_c:/opt/ros2/humble/install/rosidl_typesupport_fastrtps_c:/opt/ros2/humble/install/rosidl_typesupport_fastrtps_cpp:/opt/ros2/humble/install/rosidl_generator_cpp:/opt/ros2/humble/install/rosidl_runtime_cpp:/opt/ros2/humble/install/rcl_yaml_param_parser:/opt/ros2/humble/install/rmw:/opt/ros2/humble/install/rosidl_runtime_c:/opt/ros2/humble/install/rosidl_generator_c:/opt/ros2/humble/install/rosidl_typesupport_interface:/opt/ros2/humble/install/rosidl_runtime_py:/opt/ros2/humble/install/rosidl_generator_dds_idl:/opt/ros2/humble/install/rosidl_cmake:/opt/ros2/humble/install/rosidl_parser:/opt/ros2/humble/install/rosidl_adapter:/opt/ros2/humble/install/rosidl_cli:/opt/ros2/humble/install/rosbag2_tests:/opt/ros2/humble/install/ros_environment:/opt/ros2/humble/install/rmw_implementation_cmake:/opt/ros2/humble/install/resource_retriever:/opt/ros2/humble/install/class_loader:/opt/ros2/humble/install/rcpputils:/opt/ros2/humble/install/rcl_logging_noop:/opt/ros2/humble/install/rcl_logging_interface:/opt/ros2/humble/install/rcutils:/opt/ros2/humble/install/qt_gui_py_common:/opt/ros2/humble/install/qt_dotgraph:/opt/ros2/humble/install/python_qt_binding:/opt/ros2/humble/install/python_orocos_kdl_vendor:/opt/ros2/humble/install/launch_testing_ament_cmake:/opt/ros2/humble/install/python_cmake_module:/opt/ros2/humble/install/pybind11_vendor:/opt/ros2/humble/install/performance_test_fixture:/opt/ros2/humble/install/launch_pytest:/opt/ros2/humble/install/launch_testing:/opt/ros2/humble/install/launch_yaml:/opt/ros2/humble/install/launch_xml:/opt/ros2/humble/install/launch:/opt/ros2/humble/install/osrf_pycommon:/opt/ros2/humble/install/orocos_kdl_vendor:/opt/ros2/humble/install/mimick_vendor:/opt/ros2/humble/install/libyaml_vendor:/opt/ros2/humble/install/libcurl_vendor:/opt/ros2/humble/install/launch_testing_examples:/opt/ros2/humble/install/keyboard_handler:/opt/ros2/humble/install/ament_cmake_ros:/opt/ros2/humble/install/ament_cmake_gmock:/opt/ros2/humble/install/ament_cmake_auto:/opt/ros2/humble/install/ament_cmake_gtest:/opt/ros2/humble/install/ament_cmake_google_benchmark:/opt/ros2/humble/install/fastrtps_cmake_module:/opt/ros2/humble/install/eigen3_cmake_module:/opt/ros2/humble/install/domain_coordinator:/opt/ros2/humble/install/console_bridge_vendor:/opt/ros2/humble/install/ament_cmake_xmllint:/opt/ros2/humble/install/ament_xmllint:/opt/ros2/humble/install/ament_cmake_pyflakes:/opt/ros2/humble/install/ament_pyflakes:/opt/ros2/humble/install/ament_cmake_pycodestyle:/opt/ros2/humble/install/ament_pycodestyle:/opt/ros2/humble/install/ament_cmake_pep257:/opt/ros2/humble/install/ament_pep257:/opt/ros2/humble/install/ament_cmake_pclint:/opt/ros2/humble/install/ament_pclint:/opt/ros2/humble/install/ament_lint_auto:/opt/ros2/humble/install/ament_cmake:/opt/ros2/humble/install/ament_cmake_version:/opt/ros2/humble/install/ament_cmake_pytest:/opt/ros2/humble/install/ament_cmake_nose:/opt/ros2/humble/install/ament_cmake_mypy:/opt/ros2/humble/install/ament_cmake_lint_cmake:/opt/ros2/humble/install/ament_cmake_flake8:/opt/ros2/humble/install/ament_cmake_cpplint:/opt/ros2/humble/install/ament_cmake_cppcheck:/opt/ros2/humble/install/ament_cmake_copyright:/opt/ros2/humble/install/ament_cmake_clang_tidy:/opt/ros2/humble/install/ament_cmake_clang_format:/opt/ros2/humble/install/ament_cmake_test:/opt/ros2/humble/install/ament_cmake_target_dependencies:/opt/ros2/humble/install/ament_cmake_python:/opt/ros2/humble/install/ament_cmake_export_dependencies:/opt/ros2/humble/install/ament_cmake_libraries:/opt/ros2/humble/install/ament_cmake_include_directories:/opt/ros2/humble/install/ament_cmake_gen_version_h:/opt/ros2/humble/install/ament_cmake_export_targets:/opt/ros2/humble/install/ament_cmake_export_link_flags:/opt/ros2/humble/install/ament_cmake_export_interfaces:/opt/ros2/humble/install/ament_cmake_export_libraries:/opt/ros2/humble/install/ament_cmake_export_include_directories:/opt/ros2/humble/install/ament_cmake_export_definitions:/opt/ros2/humble/install/ament_cmake_core:/opt/ros2/humble/install/ament_package:/opt/ros2/humble/install/ament_mypy:/opt/ros2/humble/install/ament_lint_cmake:/opt/ros2/humble/install/ament_flake8:/opt/ros2/humble/install/ament_copyright:/opt/ros2/humble/install/ament_lint:/opt/ros2/humble/install/ament_index_python:/opt/ros2/humble/install/ament_index_cpp:/opt/ros2/humble/install/ament_cpplint:/opt/ros2/humble/install/ament_cppcheck:/opt/ros2/humble/install/ament_clang_tidy:/opt/ros2/humble/install/ament_clang_format'), ('ELM_ENGINE', 'wayland_shm'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/olive/workspace/apriltag_detector/build/apriltag_detector'), ('SSH_CONNECTION', '10.42.0.100 54505 10.42.0.7 22'), ('LINES', '24'), ('PYTHONPATH', '/home/olive/examples/build/shake_detector:/home/olive/examples/install/shake_detector/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_bag_plugins/src:/opt/ros2/humble/install/rqt_bag_plugins/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_bag/src:/opt/ros2/humble/install/rqt_bag/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2bag:/opt/ros2/humble/install/ros2bag/lib/python3.9/site-packages:/opt/ros2/humble/install/rosbag2_py/lib/python3.9/site-packages:/opt/ros2/humble/install/interactive_markers/lib/python3.9/site-packages:/opt/ros2/humble/install/visualization_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/turtlesim/lib/python3.9/site-packages:/opt/ros2/humble/build/tracetools_test:/opt/ros2/humble/install/tracetools_test/lib/python3.9/site-packages:/opt/ros2/humble/build/tracetools_launch:/opt/ros2/humble/install/tracetools_launch/lib/python3.9/site-packages:/opt/ros2/humble/build/topic_monitor:/opt/ros2/humble/install/topic_monitor/lib/python3.9/site-packages:/opt/ros2/humble/build/tf2_tools:/opt/ros2/humble/install/tf2_tools/lib/python3.9/site-packages:/opt/ros2/humble/install/tf2_kdl/lib/python3.9/site-packages:/opt/ros2/humble/install/tf2_geometry_msgs/lib/python3.9/site-packages:/opt/ros2/humble/build/examples_tf2_py:/opt/ros2/humble/install/examples_tf2_py/lib/python3.9/site-packages:/opt/ros2/humble/build/tf2_ros_py:/opt/ros2/humble/install/tf2_ros_py/lib/python3.9/site-packages:/opt/ros2/humble/install/tf2_py/lib/python3.9/site-packages:/opt/ros2/humble/install/tf2_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/test_msgs/lib/python3.9/site-packages:/opt/ros2/humble/build/sros2:/opt/ros2/humble/install/sros2/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_topic/src:/opt/ros2/humble/install/rqt_topic/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_srv/src:/opt/ros2/humble/install/rqt_srv/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_shell/src:/opt/ros2/humble/install/rqt_shell/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_service_caller/src:/opt/ros2/humble/install/rqt_service_caller/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_reconfigure/src:/opt/ros2/humble/install/rqt_reconfigure/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_py_console/src:/opt/ros2/humble/install/rqt_py_console/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_publisher/src:/opt/ros2/humble/install/rqt_publisher/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_plot/src:/opt/ros2/humble/install/rqt_plot/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_action/src:/opt/ros2/humble/install/rqt_action/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_msg/src:/opt/ros2/humble/install/rqt_msg/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_console/src:/opt/ros2/humble/install/rqt_console/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt:/opt/ros2/humble/install/rqt/lib/python3.9/site-packages:/opt/ros2/humble/install/rqt_py_common/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_graph/src:/opt/ros2/humble/install/rqt_graph/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_gui_py/src:/opt/ros2/humble/install/rqt_gui_py/lib/python3.9/site-packages:/opt/ros2/humble/build/rqt_gui/src:/opt/ros2/humble/install/rqt_gui/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2trace:/opt/ros2/humble/install/ros2trace/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2topic:/opt/ros2/humble/install/ros2topic/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2test:/opt/ros2/humble/install/ros2test/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2component:/opt/ros2/humble/install/ros2component/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2param:/opt/ros2/humble/install/ros2param/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2lifecycle:/opt/ros2/humble/install/ros2lifecycle/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2service:/opt/ros2/humble/install/ros2service/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2run:/opt/ros2/humble/install/ros2run/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2launch:/opt/ros2/humble/install/ros2launch/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2pkg:/opt/ros2/humble/install/ros2pkg/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2node:/opt/ros2/humble/install/ros2node/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2multicast:/opt/ros2/humble/install/ros2multicast/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2interface:/opt/ros2/humble/install/ros2interface/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2doctor:/opt/ros2/humble/install/ros2doctor/lib/python3.9/site-packages:/opt/ros2/humble/install/ros2cli_test_interfaces/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2action:/opt/ros2/humble/install/ros2action/lib/python3.9/site-packages:/opt/ros2/humble/build/ros2cli:/opt/ros2/humble/install/ros2cli/lib/python3.9/site-packages:/opt/ros2/humble/build/quality_of_service_demo_py:/opt/ros2/humble/install/quality_of_service_demo_py/lib/python3.9/site-packages:/opt/ros2/humble/install/message_filters/lib/python3.9/site-packages:/opt/ros2/humble/build/lifecycle_py:/opt/ros2/humble/install/lifecycle_py/lib/python3.9/site-packages:/opt/ros2/humble/build/launch_testing_ros:/opt/ros2/humble/install/launch_testing_ros/lib/python3.9/site-packages:/opt/ros2/humble/build/launch_ros:/opt/ros2/humble/install/launch_ros/lib/python3.9/site-packages:/opt/ros2/humble/install/laser_geometry/lib/python3.9/site-packages:/opt/ros2/humble/build/examples_rclpy_pointcloud_publisher:/opt/ros2/humble/install/examples_rclpy_pointcloud_publisher/lib/python3.9/site-packages:/opt/ros2/humble/build/examples_rclpy_minimal_subscriber:/opt/ros2/humble/install/examples_rclpy_minimal_subscriber/lib/python3.9/site-packages:/opt/ros2/humble/build/examples_rclpy_minimal_service:/opt/ros2/humble/install/examples_rclpy_minimal_service/lib/python3.9/site-packages:/opt/ros2/humble/build/examples_rclpy_minimal_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_publisher/lib/python3.9/site-packages:/opt/ros2/humble/build/examples_rclpy_minimal_client:/opt/ros2/humble/install/examples_rclpy_minimal_client/lib/python3.9/site-packages:/opt/ros2/humble/build/examples_rclpy_minimal_action_server:/opt/ros2/humble/install/examples_rclpy_minimal_action_server/lib/python3.9/site-packages:/opt/ros2/humble/build/examples_rclpy_minimal_action_client:/opt/ros2/humble/install/examples_rclpy_minimal_action_client/lib/python3.9/site-packages:/opt/ros2/humble/build/examples_rclpy_guard_conditions:/opt/ros2/humble/install/examples_rclpy_guard_conditions/lib/python3.9/site-packages:/opt/ros2/humble/build/examples_rclpy_executors:/opt/ros2/humble/install/examples_rclpy_executors/lib/python3.9/site-packages:/opt/ros2/humble/build/demo_nodes_py:/opt/ros2/humble/install/demo_nodes_py/lib/python3.9/site-packages:/opt/ros2/humble/build/action_tutorials_py:/opt/ros2/humble/install/action_tutorials_py/lib/python3.9/site-packages:/opt/ros2/humble/install/rclpy/lib/python3.9/site-packages:/opt/ros2/humble/install/example_interfaces/lib/python3.9/site-packages:/opt/ros2/humble/install/action_tutorials_interfaces/lib/python3.9/site-packages:/opt/ros2/humble/install/action_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/unique_identifier_msgs/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_uncrustify:/opt/ros2/humble/install/ament_uncrustify/lib/python3.9/site-packages:/opt/ros2/humble/install/trajectory_msgs/lib/python3.9/site-packages:/opt/ros2/humble/build/tracetools_trace:/opt/ros2/humble/install/tracetools_trace/lib/python3.9/site-packages:/opt/ros2/humble/build/tracetools_read:/opt/ros2/humble/install/tracetools_read/lib/python3.9/site-packages:/opt/ros2/humble/install/logging_demo/lib/python3.9/site-packages:/opt/ros2/humble/install/qt_gui_cpp/lib/python3.9/site-packages:/opt/ros2/humble/build/test_tracetools_launch:/opt/ros2/humble/install/test_tracetools_launch/lib/python3.9/site-packages:/opt/ros2/humble/build/test_launch_ros:/opt/ros2/humble/install/test_launch_ros/lib/python3.9/site-packages:/opt/ros2/humble/install/qt_gui/lib/python3.9/site-packages:/opt/ros2/humble/install/stereo_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/std_srvs/lib/python3.9/site-packages:/opt/ros2/humble/install/shape_msgs/lib/python3.9/site-packages:/opt/ros2/humble/build/sensor_msgs_py:/opt/ros2/humble/install/sensor_msgs_py/lib/python3.9/site-packages:/opt/ros2/humble/install/map_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/sensor_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/nav_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/diagnostic_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/geometry_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/actionlib_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/std_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/statistics_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/rosgraph_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/rosbag2_interfaces/lib/python3.9/site-packages:/opt/ros2/humble/install/rmw_dds_common/lib/python3.9/site-packages:/opt/ros2/humble/install/composition_interfaces/lib/python3.9/site-packages:/opt/ros2/humble/install/rcl_interfaces/lib/python3.9/site-packages:/opt/ros2/humble/install/pendulum_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/lifecycle_msgs/lib/python3.9/site-packages:/opt/ros2/humble/install/builtin_interfaces/lib/python3.9/site-packages:/opt/ros2/humble/install/rosidl_generator_py/lib/python3.9/site-packages:/opt/ros2/humble/build/rpyutils:/opt/ros2/humble/install/rpyutils/lib/python3.9/site-packages:/opt/ros2/humble/install/rosidl_typesupport_cpp/lib/python3.9/site-packages:/opt/ros2/humble/install/rosidl_typesupport_introspection_cpp/lib/python3.9/site-packages:/opt/ros2/humble/install/rosidl_typesupport_c/lib/python3.9/site-packages:/opt/ros2/humble/install/rosidl_typesupport_introspection_c/lib/python3.9/site-packages:/opt/ros2/humble/install/rosidl_typesupport_fastrtps_c/lib/python3.9/site-packages:/opt/ros2/humble/install/rosidl_typesupport_fastrtps_cpp/lib/python3.9/site-packages:/opt/ros2/humble/install/rosidl_generator_cpp/lib/python3.9/site-packages:/opt/ros2/humble/install/rosidl_generator_c/lib/python3.9/site-packages:/opt/ros2/humble/build/rosidl_runtime_py:/opt/ros2/humble/install/rosidl_runtime_py/lib/python3.9/site-packages:/opt/ros2/humble/install/rosidl_generator_dds_idl/lib/python3.9/site-packages:/opt/ros2/humble/install/rosidl_cmake/lib/python3.9/site-packages:/opt/ros2/humble/install/rosidl_parser/lib/python3.9/site-packages:/opt/ros2/humble/install/rosidl_adapter/lib/python3.9/site-packages:/opt/ros2/humble/build/rosidl_cli:/opt/ros2/humble/install/rosidl_cli/lib/python3.9/site-packages:/opt/ros2/humble/install/resource_retriever/lib/python3.9/site-packages:/opt/ros2/humble/install/rcutils/lib/python3.9/site-packages:/opt/ros2/humble/install/qt_gui_py_common/lib/python3.9/site-packages:/opt/ros2/humble/install/qt_dotgraph/lib/python3.9/site-packages:/opt/ros2/humble/install/python_qt_binding/lib/python3.9/site-packages:/opt/ros2/humble/build/launch_pytest:/opt/ros2/humble/install/launch_pytest/lib/python3.9/site-packages:/opt/ros2/humble/build/launch_testing:/opt/ros2/humble/install/launch_testing/lib/python3.9/site-packages:/opt/ros2/humble/build/launch_yaml:/opt/ros2/humble/install/launch_yaml/lib/python3.9/site-packages:/opt/ros2/humble/build/launch_xml:/opt/ros2/humble/install/launch_xml/lib/python3.9/site-packages:/opt/ros2/humble/build/launch:/opt/ros2/humble/install/launch/lib/python3.9/site-packages:/opt/ros2/humble/build/osrf_pycommon:/opt/ros2/humble/install/osrf_pycommon/lib/python3.9/site-packages:/opt/ros2/humble/build/launch_testing_examples:/opt/ros2/humble/install/launch_testing_examples/lib/python3.9/site-packages:/opt/ros2/humble/install/ament_cmake_google_benchmark/lib/python3.9/site-packages:/opt/ros2/humble/build/domain_coordinator:/opt/ros2/humble/install/domain_coordinator/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_xmllint:/opt/ros2/humble/install/ament_xmllint/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_pyflakes:/opt/ros2/humble/install/ament_pyflakes/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_pycodestyle:/opt/ros2/humble/install/ament_pycodestyle/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_pep257:/opt/ros2/humble/install/ament_pep257/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_pclint:/opt/ros2/humble/install/ament_pclint/lib/python3.9/site-packages:/opt/ros2/humble/install/ament_cmake_test/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_package:/opt/ros2/humble/install/ament_package/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_mypy:/opt/ros2/humble/install/ament_mypy/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_lint_cmake:/opt/ros2/humble/install/ament_lint_cmake/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_flake8:/opt/ros2/humble/install/ament_flake8/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_copyright:/opt/ros2/humble/install/ament_copyright/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_lint:/opt/ros2/humble/install/ament_lint/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_index_python:/opt/ros2/humble/install/ament_index_python/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_cpplint:/opt/ros2/humble/install/ament_cpplint/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_cppcheck:/opt/ros2/humble/install/ament_cppcheck/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_clang_tidy:/opt/ros2/humble/install/ament_clang_tidy/lib/python3.9/site-packages:/opt/ros2/humble/build/ament_clang_format:/opt/ros2/humble/install/ament_clang_format/lib/python3.9/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('JUPYTER_SERVER_URL', 'http://localhost:8888/'), ('CMAKE_PREFIX_PATH', '/opt/olive/packages/install/position_control:/opt/olive/packages/install/olive_dcm:/opt/ros2/humble/install/rosbag2:/opt/ros2/humble/install/rosbag2_compression_zstd:/opt/ros2/humble/install/zstd_vendor:/opt/ros2/humble/install/rviz_visual_testing_framework:/opt/ros2/humble/install/rviz2:/opt/ros2/humble/install/rviz_default_plugins:/opt/ros2/humble/install/rviz_common:/opt/ros2/humble/install/rosbag2_py:/opt/ros2/humble/install/rosbag2_transport:/opt/ros2/humble/install/rosbag2_performance_benchmarking:/opt/ros2/humble/install/rosbag2_compression:/opt/ros2/humble/install/rosbag2_cpp:/opt/ros2/humble/install/rosbag2_storage_default_plugins:/opt/ros2/humble/install/rosbag2_storage:/opt/ros2/humble/install/image_common:/opt/ros2/humble/install/camera_info_manager:/opt/ros2/humble/install/camera_calibration_parsers:/opt/ros2/humble/install/yaml_cpp_vendor:/opt/ros2/humble/install/interactive_markers:/opt/ros2/humble/install/common_interfaces:/opt/ros2/humble/install/visualization_msgs:/opt/ros2/humble/install/dummy_robot_bringup:/opt/ros2/humble/install/robot_state_publisher:/opt/ros2/humble/install/kdl_parser:/opt/ros2/humble/install/urdf:/opt/ros2/humble/install/urdfdom:/opt/ros2/humble/install/urdf_parser_plugin:/opt/ros2/humble/install/urdfdom_headers:/opt/ros2/humble/install/turtlesim:/opt/ros2/humble/install/geometry2:/opt/ros2/humble/install/tf2_sensor_msgs:/opt/ros2/humble/install/test_tf2:/opt/ros2/humble/install/tf2_kdl:/opt/ros2/humble/install/tf2_geometry_msgs:/opt/ros2/humble/install/tf2_eigen:/opt/ros2/humble/install/tf2_bullet:/opt/ros2/humble/install/tf2_ros:/opt/ros2/humble/install/tf2_py:/opt/ros2/humble/install/tf2_msgs:/opt/ros2/humble/install/test_msgs:/opt/ros2/humble/install/sros2_cmake:/opt/ros2/humble/install/ros2cli_common_extensions:/opt/ros2/humble/install/rqt_py_common:/opt/ros2/humble/install/ros_testing:/opt/ros2/humble/install/ros2cli_test_interfaces:/opt/ros2/humble/install/quality_of_service_demo_cpp:/opt/ros2/humble/install/image_transport:/opt/ros2/humble/install/message_filters:/opt/ros2/humble/install/demo_nodes_cpp:/opt/ros2/humble/install/composition:/opt/ros2/humble/install/laser_geometry:/opt/ros2/humble/install/rclpy:/opt/ros2/humble/install/examples_rclcpp_minimal_action_server:/opt/ros2/humble/install/examples_rclcpp_minimal_action_client:/opt/ros2/humble/install/action_tutorials_cpp:/opt/ros2/humble/install/rclcpp_action:/opt/ros2/humble/install/rcl_action:/opt/ros2/humble/install/examples_rclcpp_wait_set:/opt/ros2/humble/install/examples_rclcpp_minimal_service:/opt/ros2/humble/install/examples_rclcpp_minimal_client:/opt/ros2/humble/install/examples_rclcpp_async_client:/opt/ros2/humble/install/example_interfaces:/opt/ros2/humble/install/action_tutorials_interfaces:/opt/ros2/humble/install/action_msgs:/opt/ros2/humble/install/unique_identifier_msgs:/opt/ros2/humble/install/ament_lint_common:/opt/ros2/humble/install/ament_cmake_uncrustify:/opt/ros2/humble/install/uncrustify_vendor:/opt/ros2/humble/install/trajectory_msgs:/opt/ros2/humble/install/topic_statistics_demo:/opt/ros2/humble/install/pendulum_control:/opt/ros2/humble/install/tlsf_cpp:/opt/ros2/humble/install/test_tracetools:/opt/ros2/humble/install/rqt_gui_cpp:/opt/ros2/humble/install/rosbag2_test_common:/opt/ros2/humble/install/ros2lifecycle_test_fixtures:/opt/ros2/humble/install/lifecycle:/opt/ros2/humble/install/rclcpp_lifecycle:/opt/ros2/humble/install/logging_demo:/opt/ros2/humble/install/image_tools:/opt/ros2/humble/install/examples_rclcpp_minimal_subscriber:/opt/ros2/humble/install/examples_rclcpp_minimal_composition:/opt/ros2/humble/install/demo_nodes_cpp_native:/opt/ros2/humble/install/rclcpp_components:/opt/ros2/humble/install/intra_process_demo:/opt/ros2/humble/install/examples_rclcpp_multithreaded_executor:/opt/ros2/humble/install/examples_rclcpp_minimal_timer:/opt/ros2/humble/install/examples_rclcpp_minimal_publisher:/opt/ros2/humble/install/examples_rclcpp_cbg_executor:/opt/ros2/humble/install/dummy_sensors:/opt/ros2/humble/install/dummy_map_server:/opt/ros2/humble/install/rclcpp:/opt/ros2/humble/install/rcl_lifecycle:/opt/ros2/humble/install/libstatistics_collector:/opt/ros2/humble/install/rcl:/opt/ros2/humble/install/rmw_implementation:/opt/ros2/humble/install/rmw_fastrtps_dynamic_cpp:/opt/ros2/humble/install/rmw_fastrtps_cpp:/opt/ros2/humble/install/rmw_fastrtps_shared_cpp:/opt/ros2/humble/install/rmw_cyclonedds_cpp:/opt/ros2/humble/install/tracetools:/opt/ros2/humble/install/tlsf:/opt/ros2/humble/install/tinyxml_vendor:/opt/ros2/humble/install/qt_gui_core:/opt/ros2/humble/install/qt_gui_cpp:/opt/ros2/humble/install/pluginlib:/opt/ros2/humble/install/tinyxml2_vendor:/opt/ros2/humble/install/tf2_eigen_kdl:/opt/ros2/humble/install/tf2:/opt/ros2/humble/install/test_security:/opt/ros2/humble/install/test_rmw_implementation:/opt/ros2/humble/install/test_rclcpp:/opt/ros2/humble/install/test_quality_of_service:/opt/ros2/humble/install/test_launch_testing:/opt/ros2/humble/install/test_interface_files:/opt/ros2/humble/install/test_communication:/opt/ros2/humble/install/test_cli_remapping:/opt/ros2/humble/install/test_cli:/opt/ros2/humble/install/qt_gui_app:/opt/ros2/humble/install/qt_gui:/opt/ros2/humble/install/tango_icons_vendor:/opt/ros2/humble/install/stereo_msgs:/opt/ros2/humble/install/std_srvs:/opt/ros2/humble/install/shape_msgs:/opt/ros2/humble/install/map_msgs:/opt/ros2/humble/install/sensor_msgs:/opt/ros2/humble/install/nav_msgs:/opt/ros2/humble/install/diagnostic_msgs:/opt/ros2/humble/install/geometry_msgs:/opt/ros2/humble/install/actionlib_msgs:/opt/ros2/humble/install/std_msgs:/opt/ros2/humble/install/statistics_msgs:/opt/ros2/humble/install/sqlite3_vendor:/opt/ros2/humble/install/rcl_logging_spdlog:/opt/ros2/humble/install/spdlog_vendor:/opt/ros2/humble/install/shared_queues_vendor:/opt/ros2/humble/install/rviz_rendering_tests:/opt/ros2/humble/install/rviz_rendering:/opt/ros2/humble/install/rviz_ogre_vendor:/opt/ros2/humble/install/rviz_assimp_vendor:/opt/ros2/humble/install/rttest:/opt/ros2/humble/install/rmw_connextddsmicro:/opt/ros2/humble/install/rmw_connextdds:/opt/ros2/humble/install/rmw_connextdds_common:/opt/ros2/humble/install/rti_connext_dds_cmake_module:/opt/ros2/humble/install/rosgraph_msgs:/opt/ros2/humble/install/rosbag2_interfaces:/opt/ros2/humble/install/rmw_dds_common:/opt/ros2/humble/install/composition_interfaces:/opt/ros2/humble/install/rcl_interfaces:/opt/ros2/humble/install/pendulum_msgs:/opt/ros2/humble/install/lifecycle_msgs:/opt/ros2/humble/install/builtin_interfaces:/opt/ros2/humble/install/rosidl_default_runtime:/opt/ros2/humble/install/rosidl_default_generators:/opt/ros2/humble/install/rosidl_generator_py:/opt/ros2/humble/install/rosidl_typesupport_introspection_tests:/opt/ros2/humble/install/rosidl_typesupport_cpp:/opt/ros2/humble/install/rosidl_typesupport_introspection_cpp:/opt/ros2/humble/install/rosidl_typesupport_c:/opt/ros2/humble/install/rosidl_typesupport_introspection_c:/opt/ros2/humble/install/rosidl_typesupport_fastrtps_c:/opt/ros2/humble/install/rosidl_typesupport_fastrtps_cpp:/opt/ros2/humble/install/rosidl_generator_cpp:/opt/ros2/humble/install/rosidl_runtime_cpp:/opt/ros2/humble/install/rcl_yaml_param_parser:/opt/ros2/humble/install/rmw:/opt/ros2/humble/install/rosidl_runtime_c:/opt/ros2/humble/install/rosidl_generator_c:/opt/ros2/humble/install/rosidl_typesupport_interface:/opt/ros2/humble/install/rosidl_generator_dds_idl:/opt/ros2/humble/install/rosidl_cmake:/opt/ros2/humble/install/rosidl_parser:/opt/ros2/humble/install/rosidl_adapter:/opt/ros2/humble/install/rosbag2_tests:/opt/ros2/humble/install/ros_environment:/opt/ros2/humble/install/rmw_implementation_cmake:/opt/ros2/humble/install/resource_retriever:/opt/ros2/humble/install/class_loader:/opt/ros2/humble/install/rcpputils:/opt/ros2/humble/install/rcl_logging_noop:/opt/ros2/humble/install/rcl_logging_interface:/opt/ros2/humble/install/rcutils:/opt/ros2/humble/install/qt_gui_py_common:/opt/ros2/humble/install/qt_dotgraph:/opt/ros2/humble/install/python_qt_binding:/opt/ros2/humble/install/python_orocos_kdl_vendor:/opt/ros2/humble/install/launch_testing_ament_cmake:/opt/ros2/humble/install/python_cmake_module:/opt/ros2/humble/install/pybind11_vendor:/opt/ros2/humble/install/performance_test_fixture:/opt/ros2/humble/install/osrf_testing_tools_cpp:/opt/ros2/humble/install/orocos_kdl_vendor:/opt/ros2/humble/install/mimick_vendor:/opt/ros2/humble/install/libyaml_vendor:/opt/ros2/humble/install/libcurl_vendor:/opt/ros2/humble/install/keyboard_handler:/opt/ros2/humble/install/cyclonedds:/opt/ros2/humble/install/iceoryx_posh:/opt/ros2/humble/install/iceoryx_hoofs:/opt/ros2/humble/install/iceoryx_binding_c:/opt/ros2/humble/install/ament_cmake_ros:/opt/ros2/humble/install/ament_cmake_gmock:/opt/ros2/humble/install/gmock_vendor:/opt/ros2/humble/install/ament_cmake_auto:/opt/ros2/humble/install/ament_cmake_gtest:/opt/ros2/humble/install/gtest_vendor:/opt/ros2/humble/install/ament_cmake_google_benchmark:/opt/ros2/humble/install/google_benchmark_vendor:/opt/ros2/humble/install/fastrtps:/opt/ros2/humble/install/foonathan_memory_vendor:/opt/ros2/humble/install/fastrtps_cmake_module:/opt/ros2/humble/install/fastcdr:/opt/ros2/humble/install/eigen3_cmake_module:/opt/ros2/humble/install/console_bridge_vendor:/opt/ros2/humble/install/ament_cmake_xmllint:/opt/ros2/humble/install/ament_cmake_pyflakes:/opt/ros2/humble/install/ament_cmake_pycodestyle:/opt/ros2/humble/install/ament_cmake_pep257:/opt/ros2/humble/install/ament_cmake_pclint:/opt/ros2/humble/install/ament_lint_auto:/opt/ros2/humble/install/ament_cmake:/opt/ros2/humble/install/ament_cmake_version:/opt/ros2/humble/install/ament_cmake_pytest:/opt/ros2/humble/install/ament_cmake_nose:/opt/ros2/humble/install/ament_cmake_mypy:/opt/ros2/humble/install/ament_cmake_lint_cmake:/opt/ros2/humble/install/ament_cmake_flake8:/opt/ros2/humble/install/ament_cmake_cpplint:/opt/ros2/humble/install/ament_cmake_cppcheck:/opt/ros2/humble/install/ament_cmake_copyright:/opt/ros2/humble/install/ament_cmake_clang_tidy:/opt/ros2/humble/install/ament_cmake_clang_format:/opt/ros2/humble/install/ament_cmake_test:/opt/ros2/humble/install/ament_cmake_target_dependencies:/opt/ros2/humble/install/ament_cmake_python:/opt/ros2/humble/install/ament_cmake_export_dependencies:/opt/ros2/humble/install/ament_cmake_libraries:/opt/ros2/humble/install/ament_cmake_include_directories:/opt/ros2/humble/install/ament_cmake_gen_version_h:/opt/ros2/humble/install/ament_cmake_export_targets:/opt/ros2/humble/install/ament_cmake_export_link_flags:/opt/ros2/humble/install/ament_cmake_export_interfaces:/opt/ros2/humble/install/ament_cmake_export_libraries:/opt/ros2/humble/install/ament_cmake_export_include_directories:/opt/ros2/humble/install/ament_cmake_export_definitions:/opt/ros2/humble/install/ament_cmake_core:/opt/ros2/humble/install/ament_index_cpp:/home/olive/examples/install/shake_detector:/opt/ros2/humble/install/rqt_bag_plugins:/opt/ros2/humble/install/rqt_bag:/opt/ros2/humble/install/ros2bag:/opt/ros2/humble/install/tracetools_test:/opt/ros2/humble/install/tracetools_launch:/opt/ros2/humble/install/topic_monitor:/opt/ros2/humble/install/tf2_tools:/opt/ros2/humble/install/examples_tf2_py:/opt/ros2/humble/install/tf2_ros_py:/opt/ros2/humble/install/sros2:/opt/ros2/humble/install/rqt_topic:/opt/ros2/humble/install/rqt_srv:/opt/ros2/humble/install/rqt_shell:/opt/ros2/humble/install/rqt_service_caller:/opt/ros2/humble/install/rqt_reconfigure:/opt/ros2/humble/install/rqt_py_console:/opt/ros2/humble/install/rqt_publisher:/opt/ros2/humble/install/rqt_plot:/opt/ros2/humble/install/rqt_action:/opt/ros2/humble/install/rqt_msg:/opt/ros2/humble/install/rqt_console:/opt/ros2/humble/install/rqt:/opt/ros2/humble/install/rqt_graph:/opt/ros2/humble/install/rqt_gui_py:/opt/ros2/humble/install/rqt_gui:/opt/ros2/humble/install/ros2trace:/opt/ros2/humble/install/ros2topic:/opt/ros2/humble/install/ros2test:/opt/ros2/humble/install/ros2component:/opt/ros2/humble/install/ros2param:/opt/ros2/humble/install/ros2lifecycle:/opt/ros2/humble/install/ros2service:/opt/ros2/humble/install/ros2run:/opt/ros2/humble/install/ros2launch:/opt/ros2/humble/install/ros2pkg:/opt/ros2/humble/install/ros2node:/opt/ros2/humble/install/ros2multicast:/opt/ros2/humble/install/ros2interface:/opt/ros2/humble/install/ros2doctor:/opt/ros2/humble/install/ros2action:/opt/ros2/humble/install/ros2cli:/opt/ros2/humble/install/quality_of_service_demo_py:/opt/ros2/humble/install/lifecycle_py:/opt/ros2/humble/install/launch_testing_ros:/opt/ros2/humble/install/launch_ros:/opt/ros2/humble/install/examples_rclpy_pointcloud_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_subscriber:/opt/ros2/humble/install/examples_rclpy_minimal_service:/opt/ros2/humble/install/examples_rclpy_minimal_publisher:/opt/ros2/humble/install/examples_rclpy_minimal_client:/opt/ros2/humble/install/examples_rclpy_minimal_action_server:/opt/ros2/humble/install/examples_rclpy_minimal_action_client:/opt/ros2/humble/install/examples_rclpy_guard_conditions:/opt/ros2/humble/install/examples_rclpy_executors:/opt/ros2/humble/install/demo_nodes_py:/opt/ros2/humble/install/action_tutorials_py:/opt/ros2/humble/install/ament_uncrustify:/opt/ros2/humble/install/tracetools_trace:/opt/ros2/humble/install/tracetools_read:/opt/ros2/humble/install/test_tracetools_launch:/opt/ros2/humble/install/test_launch_ros:/opt/ros2/humble/install/sensor_msgs_py:/opt/ros2/humble/install/rpyutils:/opt/ros2/humble/install/rosidl_runtime_py:/opt/ros2/humble/install/rosidl_cli:/opt/ros2/humble/install/launch_pytest:/opt/ros2/humble/install/launch_testing:/opt/ros2/humble/install/launch_yaml:/opt/ros2/humble/install/launch_xml:/opt/ros2/humble/install/launch:/opt/ros2/humble/install/osrf_pycommon:/opt/ros2/humble/install/launch_testing_examples:/opt/ros2/humble/install/domain_coordinator:/opt/ros2/humble/install/ament_xmllint:/opt/ros2/humble/install/ament_pyflakes:/opt/ros2/humble/install/ament_pycodestyle:/opt/ros2/humble/install/ament_pep257:/opt/ros2/humble/install/ament_pclint:/opt/ros2/humble/install/ament_package:/opt/ros2/humble/install/ament_mypy:/opt/ros2/humble/install/ament_lint_cmake:/opt/ros2/humble/install/ament_flake8:/opt/ros2/humble/install/ament_copyright:/opt/ros2/humble/install/ament_lint:/opt/ros2/humble/install/ament_index_python:/opt/ros2/humble/install/ament_cpplint:/opt/ros2/humble/install/ament_cppcheck:/opt/ros2/humble/install/ament_clang_tidy:/opt/ros2/humble/install/ament_clang_format')]), 'shell': False}
+[1.745361] (-) TimerEvent: {}
+[1.850053] (-) TimerEvent: {}
+[1.953382] (-) TimerEvent: {}
+[2.055442] (-) TimerEvent: {}
+[2.157499] (-) TimerEvent: {}
+[2.259612] (-) TimerEvent: {}
+[2.362327] (-) TimerEvent: {}
+[2.465051] (-) TimerEvent: {}
+[2.567753] (-) TimerEvent: {}
+[2.669775] (-) TimerEvent: {}
+[2.771656] (-) TimerEvent: {}
+[2.873545] (-) TimerEvent: {}
+[2.976613] (-) TimerEvent: {}
+[3.078639] (-) TimerEvent: {}
+[3.180540] (-) TimerEvent: {}
+[3.282432] (-) TimerEvent: {}
+[3.384302] (-) TimerEvent: {}
+[3.486780] (-) TimerEvent: {}
+[3.588695] (-) TimerEvent: {}
+[3.690636] (-) TimerEvent: {}
+[3.792537] (-) TimerEvent: {}
+[3.894466] (-) TimerEvent: {}
+[3.996707] (-) TimerEvent: {}
+[4.099733] (-) TimerEvent: {}
+[4.201594] (-) TimerEvent: {}
+[4.303497] (-) TimerEvent: {}
+[4.405450] (-) TimerEvent: {}
+[4.507355] (-) TimerEvent: {}
+[4.609420] (-) TimerEvent: {}
+[4.711359] (-) TimerEvent: {}
+[4.813317] (-) TimerEvent: {}
+[4.917578] (-) TimerEvent: {}
+[5.021558] (-) TimerEvent: {}
+[5.023924] (apriltag_detector) StdoutLine: {'line': b'-- The C compiler identification is GNU 10.2.1\n'}
+[5.121952] (-) TimerEvent: {}
+[5.223849] (-) TimerEvent: {}
+[5.325936] (-) TimerEvent: {}
+[5.427995] (-) TimerEvent: {}
+[5.530169] (-) TimerEvent: {}
+[5.632115] (-) TimerEvent: {}
+[5.735404] (-) TimerEvent: {}
+[5.838736] (-) TimerEvent: {}
+[5.941987] (-) TimerEvent: {}
+[6.043879] (-) TimerEvent: {}
+[6.145712] (-) TimerEvent: {}
+[6.248574] (-) TimerEvent: {}
+[6.350389] (-) TimerEvent: {}
+[6.452485] (-) TimerEvent: {}
+[6.554447] (-) TimerEvent: {}
+[6.656396] (-) TimerEvent: {}
+[6.758367] (-) TimerEvent: {}
+[6.860341] (-) TimerEvent: {}
+[6.962552] (-) TimerEvent: {}
+[7.064801] (-) TimerEvent: {}
+[7.166628] (-) TimerEvent: {}
+[7.269024] (-) TimerEvent: {}
+[7.371091] (-) TimerEvent: {}
+[7.473037] (-) TimerEvent: {}
+[7.574896] (-) TimerEvent: {}
+[7.676764] (-) TimerEvent: {}
+[7.778792] (-) TimerEvent: {}
+[7.881302] (-) TimerEvent: {}
+[7.983244] (-) TimerEvent: {}
+[8.087038] (-) TimerEvent: {}
+[8.190606] (-) TimerEvent: {}
+[8.292831] (-) TimerEvent: {}
+[8.381998] (apriltag_detector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 10.2.1\n'}
+[8.393268] (-) TimerEvent: {}
+[8.495362] (-) TimerEvent: {}
+[8.597273] (-) TimerEvent: {}
+[8.700690] (-) TimerEvent: {}
+[8.804055] (-) TimerEvent: {}
+[8.860575] (apriltag_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.904461] (-) TimerEvent: {}
+[9.007856] (-) TimerEvent: {}
+[9.109915] (-) TimerEvent: {}
+[9.211798] (-) TimerEvent: {}
+[9.313709] (-) TimerEvent: {}
+[9.417151] (-) TimerEvent: {}
+[9.520572] (-) TimerEvent: {}
+[9.622486] (-) TimerEvent: {}
+[9.724430] (-) TimerEvent: {}
+[9.826370] (-) TimerEvent: {}
+[9.928319] (-) TimerEvent: {}
+[10.030181] (-) TimerEvent: {}
+[10.132162] (-) TimerEvent: {}
+[10.234116] (-) TimerEvent: {}
+[10.336464] (-) TimerEvent: {}
+[10.438542] (-) TimerEvent: {}
+[10.540499] (-) TimerEvent: {}
+[10.642463] (-) TimerEvent: {}
+[10.744364] (-) TimerEvent: {}
+[10.846295] (-) TimerEvent: {}
+[10.949787] (-) TimerEvent: {}
+[11.052979] (-) TimerEvent: {}
+[11.085524] (apriltag_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.153390] (-) TimerEvent: {}
+[11.255600] (-) TimerEvent: {}
+[11.323718] (apriltag_detector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[11.328860] (apriltag_detector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.337704] (apriltag_detector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.356008] (-) TimerEvent: {}
+[11.409788] (apriltag_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.456963] (-) TimerEvent: {}
+[11.560250] (-) TimerEvent: {}
+[11.662163] (-) TimerEvent: {}
+[11.764156] (-) TimerEvent: {}
+[11.866086] (-) TimerEvent: {}
+[11.969430] (-) TimerEvent: {}
+[12.072502] (-) TimerEvent: {}
+[12.174652] (-) TimerEvent: {}
+[12.276679] (-) TimerEvent: {}
+[12.383898] (-) TimerEvent: {}
+[12.487099] (-) TimerEvent: {}
+[12.589105] (-) TimerEvent: {}
+[12.691030] (-) TimerEvent: {}
+[12.792928] (-) TimerEvent: {}
+[12.894824] (-) TimerEvent: {}
+[12.997962] (-) TimerEvent: {}
+[13.101240] (-) TimerEvent: {}
+[13.203191] (-) TimerEvent: {}
+[13.305171] (-) TimerEvent: {}
+[13.407141] (-) TimerEvent: {}
+[13.509157] (-) TimerEvent: {}
+[13.611097] (-) TimerEvent: {}
+[13.713103] (-) TimerEvent: {}
+[13.815086] (-) TimerEvent: {}
+[13.917066] (-) TimerEvent: {}
+[14.004225] (apriltag_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.017450] (-) TimerEvent: {}
+[14.121294] (-) TimerEvent: {}
+[14.224874] (-) TimerEvent: {}
+[14.247979] (apriltag_detector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[14.253673] (apriltag_detector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.264423] (apriltag_detector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.325283] (-) TimerEvent: {}
+[14.430967] (-) TimerEvent: {}
+[14.534330] (-) TimerEvent: {}
+[14.573166] (apriltag_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros2/humble/install/ament_cmake/share/ament_cmake/cmake)\n'}
+[14.634734] (-) TimerEvent: {}
+[14.738083] (-) TimerEvent: {}
+[14.841624] (-) TimerEvent: {}
+[14.944268] (-) TimerEvent: {}
+[15.046156] (-) TimerEvent: {}
+[15.148049] (-) TimerEvent: {}
+[15.250124] (-) TimerEvent: {}
+[15.352081] (-) TimerEvent: {}
+[15.453902] (-) TimerEvent: {}
+[15.555714] (-) TimerEvent: {}
+[15.657595] (-) TimerEvent: {}
+[15.759590] (-) TimerEvent: {}
+[15.861445] (-) TimerEvent: {}
+[15.963401] (-) TimerEvent: {}
+[16.065427] (-) TimerEvent: {}
+[16.167282] (-) TimerEvent: {}
+[16.269331] (-) TimerEvent: {}
+[16.371239] (-) TimerEvent: {}
+[16.473095] (-) TimerEvent: {}
+[16.574933] (-) TimerEvent: {}
+[16.676798] (-) TimerEvent: {}
+[16.778713] (-) TimerEvent: {}
+[16.882176] (-) TimerEvent: {}
+[16.983987] (-) TimerEvent: {}
+[17.085773] (-) TimerEvent: {}
+[17.187582] (-) TimerEvent: {}
+[17.289494] (-) TimerEvent: {}
+[17.391260] (-) TimerEvent: {}
+[17.493169] (-) TimerEvent: {}
+[17.700483] (-) TimerEvent: {}
+[17.802350] (-) TimerEvent: {}
+[17.904128] (-) TimerEvent: {}
+[18.005979] (-) TimerEvent: {}
+[18.109577] (-) TimerEvent: {}
+[18.213127] (-) TimerEvent: {}
+[18.315059] (-) TimerEvent: {}
+[18.416872] (-) TimerEvent: {}
+[18.518738] (-) TimerEvent: {}
+[18.620529] (-) TimerEvent: {}
+[18.722305] (-) TimerEvent: {}
+[18.824076] (-) TimerEvent: {}
+[18.925860] (-) TimerEvent: {}
+[19.027648] (-) TimerEvent: {}
+[19.129559] (-) TimerEvent: {}
+[19.231387] (-) TimerEvent: {}
+[19.333208] (-) TimerEvent: {}
+[19.435094] (-) TimerEvent: {}
+[19.536910] (-) TimerEvent: {}
+[19.638874] (-) TimerEvent: {}
+[19.740621] (-) TimerEvent: {}
+[19.842417] (-) TimerEvent: {}
+[19.944194] (-) TimerEvent: {}
+[20.045958] (-) TimerEvent: {}
+[20.149501] (-) TimerEvent: {}
+[20.252707] (-) TimerEvent: {}
+[20.354470] (-) TimerEvent: {}
+[20.456237] (-) TimerEvent: {}
+[20.558021] (-) TimerEvent: {}
+[20.659924] (-) TimerEvent: {}
+[20.761695] (-) TimerEvent: {}
+[20.863479] (-) TimerEvent: {}
+[20.965322] (-) TimerEvent: {}
+[21.067179] (-) TimerEvent: {}
+[21.169078] (-) TimerEvent: {}
+[21.270949] (-) TimerEvent: {}
+[21.372830] (-) TimerEvent: {}
+[21.474613] (-) TimerEvent: {}
+[21.576485] (-) TimerEvent: {}
+[21.678403] (-) TimerEvent: {}
+[21.780204] (-) TimerEvent: {}
+[21.882025] (-) TimerEvent: {}
+[21.984102] (-) TimerEvent: {}
+[22.085899] (-) TimerEvent: {}
+[22.187723] (-) TimerEvent: {}
+[22.289637] (-) TimerEvent: {}
+[22.391431] (-) TimerEvent: {}
+[22.493241] (-) TimerEvent: {}
+[22.595109] (-) TimerEvent: {}
+[22.696980] (-) TimerEvent: {}
+[22.798869] (-) TimerEvent: {}
+[22.900699] (-) TimerEvent: {}
+[23.002517] (-) TimerEvent: {}
+[23.104385] (-) TimerEvent: {}
+[23.206314] (-) TimerEvent: {}
+[23.308230] (-) TimerEvent: {}
+[23.410050] (-) TimerEvent: {}
+[23.511879] (-) TimerEvent: {}
+[23.613658] (-) TimerEvent: {}
+[23.715438] (-) TimerEvent: {}
+[23.817233] (-) TimerEvent: {}
+[23.919146] (-) TimerEvent: {}
+[24.021017] (-) TimerEvent: {}
+[24.123098] (-) TimerEvent: {}
+[24.224969] (-) TimerEvent: {}
+[24.326845] (-) TimerEvent: {}
+[24.428830] (-) TimerEvent: {}
+[24.530697] (-) TimerEvent: {}
+[24.632576] (-) TimerEvent: {}
+[24.734457] (-) TimerEvent: {}
+[24.836338] (-) TimerEvent: {}
+[24.939476] (-) TimerEvent: {}
+[25.041550] (-) TimerEvent: {}
+[25.049378] (apriltag_detector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.9 (found version "3.9.2") found components: Interpreter \n'}
+[25.141960] (-) TimerEvent: {}
+[25.243936] (-) TimerEvent: {}
+[25.345861] (-) TimerEvent: {}
+[25.449095] (-) TimerEvent: {}
+[25.550960] (-) TimerEvent: {}
+[25.652819] (-) TimerEvent: {}
+[25.754612] (-) TimerEvent: {}
+[25.856428] (-) TimerEvent: {}
+[25.958307] (-) TimerEvent: {}
+[26.060074] (-) TimerEvent: {}
+[26.161945] (-) TimerEvent: {}
+[26.263728] (-) TimerEvent: {}
+[26.365542] (-) TimerEvent: {}
+[26.468721] (-) TimerEvent: {}
+[26.570488] (-) TimerEvent: {}
+[26.672283] (-) TimerEvent: {}
+[26.774083] (-) TimerEvent: {}
+[26.875927] (-) TimerEvent: {}
+[26.977774] (-) TimerEvent: {}
+[27.079673] (-) TimerEvent: {}
+[27.181517] (-) TimerEvent: {}
+[27.283400] (-) TimerEvent: {}
+[27.385198] (-) TimerEvent: {}
+[27.486990] (-) TimerEvent: {}
+[27.588878] (-) TimerEvent: {}
+[27.690817] (-) TimerEvent: {}
+[27.792651] (-) TimerEvent: {}
+[27.894429] (-) TimerEvent: {}
+[27.996261] (-) TimerEvent: {}
+[28.098025] (-) TimerEvent: {}
+[28.199957] (-) TimerEvent: {}
+[28.301752] (-) TimerEvent: {}
+[28.404708] (-) TimerEvent: {}
+[28.507691] (-) TimerEvent: {}
+[28.610945] (-) TimerEvent: {}
+[28.712862] (-) TimerEvent: {}
+[28.779428] (apriltag_detector) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[28.813282] (-) TimerEvent: {}
+[28.917291] (-) TimerEvent: {}
+[29.020921] (-) TimerEvent: {}
+[29.122804] (-) TimerEvent: {}
+[29.224768] (-) TimerEvent: {}
+[29.326664] (-) TimerEvent: {}
+[29.428628] (-) TimerEvent: {}
+[29.530495] (-) TimerEvent: {}
+[29.633850] (-) TimerEvent: {}
+[29.735750] (-) TimerEvent: {}
+[29.837649] (-) TimerEvent: {}
+[29.939977] (-) TimerEvent: {}
+[30.041919] (-) TimerEvent: {}
+[30.143743] (-) TimerEvent: {}
+[30.245648] (-) TimerEvent: {}
+[30.347619] (-) TimerEvent: {}
+[30.449614] (-) TimerEvent: {}
+[30.551505] (-) TimerEvent: {}
+[30.653531] (-) TimerEvent: {}
+[30.755635] (-) TimerEvent: {}
+[30.857561] (-) TimerEvent: {}
+[30.959597] (-) TimerEvent: {}
+[31.061495] (-) TimerEvent: {}
+[31.165469] (-) TimerEvent: {}
+[31.267360] (-) TimerEvent: {}
+[31.369367] (-) TimerEvent: {}
+[31.471275] (-) TimerEvent: {}
+[31.573198] (-) TimerEvent: {}
+[31.675250] (-) TimerEvent: {}
+[31.777244] (-) TimerEvent: {}
+[31.879616] (-) TimerEvent: {}
+[31.981567] (-) TimerEvent: {}
+[32.083456] (-) TimerEvent: {}
+[32.185367] (-) TimerEvent: {}
+[32.287323] (-) TimerEvent: {}
+[32.389587] (-) TimerEvent: {}
+[32.491524] (-) TimerEvent: {}
+[32.594934] (-) TimerEvent: {}
+[32.696880] (-) TimerEvent: {}
+[32.856627] (-) TimerEvent: {}
+[32.912582] (apriltag_detector) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros2/humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)\n'}
+[32.957035] (-) TimerEvent: {}
+[33.060712] (-) TimerEvent: {}
+[33.164212] (-) TimerEvent: {}
+[33.266168] (-) TimerEvent: {}
+[33.368187] (-) TimerEvent: {}
+[33.470187] (-) TimerEvent: {}
+[33.573247] (-) TimerEvent: {}
+[33.676308] (-) TimerEvent: {}
+[33.779234] (-) TimerEvent: {}
+[33.881138] (-) TimerEvent: {}
+[33.984530] (-) TimerEvent: {}
+[34.088051] (-) TimerEvent: {}
+[34.107439] (apriltag_detector) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[34.188564] (-) TimerEvent: {}
+[34.290642] (-) TimerEvent: {}
+[34.392688] (-) TimerEvent: {}
+[34.494804] (-) TimerEvent: {}
+[34.596720] (-) TimerEvent: {}
+[34.700345] (-) TimerEvent: {}
+[34.803962] (-) TimerEvent: {}
+[34.905870] (-) TimerEvent: {}
+[35.009517] (-) TimerEvent: {}
+[35.113509] (-) TimerEvent: {}
+[35.216165] (-) TimerEvent: {}
+[35.318081] (-) TimerEvent: {}
+[35.420125] (-) TimerEvent: {}
+[35.521987] (-) TimerEvent: {}
+[35.623915] (-) TimerEvent: {}
+[35.725921] (-) TimerEvent: {}
+[35.827956] (-) TimerEvent: {}
+[35.930360] (-) TimerEvent: {}
+[36.033497] (-) TimerEvent: {}
+[36.135617] (-) TimerEvent: {}
+[36.237579] (-) TimerEvent: {}
+[36.339776] (-) TimerEvent: {}
+[36.442075] (-) TimerEvent: {}
+[36.544062] (-) TimerEvent: {}
+[36.546921] (apriltag_detector) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[36.550830] (apriltag_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[36.644484] (-) TimerEvent: {}
+[36.747582] (-) TimerEvent: {}
+[36.849607] (-) TimerEvent: {}
+[36.951524] (-) TimerEvent: {}
+[37.053850] (-) TimerEvent: {}
+[37.155921] (-) TimerEvent: {}
+[37.257799] (-) TimerEvent: {}
+[37.366506] (-) TimerEvent: {}
+[37.470395] (-) TimerEvent: {}
+[37.572677] (-) TimerEvent: {}
+[37.676437] (-) TimerEvent: {}
+[37.778336] (-) TimerEvent: {}
+[37.892739] (-) TimerEvent: {}
+[37.994689] (-) TimerEvent: {}
+[38.098966] (-) TimerEvent: {}
+[38.203311] (-) TimerEvent: {}
+[38.305332] (-) TimerEvent: {}
+[38.407383] (-) TimerEvent: {}
+[38.509591] (-) TimerEvent: {}
+[38.611536] (-) TimerEvent: {}
+[38.713543] (-) TimerEvent: {}
+[38.815540] (-) TimerEvent: {}
+[38.917589] (-) TimerEvent: {}
+[38.969850] (apriltag_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[38.973337] (apriltag_detector) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[39.018000] (-) TimerEvent: {}
+[39.121731] (-) TimerEvent: {}
+[39.223707] (-) TimerEvent: {}
+[39.325727] (-) TimerEvent: {}
+[39.427651] (-) TimerEvent: {}
+[39.530918] (-) TimerEvent: {}
+[39.632982] (-) TimerEvent: {}
+[39.736744] (-) TimerEvent: {}
+[39.838912] (-) TimerEvent: {}
+[39.942456] (-) TimerEvent: {}
+[40.044490] (-) TimerEvent: {}
+[40.146557] (-) TimerEvent: {}
+[40.248572] (-) TimerEvent: {}
+[40.351697] (-) TimerEvent: {}
+[40.453719] (-) TimerEvent: {}
+[40.555686] (-) TimerEvent: {}
+[40.657729] (-) TimerEvent: {}
+[40.759799] (-) TimerEvent: {}
+[40.861743] (-) TimerEvent: {}
+[40.963711] (-) TimerEvent: {}
+[40.985434] (apriltag_detector) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[40.988780] (apriltag_detector) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[41.064127] (-) TimerEvent: {}
+[41.167764] (-) TimerEvent: {}
+[41.269967] (-) TimerEvent: {}
+[41.371849] (-) TimerEvent: {}
+[41.473806] (-) TimerEvent: {}
+[41.577026] (-) TimerEvent: {}
+[41.679163] (-) TimerEvent: {}
+[41.781981] (-) TimerEvent: {}
+[41.884070] (-) TimerEvent: {}
+[41.986134] (-) TimerEvent: {}
+[42.088213] (-) TimerEvent: {}
+[42.190136] (-) TimerEvent: {}
+[42.292251] (-) TimerEvent: {}
+[42.394269] (-) TimerEvent: {}
+[42.496266] (-) TimerEvent: {}
+[42.598323] (-) TimerEvent: {}
+[42.700297] (-) TimerEvent: {}
+[42.802270] (-) TimerEvent: {}
+[42.904234] (-) TimerEvent: {}
+[43.006245] (-) TimerEvent: {}
+[43.109592] (-) TimerEvent: {}
+[43.211896] (-) TimerEvent: {}
+[43.277534] (apriltag_detector) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[43.295397] (apriltag_detector) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[43.312227] (-) TimerEvent: {}
+[43.415252] (-) TimerEvent: {}
+[43.518439] (-) TimerEvent: {}
+[43.621986] (-) TimerEvent: {}
+[43.700636] (apriltag_detector) StderrLine: {'line': b'CMake Error at cmake/ROS2.cmake:23 (find_package):\n'}
+[43.703371] (apriltag_detector) StderrLine: {'line': b'  By not providing "FindOpenCV.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[43.705381] (apriltag_detector) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "OpenCV", but\n'}
+[43.707334] (apriltag_detector) StderrLine: {'line': b'  CMake did not find one.\n'}
+[43.710791] (apriltag_detector) StderrLine: {'line': b'\n'}
+[43.712800] (apriltag_detector) StderrLine: {'line': b'  Could not find a package configuration file provided by "OpenCV" with any\n'}
+[43.714978] (apriltag_detector) StderrLine: {'line': b'  of the following names:\n'}
+[43.717128] (apriltag_detector) StderrLine: {'line': b'\n'}
+[43.719552] (apriltag_detector) StderrLine: {'line': b'    OpenCVConfig.cmake\n'}
+[43.721661] (apriltag_detector) StderrLine: {'line': b'    opencv-config.cmake\n'}
+[43.723610] (-) TimerEvent: {}
+[43.726374] (apriltag_detector) StderrLine: {'line': b'\n'}
+[43.729205] (apriltag_detector) StderrLine: {'line': b'  Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set\n'}
+[43.731908] (apriltag_detector) StderrLine: {'line': b'  "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"\n'}
+[43.734509] (apriltag_detector) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[43.736860] (apriltag_detector) StderrLine: {'line': b'  installed.\n'}
+[43.739412] (apriltag_detector) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[43.741756] (apriltag_detector) StderrLine: {'line': b'  CMakeLists.txt:21 (include)\n'}
+[43.744362] (apriltag_detector) StderrLine: {'line': b'\n'}
+[43.746757] (apriltag_detector) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[43.749344] (apriltag_detector) StdoutLine: {'line': b'See also "/home/olive/workspace/apriltag_detector/build/apriltag_detector/CMakeFiles/CMakeOutput.log".\n'}
+[43.751854] (apriltag_detector) StdoutLine: {'line': b'See also "/home/olive/workspace/apriltag_detector/build/apriltag_detector/CMakeFiles/CMakeError.log".\n'}
+[43.758565] (apriltag_detector) StderrLine: {'line': b'\n'}
+[43.770351] (apriltag_detector) CommandEnded: {'returncode': 1}
+[43.824198] (-) TimerEvent: {}
+[43.926611] (-) TimerEvent: {}
+[44.028615] (-) TimerEvent: {}
+[44.131690] (-) TimerEvent: {}
+[44.233592] (-) TimerEvent: {}
+[44.335494] (-) TimerEvent: {}
+[44.441798] (-) TimerEvent: {}
+[44.519401] (apriltag_detector) JobEnded: {'identifier': 'apriltag_detector', 'rc': 1}
+[44.534511] (-) EventReactorShutdown: {}

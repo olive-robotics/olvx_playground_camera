@@ -1,0 +1,42 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/olive/ros2_ws/build/image_geometry/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8c01e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8c01e.dir/build.make CMakeFiles/cmTC_8c01e.dir/build
+gmake[1]: Entering directory '/home/olive/ros2_ws/build/image_geometry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c01e.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_8c01e.dir/src.c.o -c /home/olive/ros2_ws/build/image_geometry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8c01e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c01e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_8c01e.dir/src.c.o -o cmTC_8c01e 
+/usr/bin/ld: CMakeFiles/cmTC_8c01e.dir/src.c.o: in function `main':
+src.c:(.text+0x26): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x2e): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x36): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x40): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_8c01e.dir/build.make:106: cmTC_8c01e] Error 1
+gmake[1]: Leaving directory '/home/olive/ros2_ws/build/image_geometry/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_8c01e/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
