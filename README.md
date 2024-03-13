@@ -43,3 +43,27 @@ Both hands down, both hands up, left down / right up, right down / left up, left
 ### 4️⃣ April Tag Detection App
 
 ![Skeleton Detection Image](/images/tag.gif "tag.gif")
+
+Example forked from:
+https://github.com/ros-misc-utilities/apriltag_detector
+
+A4 Tag Dataset:
+https://github.com/rgov/apriltag-pdfs
+
+Update the .bashrc and add this lines to it:
+
+```
+source /opt/olive/script/env.sh
+export PATH="/home/olive/.local/bin:$PATH"
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/olive/opencv_install/opencv-4.x/build/lib
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/olive/lib
+export OpenCV_DIR=/home/olive/opencv_install/opencv-4.x/build
+```
+
+### 5️⃣ Edge Dector App
+
+TBD (April 2024)
+
+### 6️⃣ Monocular Depth Estimation App
+
+TBD (April 2024)
