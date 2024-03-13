@@ -65,12 +65,13 @@ Then install the AprilTag 3 library from examples/04-AprilTag/lib/apriltag
 ```
 rm -r build
 cmake -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build --target install
+sudo cmake --build build --target install
 ```
 
-Then build the ROS2 project from examples/04-AprilTag/lib/workspace
+Then build the ROS2 project from examples/04-AprilTag/lib/workspace. You can skip also building if you don't want to change the code.
 
 ```
+source install/setup.bash
 colcon build
 ```
 
