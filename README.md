@@ -60,6 +60,25 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/olive/lib
 export OpenCV_DIR=/home/olive/opencv_install/opencv-4.x/build
 ```
 
+Then install the AprilTag 3 library from examples/04-AprilTag/lib/apriltag
+
+```
+cmake -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build --target install
+```
+
+Then build the ROS2 project from examples/04-AprilTag/lib/workspace
+
+```
+colcon build
+```
+
+Then run it with:
+
+```
+ros2 launch apriltag_detector node.launch.py
+```
+
 ### 5️⃣ Edge Dector App
 
 TBD (April 2024)
