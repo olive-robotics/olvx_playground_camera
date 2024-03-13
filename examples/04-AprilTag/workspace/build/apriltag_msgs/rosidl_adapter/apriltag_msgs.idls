@@ -1,3 +1,3 @@
-/home/olive/workspace2/build/apriltag_msgs/rosidl_adapter/apriltag_msgs:msg/Point.idl
-/home/olive/workspace2/build/apriltag_msgs/rosidl_adapter/apriltag_msgs:msg/AprilTagDetection.idl
-/home/olive/workspace2/build/apriltag_msgs/rosidl_adapter/apriltag_msgs:msg/AprilTagDetectionArray.idl
+/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_msgs/rosidl_adapter/apriltag_msgs:msg/Point.idl
+/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_msgs/rosidl_adapter/apriltag_msgs:msg/AprilTagDetection.idl
+/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_msgs/rosidl_adapter/apriltag_msgs:msg/AprilTagDetectionArray.idl

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/olive/workspace2/src/apriltag_detector/src/convert_detections.cpp" "/home/olive/workspace2/build/apriltag_detector/CMakeFiles/detector_wrapper.dir/src/convert_detections.cpp.o"
-  "/home/olive/workspace2/src/apriltag_detector/src/detector_wrapper.cpp" "/home/olive/workspace2/build/apriltag_detector/CMakeFiles/detector_wrapper.dir/src/detector_wrapper.cpp.o"
-  "/home/olive/workspace2/src/apriltag_detector/src/detector_wrapper_base.cpp" "/home/olive/workspace2/build/apriltag_detector/CMakeFiles/detector_wrapper.dir/src/detector_wrapper_base.cpp.o"
-  "/home/olive/workspace2/src/apriltag_detector/src/draw_tag.cpp" "/home/olive/workspace2/build/apriltag_detector/CMakeFiles/detector_wrapper.dir/src/draw_tag.cpp.o"
+  "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector/src/convert_detections.cpp" "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_detector/CMakeFiles/detector_wrapper.dir/src/convert_detections.cpp.o"
+  "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector/src/detector_wrapper.cpp" "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_detector/CMakeFiles/detector_wrapper.dir/src/detector_wrapper.cpp.o"
+  "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector/src/detector_wrapper_base.cpp" "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_detector/CMakeFiles/detector_wrapper.dir/src/detector_wrapper_base.cpp.o"
+  "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector/src/draw_tag.cpp" "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_detector/CMakeFiles/detector_wrapper.dir/src/draw_tag.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,9 +21,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/olive/workspace2/src/apriltag_detector/include"
-  "/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs"
-  "/home/olive/workspace2/install/cv_bridge/include/cv_bridge"
+  "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector/include"
+  "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/cv_bridge/include/cv_bridge"
+  "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/apriltag_msgs/include/apriltag_msgs"
   "/opt/ros2/humble/install/image_transport/include/image_transport"
   "/opt/ros2/humble/install/rclcpp_components/include/rclcpp_components"
   "/opt/ros2/humble/install/rclcpp/include/rclcpp"

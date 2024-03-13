@@ -1,6 +1,8 @@
 devel/
 logs/
 bin/
+log/
+logs/
 msg_gen/
 srv_gen/
 msg/*Action.msg

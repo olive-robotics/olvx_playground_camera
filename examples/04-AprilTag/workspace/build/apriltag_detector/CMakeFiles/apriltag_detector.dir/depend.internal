@@ -10,7 +10,6 @@ CMakeFiles/apriltag_detector.dir/src/apriltag_detector.cpp.o
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/bufferpool.hpp
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/check.hpp
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/core.hpp
- /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/core_c.h
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/cv_cpu_dispatch.h
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/cv_cpu_helper.h
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/cvdef.h
@@ -31,30 +30,24 @@ CMakeFiles/apriltag_detector.dir/src/apriltag_detector.cpp.o
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/saturate.hpp
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/traits.hpp
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/types.hpp
- /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/types_c.h
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/utility.hpp
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/utils/instrumentation.hpp
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/utils/tls.hpp
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/version.hpp
  /home/olive/opencv_install/opencv-4.x/modules/core/include/opencv2/core/vsx_utils.hpp
- /home/olive/opencv_install/opencv-4.x/modules/imgproc/include/opencv2/imgproc.hpp
- /home/olive/opencv_install/opencv-4.x/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
- /home/olive/opencv_install/opencv-4.x/modules/imgproc/include/opencv2/imgproc/segmentation.hpp
- /home/olive/opencv_install/opencv-4.x/modules/imgproc/include/opencv2/imgproc/types_c.h
- /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
- /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
- /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
- /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
- /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
- /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
- /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp
- /home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp
- /home/olive/workspace2/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
- /home/olive/workspace2/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
- /home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp
- /home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/detector_wrapper.hpp
- /home/olive/workspace2/src/apriltag_detector/include/apriltag_detector/detector_wrapper_base.hpp
- /home/olive/workspace2/src/apriltag_detector/src/apriltag_detector.cpp
+ /home/olive/opencv_install/opencv-4.x/modules/imgcodecs/include/opencv2/imgcodecs.hpp
+ /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
+ /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
+ /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
+ /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
+ /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
+ /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
+ /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp
+ /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp
+ /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector/include/apriltag_detector/apriltag_detector.hpp
+ /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector/include/apriltag_detector/detector_wrapper.hpp
+ /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector/include/apriltag_detector/detector_wrapper_base.hpp
+ /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector/src/apriltag_detector.cpp
  /opt/ros2/humble/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
  /opt/ros2/humble/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
  /opt/ros2/humble/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
@@ -391,7 +384,6 @@ CMakeFiles/apriltag_detector.dir/src/apriltag_detector.cpp.o
  /opt/ros2/humble/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp
  /opt/ros2/humble/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp
  /opt/ros2/humble/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h
- /opt/ros2/humble/install/sensor_msgs/include/sensor_msgs/sensor_msgs/image_encodings.hpp
  /opt/ros2/humble/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp
  /opt/ros2/humble/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
  /opt/ros2/humble/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp

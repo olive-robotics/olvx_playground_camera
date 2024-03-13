@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/olive/workspace2/src/apriltag_detector/src/node.cpp" "/home/olive/workspace2/build/apriltag_detector/CMakeFiles/apriltag_detector_node.dir/src/node.cpp.o"
+  "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector/src/node.cpp" "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_detector/CMakeFiles/apriltag_detector_node.dir/src/node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/olive/workspace2/src/apriltag_detector/include"
+  "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector/include"
   "/opt/ros2/humble/install/rclcpp/include/rclcpp"
   "/opt/ros2/humble/install/ament_index_cpp/include/ament_index_cpp"
   "/opt/ros2/humble/install/libstatistics_collector/include/libstatistics_collector"
@@ -52,7 +52,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros2/humble/install/sensor_msgs/include/sensor_msgs"
   "/opt/ros2/humble/install/geometry_msgs/include/geometry_msgs"
   "/opt/ros2/humble/install/std_msgs/include/std_msgs"
-  "/home/olive/workspace2/install/cv_bridge/include/cv_bridge"
+  "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/cv_bridge/include/cv_bridge"
   "/home/olive/opencv_install/opencv-4.x/build"
   "/home/olive/opencv_install/opencv-4.x/include"
   "/home/olive/opencv_install/opencv-4.x/modules/core/include"
@@ -70,14 +70,14 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/olive/opencv_install/opencv-4.x/modules/stitching/include"
   "/home/olive/opencv_install/opencv-4.x/modules/ts/include"
   "/home/olive/opencv_install/opencv-4.x/modules/video/include"
-  "/home/olive/workspace2/install/apriltag_msgs/include/apriltag_msgs"
+  "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/apriltag_msgs/include/apriltag_msgs"
   "/usr/local/include/apriltag"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/olive/workspace2/build/apriltag_detector/CMakeFiles/apriltag_detector.dir/DependInfo.cmake"
-  "/home/olive/workspace2/build/apriltag_detector/CMakeFiles/detector_wrapper.dir/DependInfo.cmake"
+  "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_detector/CMakeFiles/apriltag_detector.dir/DependInfo.cmake"
+  "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_detector/CMakeFiles/detector_wrapper.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -21,6 +21,7 @@
 #include <memory>
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/image.hpp>
+#include <sensor_msgs/msg/compressed_image.hpp>
 #include <string>
 
 namespace apriltag_detector
@@ -36,12 +37,14 @@ public:
 private:
   using ApriltagArray = apriltag_msgs::msg::AprilTagDetectionArray;
   void subscriptionCheckTimerExpired();
-  void callback(const sensor_msgs::msg::Image::ConstSharedPtr & msg);
+  void callback(const sensor_msgs::msg::CompressedImage::SharedPtr msg);
   // ------------------------  variables ------------------------------
   rclcpp::TimerBase::SharedPtr subscriptionCheckTimer_;
+
   rclcpp::Publisher<ApriltagArray>::SharedPtr detectPub_;
-  image_transport::Subscriber imageSub_;
-  image_transport::Publisher imagePub_;
+  rclcpp::Publisher<sensor_msgs::msg::CompressedImage>::SharedPtr imagePub_;
+  rclcpp::Subscription<sensor_msgs::msg::CompressedImage>::SharedPtr imageSub_;
+
   bool isSubscribed_{false};
   std::string imageQoSProfile_{"default"};
   std::shared_ptr<DetectorWrapper> detector_;

@@ -1,8 +1,8 @@
 {
   "package_name": "apriltag_msgs",
   "non_idl_tuples": [
-    "/home/olive/workspace2/src/apriltag_msgs:msg/Point.msg",
-    "/home/olive/workspace2/src/apriltag_msgs:msg/AprilTagDetection.msg",
-    "/home/olive/workspace2/src/apriltag_msgs:msg/AprilTagDetectionArray.msg"
+    "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_msgs:msg/Point.msg",
+    "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_msgs:msg/AprilTagDetection.msg",
+    "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_msgs:msg/AprilTagDetectionArray.msg"
   ]
 }

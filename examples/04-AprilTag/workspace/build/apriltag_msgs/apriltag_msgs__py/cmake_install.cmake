@@ -1,8 +1,8 @@
-# Install script for directory: /home/olive/workspace2/build/apriltag_msgs/apriltag_msgs__py
+# Install script for directory: /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_msgs/apriltag_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/olive/workspace2/install/apriltag_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/apriltag_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

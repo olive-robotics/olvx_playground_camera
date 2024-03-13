@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/olive/workspace2/install/apriltag_detector"}
+: ${AMENT_CURRENT_PREFIX:="/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/install/apriltag_detector"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

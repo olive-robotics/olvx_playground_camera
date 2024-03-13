@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/olive/workspace2/src/apriltag_detector
+CMAKE_SOURCE_DIR = /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/olive/workspace2/build/apriltag_detector
+CMAKE_BINARY_DIR = /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_detector
 
 # Utility rule file for apriltag_detector_uninstall.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /home/olive/workspace2/build/apriltag_detector
 include CMakeFiles/apriltag_detector_uninstall.dir/progress.make
 
 CMakeFiles/apriltag_detector_uninstall:
-	/usr/bin/cmake -P /home/olive/workspace2/build/apriltag_detector/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_detector/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 apriltag_detector_uninstall: CMakeFiles/apriltag_detector_uninstall
 apriltag_detector_uninstall: CMakeFiles/apriltag_detector_uninstall.dir/build.make
@@ -90,6 +90,6 @@ CMakeFiles/apriltag_detector_uninstall.dir/clean:
 .PHONY : CMakeFiles/apriltag_detector_uninstall.dir/clean
 
 CMakeFiles/apriltag_detector_uninstall.dir/depend:
-	cd /home/olive/workspace2/build/apriltag_detector && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/olive/workspace2/src/apriltag_detector /home/olive/workspace2/src/apriltag_detector /home/olive/workspace2/build/apriltag_detector /home/olive/workspace2/build/apriltag_detector /home/olive/workspace2/build/apriltag_detector/CMakeFiles/apriltag_detector_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_detector && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/src/apriltag_detector /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_detector /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_detector /home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_detector/CMakeFiles/apriltag_detector_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/apriltag_detector_uninstall.dir/depend
 

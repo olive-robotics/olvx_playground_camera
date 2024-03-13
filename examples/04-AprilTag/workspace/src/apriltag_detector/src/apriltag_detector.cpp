@@ -15,12 +15,8 @@
 
 #include <apriltag_detector/apriltag_detector.hpp>
 #include <array>
-#ifdef USE_CV_BRIDGE_HPP
-#include <cv_bridge/cv_bridge.hpp>
-#else
-#include <cv_bridge/cv_bridge.h>
-#endif
 
+#include <opencv2/imgcodecs.hpp> // For decoding compressed images
 #include <apriltag_detector/detector_wrapper.hpp>
 #include <opencv2/core/core.hpp>
 #include <rclcpp_components/register_node_macro.hpp>
@@ -40,26 +36,24 @@ ApriltagDetector::ApriltagDetector(const rclcpp::NodeOptions & options)
   detector_->setQuadSigma(get_parameter_or("blur", 0.0));
   detector_->setNumberOfThreads(get_parameter_or("num_threads", 1));
   get_parameter_or(
-    "image_qos_profile", imageQoSProfile_, std::string("default"));
+    "image_qos_profile", imageQoSProfile_, std::string("sensor_data"));
 
-  // publish images
-  const rmw_qos_profile_t qosProf = rmw_qos_profile_default;
-  imagePub_ = image_transport::create_publisher(this, "~/image_raw", qosProf);
-  // publish detections
-  detectPub_ = create_publisher<ApriltagArray>("~/tags", 100);
+  // publish images using standard ROS 2 publisher with sensor_data QoS
+  auto qos = rclcpp::SensorDataQoS();
+  imagePub_ = this->create_publisher<sensor_msgs::msg::CompressedImage>("/tags/compressed", qos);
+  // publish detections with sensor_data QoS
+  detectPub_ = this->create_publisher<ApriltagArray>("/tags", qos);
 
-  // Since the ROS2 image transport does not call back when subscribers come and go
-  // must check by polling
-  subscriptionCheckTimer_ = rclcpp::create_timer(
-    this, get_clock(), rclcpp::Duration(1, 0),
-    std::bind(&ApriltagDetector::subscriptionCheckTimerExpired, this));
+  // Adjusted subscription creation
+  imageSub_ = this->create_subscription<sensor_msgs::msg::CompressedImage>(
+    "/olive/camera/id01/image/compressed", qos, std::bind(&ApriltagDetector::callback, this, std::placeholders::_1));
+  // Standard ROS 2 subscription for compressed image messages with sensor_data QoS
+ 
 }
 
 ApriltagDetector::~ApriltagDetector()
 {
-  if (subscriptionCheckTimer_) {
-    subscriptionCheckTimer_->cancel();
-  }
+  
 }
 
 rmw_qos_profile_t string_to_profile(const std::string & s)
@@ -72,56 +66,43 @@ rmw_qos_profile_t string_to_profile(const std::string & s)
 
 void ApriltagDetector::subscriptionCheckTimerExpired()
 {
-  if (imagePub_.getNumSubscribers() || detectPub_->get_subscription_count()) {
-    // -------------- subscribers ---------------------
-    if (!isSubscribed_) {
-      RCLCPP_INFO(this->get_logger(), "subscribing to images!");
-      imageSub_ = image_transport::create_subscription(
-        this, "image",
-        std::bind(&ApriltagDetector::callback, this, std::placeholders::_1),
-        "raw",
-        string_to_profile(imageQoSProfile_));  // rmw_qos_profile_default);//
-      isSubscribed_ = true;
-    }
-  } else {
-    // -------------- no subscribers -------------------
-    if (isSubscribed_) {
-      imageSub_.shutdown();
-      RCLCPP_INFO(this->get_logger(), "unsubscribing from images!");
-      isSubscribed_ = false;
-    }
-  }
+ 
 }
 
-void ApriltagDetector::callback(
-  const sensor_msgs::msg::Image::ConstSharedPtr & msg)
+void ApriltagDetector::callback(const sensor_msgs::msg::CompressedImage::SharedPtr msg)
 {
   apriltag_msgs::msg::AprilTagDetectionArray arrayMsg;
-  cv_bridge::CvImageConstPtr cvImg;
-  if (
-    detectPub_->get_subscription_count() != 0 ||
-    imagePub_.getNumSubscribers() != 0) {
-    cvImg = cv_bridge::toCvShare(msg, "mono8");
-    detector_->detect(cvImg->image, &arrayMsg);
-    if (!cvImg) {
-      RCLCPP_WARN_STREAM(
-        this->get_logger(),
-        "cannot convert image from " << msg->encoding << " to mono8");
-      return;
-    }
+  cv::Mat cvImg;
+ 
+  try {
+    // Decode the compressed image
+    std::vector<uint8_t> imgData(msg->data.begin(), msg->data.end());
+    cvImg = cv::imdecode(imgData, cv::IMREAD_GRAYSCALE);
+  } catch (const cv::Exception& e) {
+    RCLCPP_WARN(this->get_logger(), "Could not decode image: %s", e.what());
+    return;
   }
 
-  if (detectPub_->get_subscription_count() != 0) {
-    arrayMsg.header = msg->header;
-    detectPub_->publish(arrayMsg);
+  if (!cvImg.empty()) {
+    detector_->detect(cvImg, &arrayMsg);
+  } else {
+    RCLCPP_WARN(this->get_logger(), "Received an empty image.");
+    return;
   }
+  
+  arrayMsg.header = msg->header;
+  detectPub_->publish(arrayMsg);
+  
+  cv::Mat colorImg = DetectorWrapper::draw(cvImg, arrayMsg); // Ensure this method exists and works as expected
+	
+  std::vector<uint8_t> buffer;
+  cv::imencode(".jpg", colorImg, buffer);
+  auto pubImg = sensor_msgs::msg::CompressedImage();
+  pubImg.header = msg->header; // Copy header for consistency
+  pubImg.format = "jpeg"; // Set format to match encoding
+  pubImg.data = buffer; // Assign compressed data
+  imagePub_->publish(pubImg); // Publish the compressed image
 
-  if (imagePub_.getNumSubscribers() != 0) {
-    cv::Mat colorImg = DetectorWrapper::draw(cvImg->image, arrayMsg);
-    cv_bridge::CvImage pubImg(
-      msg->header, sensor_msgs::image_encodings::BGR8, colorImg);
-    imagePub_.publish(pubImg.toImageMsg());
-  }
 }
 
 }  // namespace apriltag_detector

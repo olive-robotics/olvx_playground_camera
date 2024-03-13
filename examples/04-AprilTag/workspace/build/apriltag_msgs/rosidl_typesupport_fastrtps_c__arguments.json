@@ -1,11 +1,11 @@
 {
   "package_name": "apriltag_msgs",
-  "output_dir": "/home/olive/workspace2/build/apriltag_msgs/rosidl_typesupport_fastrtps_c/apriltag_msgs",
+  "output_dir": "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_msgs/rosidl_typesupport_fastrtps_c/apriltag_msgs",
   "template_dir": "/opt/ros2/humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/home/olive/workspace2/build/apriltag_msgs/rosidl_adapter/apriltag_msgs:msg/Point.idl",
-    "/home/olive/workspace2/build/apriltag_msgs/rosidl_adapter/apriltag_msgs:msg/AprilTagDetection.idl",
-    "/home/olive/workspace2/build/apriltag_msgs/rosidl_adapter/apriltag_msgs:msg/AprilTagDetectionArray.idl"
+    "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_msgs/rosidl_adapter/apriltag_msgs:msg/Point.idl",
+    "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_msgs/rosidl_adapter/apriltag_msgs:msg/AprilTagDetection.idl",
+    "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_msgs/rosidl_adapter/apriltag_msgs:msg/AprilTagDetectionArray.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros2/humble/install/std_msgs/share/std_msgs/msg/Bool.idl",
@@ -50,9 +50,9 @@
     "/opt/ros2/humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
     "/opt/ros2/humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros2/humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
-    "/home/olive/workspace2/build/apriltag_msgs/rosidl_adapter/apriltag_msgs/msg/Point.idl",
-    "/home/olive/workspace2/build/apriltag_msgs/rosidl_adapter/apriltag_msgs/msg/AprilTagDetection.idl",
-    "/home/olive/workspace2/build/apriltag_msgs/rosidl_adapter/apriltag_msgs/msg/AprilTagDetectionArray.idl",
+    "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_msgs/rosidl_adapter/apriltag_msgs/msg/Point.idl",
+    "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_msgs/rosidl_adapter/apriltag_msgs/msg/AprilTagDetection.idl",
+    "/home/olive/workspace/olv_camera_tpu_playground_py/examples/04-AprilTag/workspace/build/apriltag_msgs/rosidl_adapter/apriltag_msgs/msg/AprilTagDetectionArray.idl",
     "/opt/ros2/humble/install/std_msgs/share/std_msgs/msg/Bool.idl",
     "/opt/ros2/humble/install/std_msgs/share/std_msgs/msg/Byte.idl",
     "/opt/ros2/humble/install/std_msgs/share/std_msgs/msg/ByteMultiArray.idl",
