@@ -7,6 +7,17 @@ A straightforward ROS 2 package written in Python, featuring multiple nodes to f
 
 This example is a simple parrot detector which you can test the hardware and make sure the Coral TPU is enabled. 
 
+Sample output:
+
+```
+Olive TPU Hello World v0.1
+step1
+step2
+step3
+step4
+Ara macao (Scarlet Macaw): 0.75781
+```
+
 ### 1️⃣ Object Recognition App
 This example demonstrates object detection utilizing a ROS2 image topic and encases each detected object within a square.
 
