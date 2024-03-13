@@ -63,6 +63,7 @@ export OpenCV_DIR=/home/olive/opencv_install/opencv-4.x/build
 Then install the AprilTag 3 library from examples/04-AprilTag/lib/apriltag
 
 ```
+rm -r build
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --target install
 ```
