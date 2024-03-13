@@ -40,6 +40,6 @@ Both hands down, both hands up, left down / right up, right down / left up, left
 
 🔗 **More Information**: [GestureRecognition.md](https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/GestureRecognition.md)
 
-### 3️⃣ April Tag Detection App
+### 4️⃣ April Tag Detection App
 
 ![Skeleton Detection Image](/images/tag.gif "tag.gif")
