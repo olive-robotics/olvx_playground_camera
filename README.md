@@ -61,6 +61,15 @@ https://github.com/ros-misc-utilities/apriltag_detector
 A4 Tag Dataset:
 https://github.com/rgov/apriltag-pdfs
 
+Download the OpenCV-4 Compiled for Olive Camera
+[Download](https://drive.google.com/file/d/1AaO6qKZIV1wDaI-2pzJ3npGFW7vGyhDP/view?usp=drive_link)
+
+Place the folder in the home and follow this namings:
+
+```
+/home/olive/opencv_install/opencv_4.x/
+```
+
 Update the .bashrc and add this lines to it:
 
 ```
