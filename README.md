@@ -78,6 +78,7 @@ export PATH="/home/olive/.local/bin:$PATH"
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/olive/opencv_install/opencv-4.x/build/lib
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/olive/lib
 export OpenCV_DIR=/home/olive/opencv_install/opencv-4.x/build
+export PYTHONPATH=~/opencv_install/opencv-4.x/build/lib/python3:$PYTHONPATH
 ```
 
 Then install the AprilTag 3 library from examples/04-AprilTag/lib/apriltag
