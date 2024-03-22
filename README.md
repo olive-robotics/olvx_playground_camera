@@ -62,7 +62,7 @@ A4 Tag Dataset:
 https://github.com/rgov/apriltag-pdfs
 
 Download the OpenCV-4 Compiled for Olive Camera
-[Download](https://drive.google.com/file/d/1AaO6qKZIV1wDaI-2pzJ3npGFW7vGyhDP/view?usp=drive_link)
+[Download](https://drive.google.com/file/d/1AaO6qKZIV1wDaI-2pzJ3npGFW7vGyhDP/view?usp=sharing)
 
 Place the folder in the home and follow this namings:
 
