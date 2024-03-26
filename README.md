@@ -23,6 +23,10 @@ This example demonstrates object detection utilizing a ROS2 image topic and enca
 
 ![Object Detection Image](/images/object_recognition.gif "object_recognition.gif")
 
+```
+python3 app_node_object_detection.py
+```
+
 #### 📋 Object List
 person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, traffic light, fire hydrant, stop sign, parking meter, bench, bird, cat, dog, horse, sheep, cow, elephant, bear, zebra, giraffe, backpack, umbrella, handbag, tie, suitcase, frisbee, skis, snowboard, sports ball, kite, baseball bat, baseball glove, skateboard, surfboard, tennis racket, bottle, wine glass, cup, fork, knife, spoon, bowl, banana, apple, sandwich, orange, broccoli, carrot, hot dog, pizza, donut, cake, chair, couch, potted plant, bed, dining table, toilet, tv, laptop, mouse, remote, keyboard, cell phone, microwave, oven, toaster, sink, refrigerator, book, clock, vase, scissors, teddy bear, hair drier, toothbrush.
 
@@ -32,6 +36,10 @@ person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, traffic lig
 Explore the utilization of the PoseNet model to detect human poses from a ROS2 image topic, pinpointing the location of body parts like elbows, shoulders, or feet.
 
 ![Skeleton Detection Image](/images/skeleton.gif "skeleton.gif")
+
+```
+python3 app_node_skeleton_posenet.py
+```
 
 #### 🚶‍♂️ Body Point List
 nose, leftEye, rightEye, leftEar, rightEar, leftShoulder, rightShoulder, leftElbow, rightElbow, leftWrist, rightWrist, leftHip, rightHip, leftKnee, rightKnee, leftAnkle, rightAnkle.
