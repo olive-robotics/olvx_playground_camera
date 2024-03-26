@@ -116,4 +116,8 @@ TBD (April 2024)
 
 ### 6️⃣ Monocular Depth Estimation App
 
+TBD (April 2024)
+
+Preview:
 ![Skeleton Detection Image](/images/MonocularMiDaSGIF.gif "depth.gif")
+
