@@ -67,7 +67,7 @@ Download the OpenCV-4 Compiled for Olive Camera
 Place the folder in the home and follow this namings:
 
 ```
-/home/olive/opencv_install/opencv_4.x/
+/home/olive/opencv_install/opencv-4.x/
 ```
 
 Update the .bashrc and add this lines to it:
