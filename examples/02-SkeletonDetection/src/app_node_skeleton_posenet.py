@@ -103,7 +103,7 @@ class AppNode(Node):
             buffer = io.BytesIO(bytes(msg.data))
             # Open the image buffer using PIL Image
             pil_image = Image.open(buffer)
-            pil_image = pil_image.rotate(90)
+            # pil_image = pil_image.rotate(90)
            
             poses, inference_time = self.engine.DetectPosesInImage(pil_image)
             print('Inference time: %.f ms' % (inference_time * 1000))

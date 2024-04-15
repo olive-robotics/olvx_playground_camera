@@ -111,7 +111,7 @@ class AppNode(Node):
             buffer = io.BytesIO(bytes(msg.data))
             # Open the image buffer using PIL Image
             pil_image = Image.open(buffer)
-            pil_image = pil_image.rotate(90)
+            # pil_image = pil_image.rotate(90)
             _, scale = common.set_resized_input(
             self.interpreter, pil_image.size, lambda size: pil_image.resize(size, Image.ANTIALIAS))
             print("Received image data and converted to PIL!")
