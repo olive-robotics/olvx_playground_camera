@@ -112,12 +112,9 @@ ros2 launch apriltag_detector node.launch.py
 
 ### 5️⃣ Edge Dector App
 
-TBD (April 2024)
+
 
 ### 6️⃣ Monocular Depth Estimation App
 
-TBD (April 2024)
-
-Preview:
 ![Skeleton Detection Image](/images/MonocularMiDaSGIF.gif "depth.gif")
 
