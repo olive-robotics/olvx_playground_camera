@@ -17,7 +17,7 @@ class ImageRectifier(Node):
         self.bridge = CvBridge()
 
         # Load camera calibration data
-        with open("osd.yaml", "r") as file:
+        with open("ost.yaml", "r") as file:
             self.camera_info = yaml.safe_load(file)
 
         # Prepare rectification map
