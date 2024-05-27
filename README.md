@@ -110,9 +110,13 @@ Then run it with:
 ros2 launch apriltag_detector node.launch.py
 ```
 
-### 5️⃣ Edge Dector App
+### 5️⃣ OpenCV Examples (Edge Dector, Optical Flow, Rectify, IMShow) Apps
 
+```
+python3 edge_detector.py
+```
 
+![Skeleton Detection Image](/images/opencv.png "opencv.png")
 
 ### 6️⃣ Monocular Depth Estimation App
 
