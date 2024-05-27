@@ -9,11 +9,11 @@ class SuperResolutionNode(Node):
     def __init__(self):
         super().__init__('super_resolution_node')
         self.sub = self.create_subscription(
-            CompressedImage, '/olive/camera/cam01/image/compressed',
+            CompressedImage, '/olive/camera/id01/image/compressed',
             self.image_callback, rclpy.qos.qos_profile_sensor_data
         )
         self.pub = self.create_publisher(
-            CompressedImage, '/olive/camera/cam01/image_super_res/compressed', 10
+            CompressedImage, '/olive/camera/id01/image_super_res/compressed', 10
         )
         self.bridge = CvBridge()
         self.sr = cv2.dnn_superres.DnnSuperResImpl_create()

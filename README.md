@@ -120,5 +120,9 @@ python3 edge_detector.py
 
 ### 6️⃣ Monocular Depth Estimation App
 
+```
+python3 depth_estimation.py
+```
+
 ![Skeleton Detection Image](/images/MonocularMiDaSGIF.gif "depth.gif")
 
