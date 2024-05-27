@@ -3,7 +3,7 @@ A straightforward ROS 2 package written in Python, featuring multiple nodes to f
 
 ## 🚀 Apps 
 
-### 0️⃣ Hello World App
+### 0️⃣ Hello World App (TPU Embedded App)
 
 This example is a simple parrot detector which you can test the hardware and make sure the Coral TPU is enabled. 
 
@@ -18,7 +18,7 @@ step4
 Ara macao (Scarlet Macaw): 0.75781
 ```
 
-### 1️⃣ Object Recognition App
+### 1️⃣ Object Recognition (TPU Embedded App)
 This example demonstrates object detection utilizing a ROS2 image topic and encases each detected object within a square.
 
 ![Object Detection Image](/images/object_recognition.gif "object_recognition.gif")
@@ -32,7 +32,7 @@ person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, traffic lig
 
 🔗 **More Information**: [ObjectDetection.md](https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/ObjectDetection.md)
 
-### 2️⃣ Skeleton Detection App
+### 2️⃣ Skeleton Detection (TPU Embedded App)
 Explore the utilization of the PoseNet model to detect human poses from a ROS2 image topic, pinpointing the location of body parts like elbows, shoulders, or feet.
 
 ![Skeleton Detection Image](/images/skeleton.gif "skeleton.gif")
@@ -46,7 +46,7 @@ nose, leftEye, rightEye, leftEar, rightEar, leftShoulder, rightShoulder, leftElb
 
 🔗 **More Information**: [SkeletonDetection.md](https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/SkeletonDetection.md)
 
-### 3️⃣ Gesture Recognition App
+### 3️⃣ Gesture Recognition (TPU Embedded App)
 An example showcasing the use of an MLP neural network model to train gesture classes.
 
 ![Gesture Recognition Image](https://github.com/olive-robotics/olv_camera_tpu_playground_py/assets/5897501/2f1dda5e-51bc-43af-93a2-f22f5d41355b)
@@ -59,7 +59,7 @@ Both hands down, both hands up, left down / right up, right down / left up, left
 
 🔗 **More Information**: [GestureRecognition.md](https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/GestureRecognition.md)
 
-### 4️⃣ April Tag Detection App
+### 4️⃣ April Tag Detection (CPU Embedded App)
 
 ![Skeleton Detection Image](/images/tag.gif "tag.gif")
 
@@ -110,7 +110,9 @@ Then run it with:
 ros2 launch apriltag_detector node.launch.py
 ```
 
-### 5️⃣ OpenCV Examples (Edge Dector, Optical Flow, Rectify, IMShow) Apps
+### 5️⃣ OpenCV Examples (Edge Dector, Optical Flow, Rectify, IMShow) (Host Computer App)
+
+Run this example on your host computer. Compatible with CPU and GPU.
 
 ```
 python3 edge_detector.py
@@ -118,7 +120,9 @@ python3 edge_detector.py
 
 ![Skeleton Detection Image](/images/opencv.png "opencv.png")
 
-### 6️⃣ Monocular Depth Estimation App
+### 6️⃣ Monocular Depth Estimation (Host Computer App)
+
+Run this example on your host computer. Compatible with CPU and GPU.
 
 ```
 python3 depth_estimation.py
