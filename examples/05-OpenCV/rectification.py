@@ -4,16 +4,17 @@ from sensor_msgs.msg import CompressedImage
 from cv_bridge import CvBridge
 import cv2
 import yaml
+import numpy as np
 
 class ImageRectifier(Node):
     def __init__(self):
         super().__init__('image_rectifier')
         self.subscription = self.create_subscription(
             CompressedImage,
-            'input/compressed_image',
+            '/olive/camera/id01/image/compressed',
             self.listener_callback,
-            10)
-        self.publisher = self.create_publisher(CompressedImage, 'output/rectified_compressed_image', 10)
+            rclpy.qos.qos_profile_sensor_data)
+        self.publisher = self.create_publisher(CompressedImage, '/olive/camera/id01/rectified_compressed_image/compressed', 10)
         self.bridge = CvBridge()
 
         # Load camera calibration data

@@ -14,9 +14,12 @@ class EdgeDetectionNode(Node):
         self.pub = self.create_publisher(
             CompressedImage, '/olive/camera/id01/image/edges/compressed', 10
         )
+        print("ready")
 
     def image_callback(self, msg):
         # Convert the ROS image message to an OpenCV image
+        print("repub1")
+        
         np_arr = np.frombuffer(msg.data, np.uint8)
         cv_image = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
         
@@ -32,6 +35,8 @@ class EdgeDetectionNode(Node):
         
         # Publish the result
         self.pub.publish(edges_msg)
+        
+        print("repub2")
 
 def main():
     rclpy.init()
