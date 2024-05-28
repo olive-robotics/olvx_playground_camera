@@ -1,6 +1,12 @@
 # 📸 olv_camera_tpu_playground_py
 A straightforward ROS 2 package written in Python, featuring multiple nodes to facilitate working with the Olive Camera, enhanced with TPU acceleration.
 
+## Supported Embedded Libraries for the Olive AI Camera
+
+| Coral | OpenCV | ROS 2 | Python 3 |
+| ----- | ------ | ----- | -------  |
+| ![1](/images/coral2.png "1.png") | ![2](/images/opencvlogo3.png "2.png")| ![3](/images/ros2.png "3.png") | ![4](/images/python2.png "4.png") |
+
 ## 🚀 Apps 
 
 ### 0️⃣ Hello World App (TPU Embedded App)
