@@ -1,4 +1,4 @@
-# 📸 olv_camera_tpu_playground_py
+# 📸 olvx_playground_camera
 A straightforward ROS 2 package written in Python, featuring multiple nodes to facilitate working with the Olive Camera, enhanced with TPU acceleration.
 
 The camera uses the default internal calibration file. If you want to recalibrate your camera, please follow the steps outlined in the documentation.
