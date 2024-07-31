@@ -149,7 +149,9 @@ ros2 launch apriltag_detector node.launch.py
 Run this example on your host computer. Compatible with CPU and GPU.
 
 ```
+cd ~/olv_camera_tpu_playground_py-main/examples/05-OpenCV
 python3 edge_detector.py
+python3 optical_flow.py
 ```
 
 ![Skeleton Detection Image](/images/opencv.png "opencv.png")
@@ -159,6 +161,7 @@ python3 edge_detector.py
 Run this example on your host computer. Compatible with CPU and GPU.
 
 ```
+cd ~/olv_camera_tpu_playground_py-main/examples/06-DepthEstimation
 python3 depth_estimation.py
 ```
 
