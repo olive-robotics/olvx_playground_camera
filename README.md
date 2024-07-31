@@ -34,6 +34,7 @@ This example demonstrates object detection utilizing a ROS2 image topic and enca
 ![Object Detection Image](/images/object_recognition.gif "object_recognition.gif")
 
 ```
+cd ~/olv_camera_tpu_playground_py-main/examples/01-ObjectDetection/src
 python3 app_node_object_detection.py
 ```
 
@@ -48,6 +49,7 @@ Explore the utilization of the PoseNet model to detect human poses from a ROS2 i
 ![Skeleton Detection Image](/images/skeleton.gif "skeleton.gif")
 
 ```
+cd ~/olv_camera_tpu_playground_py-main/examples/02-SkeletonDetection/src
 python3 app_node_skeleton_posenet.py
 ```
 
@@ -70,6 +72,8 @@ Both hands down, both hands up, left down / right up, right down / left up, left
 🔗 **More Information**: [GestureRecognition.md](https://github.com/olive-robotics/olv_camera_tpu_playground_py/blob/main/GestureRecognition.md)
 
 ### 4️⃣ April Tag Detection (CPU Embedded App)
+
+#### Method1: Manual 
 
 ![Skeleton Detection Image](/images/tag.gif "tag.gif")
 
@@ -115,6 +119,26 @@ colcon build
 ```
 
 Then run it with:
+
+```
+ros2 launch apriltag_detector node.launch.py
+```
+
+#### Method1: Preinstalled (patch > 1214) 
+
+In the recent software update, the April tag detector is preinstalled in the system, and you can auto-run it by uncommenting the line in olive-app-loader.sh
+
+```
+cd /usr/bin
+nano olive-app-loader.sh
+```
+
+uncomment the last line
+
+```
+# ros2 launch apriltag_detector node.launch.py
+```
+to
 
 ```
 ros2 launch apriltag_detector node.launch.py
