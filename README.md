@@ -124,7 +124,7 @@ Then run it with:
 ros2 launch apriltag_detector node.launch.py
 ```
 
-#### Method1: Preinstalled (patch > 1214) 
+#### Method2: Preinstalled (patch > 1214) 
 
 In the recent software update, the April tag detector is preinstalled in the system, and you can auto-run it by uncommenting the line in olive-app-loader.sh
 
