@@ -144,6 +144,12 @@ to
 ros2 launch apriltag_detector node.launch.py
 ```
 
+To apply the result and run the node without rebooting,
+
+```
+sudo systemctl restart olive-app-loader.service
+```
+
 ### 5️⃣ OpenCV Examples (Edge Dector, Optical Flow, Rectify, IMShow) (Host Computer App)
 
 Run this example on your host computer. Compatible with CPU and GPU.
