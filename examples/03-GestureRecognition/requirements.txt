@@ -1,0 +1,8 @@
+pycoral
+Pillow
+svgwrite
+tflite-runtime
+numpy
+pandas
+scikit-learn
+joblib

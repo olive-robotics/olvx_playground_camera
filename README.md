@@ -44,6 +44,11 @@ git clone --recurse-submodules git@github.com:olive-robotics/olvx_playground_cam
 
 This command will ensure that you fetch all examples.
 
+Each project has its own set of dependencies. To run a project, first navigate into its folder, and run:
+```commandline
+pip install -r requirements.txt
+```
+
 
 ## 🚀 Apps 
 
