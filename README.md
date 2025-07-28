@@ -173,3 +173,9 @@ python3 depth_estimation.py
 
 ![Skeleton Detection Image](/images/MonocularMiDaSGIF.gif "depth.gif")
 
+### 7️⃣ Semantic Segmentation
+### 8️⃣ Facial Landmark Detection
+
+An example showing the MediaPipe facial landmark system, running using an Olive camera.
+
+![Facial Landmark Demonstration](images/facial_landmarks.gif)
