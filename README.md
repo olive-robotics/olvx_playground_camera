@@ -17,7 +17,7 @@ https://olive-robotics.com/docs2/olixvision-camera/#camera-calibration
   * [Supported Embedded Libraries for the Olive AI Camera](#supported-embedded-libraries-for-the-olive-ai-camera)
   * [Table of Contents](#table-of-contents)
   * [Installation](#installation)
-  * [🚀 Apps](#-apps-)
+  * [Apps](#apps-)
     * [0. Hello World App (TPU Embedded App)](#0-hello-world-app-tpu-embedded-app)
     * [1. Object Recognition (TPU Embedded App)](#1-object-recognition-tpu-embedded-app)
       * [📋 Object List](#-object-list)
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 ```
 
 
-## 🚀 Apps 
+## Apps 
 
 ### 0. Hello World App (TPU Embedded App)
 
