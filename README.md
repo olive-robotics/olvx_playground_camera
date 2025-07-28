@@ -17,23 +17,23 @@ https://olive-robotics.com/docs2/olixvision-camera/#camera-calibration
   * [Supported Embedded Libraries for the Olive AI Camera](#supported-embedded-libraries-for-the-olive-ai-camera)
   * [Table of Contents](#table-of-contents)
   * [Installation](#installation)
-  * [🚀 Apps](#-apps-)
-    * [0️⃣ Hello World App (TPU Embedded App)](#0-hello-world-app-tpu-embedded-app)
-    * [1️⃣ Object Recognition (TPU Embedded App)](#1-object-recognition-tpu-embedded-app)
+  * [Apps](#apps-)
+    * [0. Hello World App (TPU Embedded App)](#0-hello-world-app-tpu-embedded-app)
+    * [1. Object Recognition (TPU Embedded App)](#1-object-recognition-tpu-embedded-app)
       * [📋 Object List](#-object-list)
-    * [2️⃣ Skeleton Detection (TPU Embedded App)](#2-skeleton-detection-tpu-embedded-app)
+    * [2. Skeleton Detection (TPU Embedded App)](#2-skeleton-detection-tpu-embedded-app)
       * [🚶‍♂️ Body Point List](#-body-point-list)
-    * [3️⃣ Gesture Recognition (TPU Embedded App)](#3-gesture-recognition-tpu-embedded-app)
+    * [3. Gesture Recognition (TPU Embedded App)](#3-gesture-recognition-tpu-embedded-app)
       * [📡 ROS2 Topic](#-ros2-topic)
       * [🤏 Gestures](#-gestures)
-    * [4️⃣ April Tag Detection (CPU Embedded App)](#4-april-tag-detection-cpu-embedded-app)
+    * [4. April Tag Detection (CPU Embedded App)](#4-april-tag-detection-cpu-embedded-app)
       * [Method 1: Manual](#method-1-manual-)
       * [Method 2: Preinstalled (patch > 1214)](#method-2-preinstalled-patch--1214-)
-    * [5️⃣ OpenCV Examples (Edge Dector, Optical Flow, Rectify, IMShow) (Host Computer App)](#5-opencv-examples-edge-dector-optical-flow-rectify-imshow-host-computer-app)
-    * [6️⃣ Monocular Depth Estimation (Host Computer App)](#6-monocular-depth-estimation-host-computer-app)
-    * [7️⃣ Semantic Segmentation](#7-semantic-segmentation)
-    * [8️⃣ Facial Landmark Detection](#8-facial-landmark-detection)
-    * [9️⃣ Fruit Recognition](#9-fruit-recognition)
+    * [5. OpenCV Examples (Edge Dector, Optical Flow, Rectify, IMShow) (Host Computer App)](#5-opencv-examples-edge-dector-optical-flow-rectify-imshow-host-computer-app)
+    * [6. Monocular Depth Estimation (Host Computer App)](#6-monocular-depth-estimation-host-computer-app)
+    * [7. Semantic Segmentation](#7-semantic-segmentation)
+    * [8. Facial Landmark Detection](#8-facial-landmark-detection)
+    * [9. Fruit Recognition](#9-fruit-recognition)
 <!-- TOC -->
 
 ## Installation
@@ -50,9 +50,9 @@ pip install -r requirements.txt
 ```
 
 
-## 🚀 Apps 
+## Apps 
 
-### 0️⃣ Hello World App (TPU Embedded App)
+### 0. Hello World App (TPU Embedded App)
 
 This example is a simple parrot detector which you can test the hardware and make sure the Coral TPU is enabled. 
 
@@ -67,7 +67,7 @@ step4
 Ara macao (Scarlet Macaw): 0.75781
 ```
 
-### 1️⃣ Object Recognition (TPU Embedded App)
+### 1. Object Recognition (TPU Embedded App)
 This example demonstrates object detection utilizing a ROS2 image topic and encases each detected object within a square.
 
 ![Object Detection Image](images/object_recognition.gif "object_recognition.gif")
@@ -82,7 +82,7 @@ person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, traffic lig
 
 🔗 **More Information**: [ObjectDetection.md](examples/01-ObjectDetection/README.md)
 
-### 2️⃣ Skeleton Detection (TPU Embedded App)
+### 2. Skeleton Detection (TPU Embedded App)
 Explore the utilization of the PoseNet model to detect human poses from a ROS2 image topic, pinpointing the location of body parts like elbows, shoulders, or feet.
 
 ![Skeleton Detection Image](images/skeleton.gif "skeleton.gif")
@@ -97,7 +97,7 @@ nose, leftEye, rightEye, leftEar, rightEar, leftShoulder, rightShoulder, leftElb
 
 🔗 **More Information**: [SkeletonDetection.md](examples/02-SkeletonDetection/README.md)
 
-### 3️⃣ Gesture Recognition (TPU Embedded App)
+### 3. Gesture Recognition (TPU Embedded App)
 An example showcasing the use of an MLP neural network model to train gesture classes.
 
 ![Gesture Recognition Image](https://github.com/olive-robotics/olv_camera_tpu_playground_py/assets/5897501/2f1dda5e-51bc-43af-93a2-f22f5d41355b)
@@ -110,7 +110,7 @@ Both hands down, both hands up, left down / right up, right down / left up, left
 
 🔗 **More Information**: [GestureRecognition.md](examples/03-GestureRecognition/README.md)
 
-### 4️⃣ April Tag Detection (CPU Embedded App)
+### 4. April Tag Detection (CPU Embedded App)
 
 #### Method 1: Manual 
 
@@ -189,7 +189,7 @@ To apply the result and run the node without rebooting,
 sudo systemctl restart olive-app-loader.service
 ```
 
-### 5️⃣ OpenCV Examples (Edge Dector, Optical Flow, Rectify, IMShow) (Host Computer App)
+### 5. OpenCV Examples (Edge Dector, Optical Flow, Rectify, IMShow) (Host Computer App)
 
 Run this example on your host computer. Compatible with CPU and GPU.
 
@@ -201,7 +201,7 @@ python3 optical_flow.py
 
 ![Skeleton Detection Image](images/opencv.png "opencv.png")
 
-### 6️⃣ Monocular Depth Estimation (Host Computer App)
+### 6. Monocular Depth Estimation (Host Computer App)
 
 Run this example on your host computer. Compatible with CPU and GPU.
 
@@ -212,7 +212,7 @@ python3 depth_estimation.py
 
 ![Skeleton Detection Image](images/MonocularMiDaSGIF.gif "depth.gif")
 
-### 7️⃣ Semantic Segmentation
+### 7. Semantic Segmentation
 
 This example runs a semantic segmentation model to generate image masks of what the camera can see.
 
@@ -220,7 +220,7 @@ This example runs a semantic segmentation model to generate image masks of what 
 
 For more information: please check out the [README](examples/07-SemanticSegmentation/README.md)
 
-### 8️⃣ Facial Landmark Detection
+### 8. Facial Landmark Detection
 
 An example showing the MediaPipe facial landmark system, running using an Olive camera.
 
@@ -230,7 +230,7 @@ python3 src/app_facial_recognition.py
 
 ![Facial Landmark Demonstration](images/facial_landmarks.gif)
 
-### 9️⃣ Fruit Recognition
+### 9. Fruit Recognition
 
 This project was developed in coordination with [EkumenLabs](https://github.com/ekumenlabs).
 
