@@ -3,7 +3,7 @@ A straightforward ROS 2 package written in Python, featuring multiple nodes to f
 
 The camera uses the default internal calibration file. If you want to recalibrate your camera, please follow the steps outlined in the documentation.
 
-https://docs.olive-robotics.com/hardware/camera/camera_01_tp.html#camera-calibration
+https://olive-robotics.com/docs2/olixvision-camera/#camera-calibration
 
 ## Supported Embedded Libraries for the Olive AI Camera
 
@@ -68,7 +68,7 @@ This example demonstrates object detection utilizing a ROS2 image topic and enca
 ![Object Detection Image](images/object_recognition.gif "object_recognition.gif")
 
 ```
-cd ~/examples/01-ObjectDetection/src
+cd examples/01-ObjectDetection/src
 python3 app_node_object_detection.py
 ```
 
@@ -83,7 +83,7 @@ Explore the utilization of the PoseNet model to detect human poses from a ROS2 i
 ![Skeleton Detection Image](images/skeleton.gif "skeleton.gif")
 
 ```
-cd ~/examples/02-SkeletonDetection/src
+cd examples/02-SkeletonDetection/src
 python3 app_node_skeleton_posenet.py
 ```
 
@@ -189,7 +189,7 @@ sudo systemctl restart olive-app-loader.service
 Run this example on your host computer. Compatible with CPU and GPU.
 
 ```
-cd ~/examples/05-OpenCV
+cd examples/05-OpenCV
 python3 edge_detector.py
 python3 optical_flow.py
 ```
@@ -201,7 +201,7 @@ python3 optical_flow.py
 Run this example on your host computer. Compatible with CPU and GPU.
 
 ```
-cd ~/examples/06-DepthEstimation
+cd examples/06-DepthEstimation
 python3 depth_estimation.py
 ```
 
