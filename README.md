@@ -27,8 +27,8 @@ https://olive-robotics.com/docs2/olixvision-camera/#camera-calibration
       * [📡 ROS2 Topic](#-ros2-topic)
       * [🤏 Gestures](#-gestures)
     * [4️⃣ April Tag Detection (CPU Embedded App)](#4-april-tag-detection-cpu-embedded-app)
-      * [Method1: Manual](#method1-manual-)
-      * [Method2: Preinstalled (patch > 1214)](#method2-preinstalled-patch--1214-)
+      * [Method 1: Manual](#method-1-manual-)
+      * [Method 2: Preinstalled (patch > 1214)](#method-2-preinstalled-patch--1214-)
     * [5️⃣ OpenCV Examples (Edge Dector, Optical Flow, Rectify, IMShow) (Host Computer App)](#5-opencv-examples-edge-dector-optical-flow-rectify-imshow-host-computer-app)
     * [6️⃣ Monocular Depth Estimation (Host Computer App)](#6-monocular-depth-estimation-host-computer-app)
     * [7️⃣ Semantic Segmentation](#7-semantic-segmentation)
@@ -112,7 +112,7 @@ Both hands down, both hands up, left down / right up, right down / left up, left
 
 ### 4️⃣ April Tag Detection (CPU Embedded App)
 
-#### Method1: Manual 
+#### Method 1: Manual 
 
 ![Skeleton Detection Image](images/tag.gif "tag.gif")
 
@@ -163,7 +163,7 @@ Then run it with:
 ros2 launch apriltag_detector node.launch.py
 ```
 
-#### Method2: Preinstalled (patch > 1214) 
+#### Method 2: Preinstalled (patch > 1214) 
 
 In the recent software update, the April tag detector is preinstalled in the system, and you can auto-run it by uncommenting the line in olive-app-loader.sh
 
