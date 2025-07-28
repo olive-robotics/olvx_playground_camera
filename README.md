@@ -7,9 +7,9 @@ https://docs.olive-robotics.com/hardware/camera/camera_01_tp.html#camera-calibra
 
 ## Supported Embedded Libraries for the Olive AI Camera
 
-| Coral | OpenCV | ROS 2 | Python 3 |
-| ----- | ------ | ----- | -------  |
-| ![1](images/coral2.png "1.png") | ![2](images/opencvlogo3.png "2.png")| ![3](images/ros2.png "3.png") | ![4](images/python2.png "4.png") |
+| Coral                           | OpenCV                               | ROS 2                         | Python 3                         |
+|---------------------------------|--------------------------------------|-------------------------------|----------------------------------|
+| ![1](images/coral2.png "1.png") | ![2](images/opencvlogo3.png "2.png") | ![3](images/ros2.png "3.png") | ![4](images/python2.png "4.png") |
 
 ## Table of Contents
 <!-- TOC -->
@@ -33,7 +33,7 @@ https://docs.olive-robotics.com/hardware/camera/camera_01_tp.html#camera-calibra
     * [6️⃣ Monocular Depth Estimation (Host Computer App)](#6-monocular-depth-estimation-host-computer-app)
     * [7️⃣ Semantic Segmentation](#7-semantic-segmentation)
     * [8️⃣ Facial Landmark Detection](#8-facial-landmark-detection)
-    * [9️⃣Fruit Recognition](#9fruit-recognition)
+    * [9️⃣ Fruit Recognition](#9-fruit-recognition)
 <!-- TOC -->
 
 ## Installation
