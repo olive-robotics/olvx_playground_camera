@@ -16,6 +16,7 @@ https://docs.olive-robotics.com/hardware/camera/camera_01_tp.html#camera-calibra
 * [📸 olvx_playground_camera](#-olvx_playground_camera)
   * [Supported Embedded Libraries for the Olive AI Camera](#supported-embedded-libraries-for-the-olive-ai-camera)
   * [Table of Contents](#table-of-contents)
+  * [Installation](#installation)
   * [🚀 Apps](#-apps-)
     * [0️⃣ Hello World App (TPU Embedded App)](#0-hello-world-app-tpu-embedded-app)
     * [1️⃣ Object Recognition (TPU Embedded App)](#1-object-recognition-tpu-embedded-app)
@@ -32,7 +33,16 @@ https://docs.olive-robotics.com/hardware/camera/camera_01_tp.html#camera-calibra
     * [6️⃣ Monocular Depth Estimation (Host Computer App)](#6-monocular-depth-estimation-host-computer-app)
     * [7️⃣ Semantic Segmentation](#7-semantic-segmentation)
     * [8️⃣ Facial Landmark Detection](#8-facial-landmark-detection)
+    * [9️⃣Fruit Recognition](#9fruit-recognition)
 <!-- TOC -->
+
+## Installation
+
+```commandline
+git clone --recurse-submodules git@github.com:olive-robotics/olvx_playground_camera.git
+```
+
+This command will ensure that you fetch all examples.
 
 
 ## 🚀 Apps 
@@ -214,3 +224,12 @@ python3 src/app_facial_recognition.py
 ```
 
 ![Facial Landmark Demonstration](images/facial_landmarks.gif)
+
+### 9️⃣ Fruit Recognition
+
+This project was developed in coordination with [EkumenLabs](https://github.com/ekumenlabs).
+
+Navigate to this [README](examples/09-FruitDetection/fruit_detection/README.md) to learn more.
+
+![fruit_detection_hardware.png](images/fruit_detection_hardware.png)
+

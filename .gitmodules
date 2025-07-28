@@ -1,0 +1,3 @@
+[submodule "examples/09-FruitDetection/fruit_detection"]
+	path = examples/09-FruitDetection/fruit_detection
+	url = https://github.com/ekumenlabs/fruit_detection

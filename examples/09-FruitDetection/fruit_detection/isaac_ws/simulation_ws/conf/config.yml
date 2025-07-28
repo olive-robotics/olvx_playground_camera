@@ -1,0 +1,79 @@
+---
+# yamllint disable rule:line-length
+SIMULATION_APP_CONFIG:
+  renderer: RayTracedLighting  # Renderer with ray tracing for realistic lighting.
+  headless: false  # Enable graphics display for visualization.
+  anti_aliasing: FXAA  # Fast Approximate Anti-Aliasing (FXAA) for smoother edges and less jaggedness.
+
+# Height levels for each object.
+OBJECTS_Z: [1., 2., 3.]
+
+GROUND_PLANE:
+  prim_path: "/World/GroundPlane"  # Path to place the ground plane in the scene.
+  size: 10  # Size of the ground plane in the scene units.
+  color: [1.0, 1.0, 1.0]   # RGB values for white color
+
+SEMANTIC_OBJECTS:
+  Apple:
+    url: omniverse://localhost/NVIDIA/Assets/ArchVis/Residential/Food/Fruit/Apple.usd  # USD path for Apple asset.
+    class: apple  # Semantic class label for Apple.
+    prim: /World/Apple  # Scene hierarchy path for placing the Apple.
+  Avocado:
+    url: omniverse://localhost/NVIDIA/Assets/ArchVis/Residential/Food/Fruit/Avocado01.usd  # USD path for Avocado asset.
+    class: avocado  # Semantic class label for Avocado.
+    prim: /World/Avocado  # Scene hierarchy path for placing the Avocado.
+  Lime:
+    url: omniverse://localhost/NVIDIA/Assets/ArchVis/Residential/Food/Fruit/Lime01.usd  # USD path for Lime asset.
+    class: lime  # Semantic class label for Lime.
+    prim: /World/Lime  # Scene hierarchy path for placing the Lime.
+
+# General object pose configuration.
+OBJECTS_POSE_CONFIG:
+  min_pos: [-2.0, -2.0, 0.5]  # Minimum XYZ position for object placement.
+  max_pos: [2.0, 2.0, 0.5]  # Maximum XYZ position for object placement.
+  min_rot: [-180.0, -90.0, -180.0]  # Minimum rotation (Euler angles) for objects.
+  max_rot: [180.0, 90.0, 180.0]  # Maximum rotation (Euler angles) for objects.
+
+OBJECTS_SCALE: [0.15, 0.15, 0.15]  # Uniform scaling factor for all objects.
+
+LIGHT_CONFIG:
+  min_color: [0.5, 0.5, 0.5]  # Minimum RGB color for light (gray).
+  max_color: [0.9, 0.9, 0.9]  # Maximum RGB color for light (almost white).
+  min_distant_intensity: 500.0   # Minimum intensity for distant light.
+  max_distant_intensity: 900.0   # Maximum intensity for distant light.
+  min_sphere_intensity: 100000.0   # Minimum intensity for spherical light.
+  max_sphere_intensity: 500000.0   # Maximum intensity for spherical light.
+  min_cylinder_intensity: 100000.0   # Minimum intensity for cylindrical light.
+  max_cylinder_intensity: 500000.0   # Maximum intensity for cylindrical light.
+  min_pos: [-3.0, -3.0, 10.0]  # Minimum XYZ position for light placement.
+  max_pos: [3.0, 3.0, 20.0]  # Maximum XYZ position for light placement.
+  min_temperature: 2000.0   # Minimum color temperature (warm light).
+  max_temperature: 7000.0   # Maximum color temperature (cool light).
+  min_exposure: 0.0   # Minimum exposure, 0 disables exposure effect.
+  max_exposure: 0.0   # Maximum exposure, 0 disables exposure effect.
+
+COLOR_RANDOMIZER:
+  type: uniform  # Indicates that the color randomization should follow a uniform distribution.
+  min_color: [0.0, 0.0, 0.0]   # Minimum RGB values (black)
+  max_color: [1.0, 1.0, 1.0]   # Maximum RGB values (white)
+
+SDG_CAMERA:
+  width: 640  # Camera resolution width in pixels.
+  height: 480  # Camera resolution height in pixels.
+  name: sdg_camera  # Name for the camera object.
+  pos: [0.0, 0.0, 4.45]  # Camera XYZ position in world coordinates.
+  rot: [0.0, -90.0, 0.0]  # Camera rotation (Euler angles).
+  focal_length: 2.8  # Focal length of the camera lens.
+  focus_distance: 5.0  # Distance at which the camera is focused.
+  f_stop: 140  # Aperture size, affecting depth of field.
+  horizontal_aperture: 5.856  # Horizontal size of the camera's sensor.
+  vertical_aperture: 3.276  # Vertical size of the camera's sensor.
+  clipping_range: [0.01, 10000000]   # Near and far clipping planes for rendering.
+  projection_type: pinhole  # Camera projection type (pinhole model).
+
+WRITER_CONFIG:
+  output_dir: "/root/isaac_ws/datasets/{{ timestamp }}_out_fruit_sdg"  # Output directory for writing datasets.
+  rgb: true  # Whether to write RGB images to output.
+  bounding_box_2d_tight: true  # Whether to write 2D bounding box annotations.
+
+NUM_FRAMES: 300  # Number of frames to generate for the simulation.

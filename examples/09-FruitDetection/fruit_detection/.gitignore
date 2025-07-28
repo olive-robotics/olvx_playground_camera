@@ -1,0 +1,4 @@
+isaac_ws/datasets/**
+model/*
+bag_ws/*
+training_ws/runs
