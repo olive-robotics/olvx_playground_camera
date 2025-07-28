@@ -215,7 +215,8 @@ python3 depth_estimation.py
 ### 7. Semantic Segmentation
 
 This example runs a semantic segmentation model to generate image masks of what the camera can see.
-For our testing, we ran this on a Jetson Orin NX computer.
+
+For our testing, we ran this on a Jetson Orin NX computer, and took advantage of its GPU for fast CUDA-optimized execution.
 
 ![segmentation.gif](images/segmentation.gif)
 
