@@ -1,0 +1,5 @@
+pycoral
+Pillow
+svgwrite
+tflite-runtime
+numpy

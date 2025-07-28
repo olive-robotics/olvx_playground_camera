@@ -1,0 +1,246 @@
+---
+services:
+  training:
+    build:
+      context: ..
+      dockerfile: training.dockerfile
+      target: training_prod
+    container_name: training
+    profiles: ["training"]
+    entrypoint: ["python3",
+                 "train.py",
+                 "-d",
+                 "./data",
+                 "-o",
+                 "./model/model.pth"]
+    volumes:
+      - ../isaac_ws/datasets/${DATASET_NAME}:/root/training_ws/data
+      - ../model/:/root/training_ws/model
+      - torch_cache:/root/.cache/torch
+      - ../model/runs/:/root/training_ws/runs
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities:
+                - gpu
+  training_test:
+    build:
+      context: ..
+      dockerfile: training.dockerfile
+      target: training_prod
+    container_name: training_test
+    profiles: ["training_test"]
+    entrypoint: ["python3",
+                 "eval.py",
+                 "-m",
+                 "./model/model.pth",
+                 "-d",
+                 "./data",
+                 "-o",
+                 "./model/test_output"]
+    volumes:
+      - ../isaac_ws/datasets/${DATASET_NAME}:/root/training_ws/data
+      - ../model/:/root/training_ws/model
+      - torch_cache:/root/.cache/torch
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities:
+                - gpu
+  training_log_visualization:
+    build:
+      context: ..
+      dockerfile: training.dockerfile
+      target: training_prod
+    container_name: training_vis
+    profiles: ["training_vis"]
+    entrypoint: ["tensorboard", "--logdir=/root/training_ws/runs/"]
+    volumes:
+      - ../model/runs:/root/training_ws/runs
+    network_mode: host
+  detection:
+    build:
+      context: ..
+      dockerfile: detection.dockerfile
+      target: detection_prod
+    container_name: detection
+    profiles: ["detection",
+               "webcam_pipeline",
+               "simulated_pipeline",
+               "olive_pipeline"]
+    ipc: host
+    network_mode: host
+    stdin_open: true
+    entrypoint: ["/root/detection_ws/entrypoint.sh"]
+    environment:
+      - ROS_DOMAIN_ID=0
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    volumes:
+      - /dev/shm:/dev/shm
+      - ../model/:/root/detection_ws/model
+      - torch_cache:/root/.cache/torch
+    devices:
+      - /dev/dri:/dev/dri
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities:
+                - gpu
+  detection_test:
+    build:
+      context: ..
+      dockerfile: detection.dockerfile
+      target: detection_test
+    container_name: detection_test
+    profiles: ["detection_test"]
+    ipc: host
+    network_mode: host
+    stdin_open: true
+  visualization:
+    build:
+      context: ..
+      dockerfile: visualization.dockerfile
+    container_name: visualization
+    profiles: ["visualization",
+               "webcam_pipeline",
+               "simulated_pipeline",
+               "olive_pipeline"]
+    ipc: host
+    network_mode: host
+    entrypoint: ["/root/visualization_ws/entrypoint.sh"]
+    environment:
+      - DISPLAY
+      - QT_X11_NO_MITSHM=1
+      - XAUTHORITY=/tmp/.docker.xauth
+      - ROS_DOMAIN_ID=0
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    volumes:
+      - /dev/shm:/dev/shm
+      - ../visualization_ws:/root/visualization_ws
+    devices:
+      - /dev/dri:/dev/dri
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities:
+                - gpu
+  webcam:
+    build:
+      context: ..
+      dockerfile: camera.dockerfile
+    container_name: webcam
+    profiles: ["webcam", "webcam_pipeline"]
+    stdin_open: true
+    stop_grace_period: 1s
+    privileged: true
+    ipc: host
+    network_mode: host
+    environment:
+      - ROS_DOMAIN_ID=0
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    volumes:
+      - /dev:/dev
+    devices:
+      - /dev/dri:/dev/dri
+  simulation:
+    build:
+      context: ..
+      dockerfile: isaac.dockerfile
+    container_name: simulation
+    profiles: ["simulation", "simulated_pipeline"]
+    ipc: host
+    network_mode: host
+    entrypoint: ["/root/isaac_ws/entrypoint.sh"]
+    stop_grace_period: 1s
+    environment:
+      - ACCEPT_EULA=YES
+      - PRIVACY_CONSENT=YES
+      - DISPLAY
+      - QT_X11_NO_MITSHM=1
+      - XAUTHORITY=/tmp/.docker.xauth
+      - ROS_DISTRO=humble
+      - ROS_DOMAIN_ID=0
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+      - MODE=SIM
+    volumes:
+      - ../isaac_ws:/root/isaac_ws:rw
+      - isaac_cache:/root/.isaac-sim-cache:rw
+      - isaac_logs:/root/.nvidia-omniverse/logs:rw
+      - /dev/shm:/dev/shm
+    devices:
+      - /dev/dri:/dev/dri
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities:
+                - gpu
+  dataset_gen:
+    build:
+      context: ..
+      dockerfile: isaac.dockerfile
+    container_name: dataset_gen
+    profiles: ["dataset_gen"]
+    ipc: host
+    network_mode: host
+    entrypoint: ["/root/isaac_ws/entrypoint.sh"]
+    stop_grace_period: 1s
+    environment:
+      - ACCEPT_EULA=YES
+      - PRIVACY_CONSENT=YES
+      - DISPLAY
+      - QT_X11_NO_MITSHM=1
+      - XAUTHORITY=/tmp/.docker.xauth
+      - ROS_DISTRO=humble
+      - ROS_DOMAIN_ID=0
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+      - MODE=SDG
+    volumes:
+      - ../isaac_ws:/root/isaac_ws:rw
+      - isaac_cache:/root/.isaac-sim-cache:rw
+      - isaac_logs:/root/.nvidia-omniverse/logs:rw
+      - /dev/shm:/dev/shm
+    devices:
+      - /dev/dri:/dev/dri
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities:
+                - gpu
+  rosbag:
+    build:
+      context: ..
+      dockerfile: rosbag.dockerfile
+    container_name: rosbag
+    profiles: ["rosbag"]
+    ipc: host
+    network_mode: host
+    stdin_open: true
+    environment:
+      - ROS_DOMAIN_ID=0
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+    volumes:
+      - /dev/shm:/dev/shm
+      - ../bag_ws/:/root/bag_ws
+
+volumes:
+  isaac_cache:
+  isaac_logs:
+  torch_cache:

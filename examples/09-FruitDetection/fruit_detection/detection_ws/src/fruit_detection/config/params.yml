@@ -1,0 +1,11 @@
+---
+/**:
+  ros__parameters:
+    model_path: "/root/detection_ws/model/model.pth"
+    webcam_topic: "/image_raw"
+    olive_camera_topic: "/olive/camera/id01/image/compressed"
+    bbox_min_x: 60
+    bbox_min_y: 60
+    bbox_max_x: 150
+    bbox_max_y: 150
+    score_threshold: 0.90

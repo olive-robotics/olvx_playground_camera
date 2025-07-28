@@ -1,0 +1,21 @@
+# Core ML & vision
+torch~=2.0
+transformers~=4.0
+opencv-python~=4.0
+pillow~=9.0
+numpy~=1.22
+
+# Messaging
+pyzmq~=25.0
+
+# Benchmarking & CLI
+tqdm~=4.0
+PyYAML~=6.0
+scipy~=1.10
+
+# Visualization
+matplotlib~=3.7
+pandas~=1.5
+
+# Development tools
+pre-commit~=3.0
