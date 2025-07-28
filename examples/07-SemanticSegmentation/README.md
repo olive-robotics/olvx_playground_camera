@@ -12,7 +12,6 @@ Run on Jetson Orin NX
     * [Install Python Packages](#install-python-packages)
     * [Model Download](#model-download)
   * [Running](#running)
-    * [1. Single Computer](#1-single-computer)
 <!-- TOC -->
 
 This package contains the code for running image segmentation.
@@ -63,11 +62,7 @@ When you run the program for the first time, it will download the models necessa
 future runs, the program will use the downloaded model and run much faster.
 
 ## Running
-
-The code offers two ways to run the segmentation, depending on your system configuration.
-
-### 1. Single Computer
-![image-segmentation-single.png](../media/image-segmentation-single.png)
+![image-segmentation-single.png](../../images/image-segmentation-single.png)
 
 This requires that ROS 2 is installed on your system.
 
