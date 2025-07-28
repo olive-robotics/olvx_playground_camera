@@ -1,6 +1,8 @@
 # Image Segmentation
 ![segmentation.gif](../../images/segmentation.gif)
 
+Run on Jetson Orin NX
+
 ## Table of Contents
 <!-- TOC -->
 * [Image Segmentation](#image-segmentation)
@@ -11,7 +13,6 @@
     * [Model Download](#model-download)
   * [Running](#running)
     * [1. Single Computer](#1-single-computer)
-  * [Benchmarking](#benchmarking)
 <!-- TOC -->
 
 This package contains the code for running image segmentation.
@@ -86,13 +87,3 @@ python -m segmentation.BasicNode
 | `-f`, `--fps`         | `bool`   | Enable FPS tracking mode                                                    |
 
 In our internal testing, we were able to achieve 4x faster segmentation speeds by running the segmentation on a Mac computer.
-
-## Benchmarking
-
-Here are some results from our internal benchmarking. Your results may vary, and you can create similar analysis by running
-`BasicNode.py` with the `-b` CLI flag.
-
-Here are sample results from our internal tests (optimal settings in green):
-![benchmark_four_core.png](../../images/benchmark_four_core.png)
-![benchmark_twelve_core.png](../../images/benchmark_twelve_core.png)
-![inference_across_threads.png](../../images/inference_across_threads.png)
