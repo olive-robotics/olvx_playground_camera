@@ -80,5 +80,3 @@ python -m segmentation.BasicNode
 | `-b`, `--benchmark`   | `str`    | Enable benchmarking mode                                                    |
 | `-c`, `--cores`       | `bool`   | (Benchmarking mode flag required for this) Enable benchmarking across cores |
 | `-f`, `--fps`         | `bool`   | Enable FPS tracking mode                                                    |
-
-In our internal testing, we were able to achieve 4x faster segmentation speeds by running the segmentation on a Mac computer.
