@@ -30,7 +30,8 @@ https://olive-robotics.com/docs2/olixvision-camera/#camera-calibration
       * [Method 1: Manual](#method-1-manual-)
       * [Method 2: Preinstalled (patch > 1214)](#method-2-preinstalled-patch--1214-)
     * [5. OpenCV Examples (Edge Dector, Optical Flow, Rectify, IMShow) (Host Computer App)](#5-opencv-examples-edge-dector-optical-flow-rectify-imshow-host-computer-app)
-    * [6. Monocular Depth Estimation (Host Computer App)](#6-monocular-depth-estimation-host-computer-app)
+    * [6-1. Monocular Depth Estimation (Host Computer App)](#6-1-monocular-depth-estimation-host-computer-app)
+    * [6-2. Monocular Depth Estimation (TPU Embedded App – FastDepth)](#6-2-monocular-depth-estimation-tpu-embedded-app--fastdepth)
     * [7. Semantic Segmentation](#7-semantic-segmentation)
     * [8. Facial Landmark Detection](#8-facial-landmark-detection)
     * [9. Fruit Recognition](#9-fruit-recognition)
@@ -201,16 +202,56 @@ python3 optical_flow.py
 
 ![Skeleton Detection Image](images/opencv.png "opencv.png")
 
-### 6. Monocular Depth Estimation (Host Computer App)
+### 6-1. Monocular Depth Estimation (Host Computer App)
 
 Run this example on your host computer. Compatible with CPU and GPU.
 
 ```
-cd examples/06-DepthEstimation
+cd examples/06-1-DepthEstimation
 python3 depth_estimation.py
 ```
 
 ![Skeleton Detection Image](images/MonocularMiDaSGIF.gif "depth.gif")
+
+### 6-2. Monocular Depth Estimation (TPU Embedded App – FastDepth)
+
+Runs directly **on the Olive camera** using the Coral EdgeTPU (no host needed).  
+Preview of the on-device output:
+
+![Monocular FastDepth](images/Monocular%20FastDepth.gif)
+
+**Run on the camera:**
+```bash
+ssh olive@<camera-ip>
+cd ~/examples/06-2-DepthEstimation
+python3 depth_tpu_fastdepth.py
+```
+
+**What it publishes (by default):**
+- `/olive/camera/id001/depth_color/compressed` (JPEG stream)
+- (Enable raw publishing with `--publish both`; raw goes to `/olive/camera/id001/depth_color`.)
+
+**All arguments (optional) and defaults** — from `depth_tpu_fastdepth.py`:
+- `--model <path>` — default: `fastdepth_256x320_edgetpu.tflite` (file next to the script)
+- `--in <topic>` — default: `/olive/camera/id001/image/compressed`
+- `--out <base_topic>` — default: `/olive/camera/id001/depth_color` (adds `/compressed` automatically)
+- `--status <topic>` — default: `/olive/camera/id001/tpu_status`
+- `--every-n <int>` — default: `1` (run inference every frame)
+- `--publish {compressed,raw,both}` — default: `compressed`
+- `--jpeg-quality <1..100>` — default: `60`
+- `--rotate {0,90,180,270}` — default: `0`
+- `--resample {nearest,bilinear}` — default: `nearest`
+
+**Python deps** (documented for completeness; typically preinstalled on the camera):  
+See `examples/06-2-DepthEstimation/requirements.txt` (minimal: `numpy`, `Pillow`, `tflite-runtime`, `pycoral`).
+
+**Tips**
+- Preview the stream on your host with `rqt_image_view` (topic: `/olive/camera/id001/depth_color`, transport: `compressed`), or:
+  ```bash
+  ros2 run image_view image_view --ros-args -r image:=/olive/camera/id001/depth_color -p image_transport:=compressed
+  ```
+- Check rate: `ros2 topic hz /olive/camera/id001/depth_color/compressed`
+- Check TPU timing/status: `ros2 topic echo /olive/camera/id001/tpu_status`
 
 ### 7. Semantic Segmentation
 
