@@ -251,17 +251,33 @@ See `examples/06-2-DepthEstimation/requirements.txt` (minimal: `numpy`, `Pillow`
 
 To view the output depth stream from the camera:
 
-1. **Start image transport** in one terminal:
+0. **Install the image viewers (host):**
+   ```bash
+   sudo apt update
+   sudo apt install ros-humble-rqt-image-view ros-humble-image-view
+   ```
+
+1. **Start image transport** in one terminal (host):
    ```bash
    ros2 run image_transport republish compressed raw
    ```
-   *(This ensures the compressed stream is converted for visualisation tools.)*
+   *(This converts the camera's compressed JPEG stream so viewers can subscribe.)*
 
-2. **Launch rqt image viewer** in another terminal:
-   ```bash
-   rqt_image_view
-   ```
-   Then select the topic `/olive/camera/id001/depth_color/compressed`.
+2. **Open an image viewer** in another terminal (host).  
+   Use **one** of the following commands:
+
+   - **Recommended (rqt_image_view):**
+     ```bash
+     QT_QPA_PLATFORM=xcb ros2 run rqt_image_view rqt_image_view --ros-args -p image_transport:=compressed
+     ```
+     *(Using `QT_QPA_PLATFORM=xcb` ensures compatibility on Wayland, SSH, or remote setups.)*
+
+   - **Alternative (image_view):**
+     ```bash
+     ros2 run image_view image_view --ros-args -r image:=/olive/camera/id001/depth_color -p image_transport:=compressed
+     ```
+
+Then select the topic `/olive/camera/id001/depth_color/compressed` in the viewer.
 
 You can now see the **real-time monocular depth image stream** published by the camera.
 
