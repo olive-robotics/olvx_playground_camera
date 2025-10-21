@@ -245,13 +245,37 @@ python3 depth_tpu_fastdepth.py
 **Python deps** (documented for completeness; typically preinstalled on the camera):  
 See `examples/06-2-DepthEstimation/requirements.txt` (minimal: `numpy`, `Pillow`, `tflite-runtime`, `pycoral`).
 
-**Tips**
-- Preview the stream on your host with `rqt_image_view` (topic: `/olive/camera/id001/depth_color`, transport: `compressed`), or:
+---
+
+### 🔍 Visualisation
+
+To view the output depth stream from the camera:
+
+1. **Start image transport** in one terminal:
+   ```bash
+   ros2 run image_transport republish compressed raw
+   ```
+   *(This ensures the compressed stream is converted for visualisation tools.)*
+
+2. **Launch rqt image viewer** in another terminal:
+   ```bash
+   rqt_image_view
+   ```
+   Then select the topic `/olive/camera/id001/depth_color/compressed`.
+
+You can now see the **real-time monocular depth image stream** published by the camera.
+
+---
+
+**Additional checks**
+- Check publish rate:
   ```bash
-  ros2 run image_view image_view --ros-args -r image:=/olive/camera/id001/depth_color -p image_transport:=compressed
+  ros2 topic hz /olive/camera/id001/depth_color/compressed
   ```
-- Check rate: `ros2 topic hz /olive/camera/id001/depth_color/compressed`
-- Check TPU timing/status: `ros2 topic echo /olive/camera/id001/tpu_status`
+- Check TPU timing/status messages:
+  ```bash
+  ros2 topic echo /olive/camera/id001/tpu_status
+  ```
 
 ### 7. Semantic Segmentation
 
